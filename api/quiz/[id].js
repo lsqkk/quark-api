@@ -1,10 +1,19 @@
-const quizManager = require('../../lib/quiz-manager');
+import quizManager from '../../lib/quiz-manager.js';
 
-module.exports = async (req, res) => {
+export default async function handler(req, res) {
     const { id } = req.query;
-    const [quizId, questionId] = id.split('-');
+    const [quizId, questionId] = id ? id.split('-') : [null, null];
 
     res.setHeader('Content-Type', 'application/json');
+    res.setHeader('Access-Control-Allow-Origin', '*');
+
+    if (!id || !quizId || !questionId) {
+        return res.status(400).json({
+            success: false,
+            error: 'Invalid ID format. Expected: quizId-questionId',
+            example: '/api/quiz/ibm-trivia-5'
+        });
+    }
 
     try {
         const { showAnswer } = req.query;
@@ -29,4 +38,4 @@ module.exports = async (req, res) => {
             message: error.message
         });
     }
-};
+}

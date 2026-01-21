@@ -1,6 +1,9 @@
 import quizManager from '../../lib/quiz-manager.js';
 
 export default async function handler(req, res) {
+    // 记录请求开始时间
+    const startTime = Date.now();
+
     const { q, source, limit = 10, page = 1 } = req.query;
 
     if (!q) {
@@ -61,7 +64,7 @@ export default async function handler(req, res) {
             },
             meta: {
                 timestamp: new Date().toISOString(),
-                search_time: Date.now() - req.startTime
+                search_time: Date.now() - startTime
             }
         });
     } catch (error) {

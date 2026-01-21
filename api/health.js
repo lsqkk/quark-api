@@ -1,6 +1,6 @@
-const quizManager = require('../lib/quiz-manager');
+import quizManager from '../lib/quiz-manager.js';
 
-module.exports = async (req, res) => {
+export default async function handler(req, res) {
     try {
         const index = await quizManager.getIndex();
 
@@ -18,9 +18,11 @@ module.exports = async (req, res) => {
             }
         });
     } catch (error) {
+        console.error('Health check error:', error);
         res.status(503).json({
             status: 'unhealthy',
-            error: error.message
+            error: error.message,
+            timestamp: new Date().toISOString()
         });
     }
-};
+}

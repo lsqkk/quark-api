@@ -1,9 +1,18 @@
-const quizManager = require('../../lib/quiz-manager');
+import quizManager from '../../lib/quiz-manager.js';
 
-module.exports = async (req, res) => {
+export default async function handler(req, res) {
     const { quiz: quizId, start = 0, end = 10 } = req.query;
 
     res.setHeader('Content-Type', 'application/json');
+    res.setHeader('Access-Control-Allow-Origin', '*');
+
+    if (!quizId) {
+        return res.status(400).json({
+            success: false,
+            error: 'Missing quiz parameter',
+            example: '/api/quiz/range?quiz=ibm-trivia&start=0&end=5'
+        });
+    }
 
     try {
         const data = await quizManager.getQuestionsInRange(
@@ -28,4 +37,4 @@ module.exports = async (req, res) => {
             message: error.message
         });
     }
-};
+}
