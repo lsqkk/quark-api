@@ -27,7 +27,7 @@ async function testEndpoint(endpoint, description) {
 async function runAllTests() {
     console.log('🚀 Starting API Tests...');
 
-    // 1. 测试根路径
+    // 1. 测试根路径111
     await testEndpoint('/', 'API Root');
 
     // 2. 测试健康检查
