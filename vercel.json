@@ -1,62 +1,9 @@
 {
     "version": 2,
-    "builds": [
-        {
-            "src": "api/**/*.js",
-            "use": "@vercel/node"
-        },
-        {
-            "src": "public/**/*",
-            "use": "@vercel/static"
-        }
-    ],
     "rewrites": [
         {
-            "source": "/api/(.*)",
-            "destination": "/api/$1"
-        },
-        {
-            "source": "/api",
+            "source": "/(.*)",
             "destination": "/api"
         }
-    ],
-    "redirects": [
-        {
-            "source": "/",
-            "destination": "https://github.com/lsqkk/quark-api",
-            "permanent": true
-        },
-        {
-            "source": "/api/",
-            "destination": "https://github.com/lsqkk/quark-api",
-            "permanent": true
-        },
-        {
-            "source": "/api/quiz",
-            "destination": "https://lsqkk.github.io/quarkdoc/QuarkAPI/quiz",
-            "permanent": true
-        }
-    ],
-    "headers": [
-        {
-            "source": "/api/(.*)",
-            "headers": [
-                {
-                    "key": "Access-Control-Allow-Origin",
-                    "value": "*"
-                },
-                {
-                    "key": "Access-Control-Allow-Methods",
-                    "value": "GET,OPTIONS"
-                },
-                {
-                    "key": "Access-Control-Allow-Headers",
-                    "value": "Content-Type"
-                }
-            ]
-        }
-    ],
-    "env": {
-        "NODE_ENV": "production"
-    }
+    ]
 }
