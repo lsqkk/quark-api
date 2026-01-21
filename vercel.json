@@ -10,18 +10,21 @@
             "use": "@vercel/static"
         }
     ],
-    "routes": [
+    "rewrites": [
         {
-            "src": "/api/(.*)",
-            "dest": "/api/$1"
+            "source": "/api/(.*)",
+            "destination": "/api/$1"
+        }
+    ],
+    "redirects": [
+        {
+            "source": "/docs",
+            "destination": "/docs/index.html"
         },
         {
-            "src": "/docs",
-            "dest": "/public/docs/index.html"
-        },
-        {
-            "src": "/",
-            "dest": "/public/index.html"
+            "source": "/",
+            "destination": "/docs/index.html",
+            "permanent": true
         }
     ],
     "headers": [
