@@ -14,16 +14,26 @@
         {
             "source": "/api/(.*)",
             "destination": "/api/$1"
+        },
+        {
+            "source": "/api",
+            "destination": "/api"
         }
     ],
     "redirects": [
         {
-            "source": "/docs",
-            "destination": "/docs/index.html"
+            "source": "/",
+            "destination": "https://github.com/lsqkk/quark-api",
+            "permanent": true
         },
         {
-            "source": "/",
-            "destination": "/docs/index.html",
+            "source": "/api/",
+            "destination": "https://github.com/lsqkk/quark-api",
+            "permanent": true
+        },
+        {
+            "source": "/api/quiz",
+            "destination": "https://lsqkk.github.io/quarkdoc/QuarkAPI/quiz",
             "permanent": true
         }
     ],
