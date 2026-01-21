@@ -1,0 +1,2708 @@
+{
+  "quiz_title": "物理学知识问答",
+  "description": "物理学知识问答：通过我们包含关于著名物理学家、突破性发现、迷人现象等问题的物理学系列问答，来测试您对宇宙基本法则的了解程度！",
+  "total_questions": 100,
+  "questions_per_quiz": 20,
+  "questions": [
+    {
+      "id": 1,
+      "question": "是什么力使行星围绕太阳运转？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "磁力",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "引力",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "离心力",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "摩擦力",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 2,
+      "question": "谁提出了著名的质能方程\n                                    E=mc²？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "艾萨克·牛顿",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "阿尔伯特·爱因斯坦",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "伽利略·伽利雷",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "玛丽·居里",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 3,
+      "question": "光在真空中的速度大约是多少？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "300公里/秒",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "30,000公里/秒",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "300,000公里/秒",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "3,000,000公里/秒",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 4,
+      "question": "以下哪位科学家因其对放射性的研究而闻名，并两次获得诺贝尔奖？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "尼尔斯·玻尔",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "迈克尔·法拉第",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "玛丽·居里",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "马克斯·普朗克",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 5,
+      "question": "物体抵抗其运动状态变化的性质被称为什么？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "重量",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "密度",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "惯性",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "动量",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 6,
+      "question": "彩虹的形成主要是由于光的什么现象？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "衍射",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "干涉",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "色散和反射",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "偏振",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 7,
+      "question": "声音在哪种介质中传播速度最快？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "空气",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "水",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "钢材",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "真空",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 8,
+      "question": "“三大运动定律”是由哪位科学家提出的？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "阿尔伯特·爱因斯坦",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "艾萨克·牛顿",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "伽利略·伽利雷",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "开普勒",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 9,
+      "question": "原子的中心部分，包含质子和中子的是什么？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "电子云",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "原子核",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "轨道",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "光子",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 10,
+      "question": "以下哪种现象是由于地球大气层对太阳光的散射造成的？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "月食",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "天空是蓝色的",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "潮汐",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "极光",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 11,
+      "question": "测量力的国际单位是什么？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "焦耳 (Joule)",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "瓦特 (Watt)",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "牛顿 (Newton)",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "帕斯卡 (Pascal)",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 12,
+      "question": "哪位科学家通过实验证明了物体下落的加速度与质量无关（忽略空气阻力）？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "亚里士多德",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "伽利略·伽利雷",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "阿基米德",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "尼古拉·哥白尼",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 13,
+      "question": "当救护车驶近你时，你会听到警笛声的音调变高，驶离时音调变低，这是什么效应？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "光电效应",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "康普顿效应",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "多普勒效应",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "霍尔效应",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 14,
+      "question": "绝对零度是多少摄氏度？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "0°C",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "-100°C",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "-273.15°C",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "100°C",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 15,
+      "question": "以下哪种物质是良好的电导体？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "橡胶",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "玻璃",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "铜",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "木头",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 16,
+      "question": "“对于每一个作用力，都有一个大小相等、方向相反的反作用力”是牛顿第几运动定律？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "第一定律",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "第二定律",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "第三定律",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "第四定律 (不存在)",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 17,
+      "question": "量子力学的奠基人之一，提出了能量量子化假说的是谁？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "阿尔伯特·爱因斯坦",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "马克斯·普朗克",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "尼尔斯·玻尔",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "埃尔温·薛定谔",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 18,
+      "question": "什么现象描述了光线在通过小孔或绕过障碍物边缘时发生的弯曲？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "折射",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "反射",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "衍射",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "干涉",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 19,
+      "question": "摩擦力总是与物体运动方向或运动趋势方向如何？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "相同",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "相反",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "垂直",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "不确定",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 20,
+      "question": "哪位科学家对电磁学做出了巨大贡献，并有以他名字命名的电磁感应定律？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "詹姆斯·克拉克·麦克斯韦",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "迈克尔·法拉第",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "安德烈·玛丽·安培",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "海因里希·赫兹",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 21,
+      "question": "物体漂浮在液体中时，它所受到的浮力大小等于什么？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "物体的体积",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "物体排开液体的体积",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "物体排开液体的重量",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "物体的密度",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 22,
+      "question": "黑洞是一种引力极强的天体，连什么都无法逃脱？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "声音",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "物质",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "光",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "磁场",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 23,
+      "question": "能量的国际单位是什么？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "牛顿 (Newton)",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "瓦特 (Watt)",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "焦耳 (Joule)",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "安培 (Ampere)",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 24,
+      "question": "著名的“双缝实验”主要展示了微观粒子的什么特性？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "电荷性",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "波粒二象性",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "放射性",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "磁性",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 25,
+      "question": "以下哪种材料是天然磁体？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "铜",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "铝",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "磁铁矿 (Lodestone)",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "金",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 26,
+      "question": "哪位科学家提出了原子行星模型，认为电子围绕原子核旋转，类似于行星围绕太阳？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "约翰·道尔顿",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "J.J. 汤姆逊",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "欧内斯特·卢瑟福",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "尼尔斯·玻尔",
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 27,
+      "question": "热量传递的三种基本方式是什么？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "传导、蒸发、辐射",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "传导、对流、辐射",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "对流、折射、衍射",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "辐射、反射、吸收",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 28,
+      "question": "“不确定性原理”是谁提出的？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "阿尔伯特·爱因斯坦",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "维尔纳·海森堡",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "埃尔温·薛定谔",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "保罗·狄拉克",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 29,
+      "question": "地球的磁场保护我们免受什么宇宙射线的伤害？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "红外线",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "紫外线",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "太阳风和宇宙射线",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "微波",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 30,
+      "question": "以下哪种现象不属于电磁波？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "可见光",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "X射线",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "声波",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "无线电波",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 31,
+      "question": "哪位科学家因其在黑洞和宇宙学方面的研究而闻名，并著有《时间简史》？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "卡尔·萨根",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "斯蒂芬·霍金",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "理查德·费曼",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "尼尔·德格拉斯·泰森",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 32,
+      "question": "物质从固态直接变为气态的过程叫什么？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "熔化",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "凝固",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "升华",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "液化",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 33,
+      "question": "电阻的单位是什么？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "伏特 (Volt)",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "安培 (Ampere)",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "欧姆 (Ohm)",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "瓦特 (Watt)",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 34,
+      "question": "谁通过金箔实验（α粒子散射实验）发现了原子核？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "J.J. 汤姆逊",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "欧内斯特·卢瑟福",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "尼尔斯·玻尔",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "詹姆斯·查德威克",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 35,
+      "question": "当一个物体以特定频率振动时，如果受到相同频率的外部驱动，振幅会显著增大，这种现象称为？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "衰减",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "共振",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "阻尼",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "干涉",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 36,
+      "question": "激光\n                                    (LASER) 是“受激辐射光放大”的缩写，它产生的光具有什么特点？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "多色、发散、不相干",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "单色、平行、相干",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "白光、聚焦、随机",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "彩色、散射、偏振",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 37,
+      "question": "电流的单位是什么？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "伏特 (Volt)",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "欧姆 (Ohm)",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "安培 (Ampere)",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "库仑 (Coulomb)",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 38,
+      "question": "哪位科学家统一了电和磁，形成了电磁理论？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "迈克尔·法拉第",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "詹姆斯·克拉克·麦克斯韦",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "海因里希·赫兹",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "安德烈·玛丽·安培",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 39,
+      "question": "北极光和南极光（统称极光）的产生与什么有关？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "月球引力",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "太阳风粒子与地球磁层和大气层相互作用",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "火山爆发",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "彗星撞击",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 40,
+      "question": "超导体最显著的特性之一是在临界温度以下电阻变为多少？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "无穷大",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "零",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "一个很小但非零的值",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "负值",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 41,
+      "question": "电子的发现者是谁？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "欧内斯特·卢瑟福",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "J.J. 汤姆逊",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "尼尔斯·玻尔",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "约翰·道尔顿",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 42,
+      "question": "“给我一个支点，我就能撬动地球”这句名言与哪位古代科学家的杠杆原理有关？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "柏拉图",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "阿基米德",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "亚里士多德",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "毕达哥拉斯",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 43,
+      "question": "光年是什么的单位？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "时间",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "距离",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "速度",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "亮度",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 44,
+      "question": "X射线的发现者是谁？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "玛丽·居里",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "威廉·康拉德·伦琴",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "亨利·贝克勒尔",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "阿尔伯特·爱因斯坦",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 45,
+      "question": "大气压强最早是由谁的实验证明其存在的？（例如用马德堡半球实验）",
+      "options": [
+        {
+          "letter": "A",
+          "text": "布莱兹·帕斯卡",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "奥托·冯·格里克",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "埃万杰利斯塔·托里拆利",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "罗伯特·波义耳",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 46,
+      "question": "以下哪种是可再生能源？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "煤炭",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "太阳能",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "天然气",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "石油",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 47,
+      "question": "声音的响度主要取决于声波的什么特性？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "频率",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "振幅",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "波长",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "速度",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 48,
+      "question": "哪位科学家提出了“日心说”，认为太阳是宇宙的中心？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "托勒密",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "尼古拉·哥白尼",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "第谷·布拉赫",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "约翰内斯·开普勒",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 49,
+      "question": "当光从一种介质进入另一种介质时发生方向偏折的现象叫什么？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "反射",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "折射",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "衍射",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "散射",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 50,
+      "question": "中子的发现者是谁？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "欧内斯特·卢瑟福",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "詹姆斯·查德威克",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "J.J. 汤姆逊",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "尼尔斯·玻尔",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 51,
+      "question": "功率的单位是什么？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "焦耳 (Joule)",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "瓦特 (Watt)",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "牛顿 (Newton)",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "伏特 (Volt)",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 52,
+      "question": "开普勒行星运动三定律描述了什么？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "恒星的演化",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "行星围绕太阳的运动规律",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "卫星围绕行星的运动规律",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "星系的形成",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 53,
+      "question": "“薛定谔的猫”是一个著名的思想实验，它试图说明量子力学的哪个概念？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "能量守恒",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "叠加态和测量的作用",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "相对论效应",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "黑洞蒸发",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 54,
+      "question": "白光通过三棱镜后会分解成不同颜色的光，这种现象叫什么？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "光的干涉",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "光的色散",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "光的衍射",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "光的偏振",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 55,
+      "question": "以下哪项不是物质的基本状态？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "固态",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "光态",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "液态",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "气态",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 56,
+      "question": "哪位科学家发明了电话？（尽管有争议，但通常归功于他）",
+      "options": [
+        {
+          "letter": "A",
+          "text": "托马斯·爱迪生",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "亚历山大·格拉汉姆·贝尔",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "尼古拉·特斯拉",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "伽利尔摩·马可尼",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 57,
+      "question": "宇宙大爆炸理论描述了宇宙的什么？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "宇宙的最终命运",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "宇宙的起源和早期演化",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "黑洞的形成",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "行星的形成",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 58,
+      "question": "压力（压强）的单位帕斯卡\n                                    (Pa) 等于什么？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "牛顿/米 (N/m)",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "牛顿/平方米 (N/m²)",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "焦耳/秒 (J/s)",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "千克/立方米 (kg/m³)",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 59,
+      "question": "著名的迈克尔逊-莫雷实验试图探测什么？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "引力波",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "以太 (Luminiferous\n                                                        aether)",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "中微子",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "暗物质",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 60,
+      "question": "光电效应是指光照射到某些物质上，导致物质表面发射出什么粒子？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "质子",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "电子",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "中子",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "光子",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 61,
+      "question": "哪位物理学家对量子电动力学\n                                    (QED) 做出了重要贡献，并以其费曼图闻名？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "保罗·狄拉克",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "理查德·费曼",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "默里·盖尔曼",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "史蒂文·温伯格",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 62,
+      "question": "当水结冰时，其密度会发生什么变化？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "增大",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "减小",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "不变",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "先增大后减小",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 63,
+      "question": "“万有引力定律”是由谁系统阐述的？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "伽利略·伽利雷",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "艾萨克·牛顿",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "约翰内斯·开普勒",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "阿尔伯特·爱因斯坦",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 64,
+      "question": "以下哪种现象可以用光的波动性来解释，但难以用粒子性解释？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "光电效应",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "光的衍射",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "康普顿散射",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "黑体辐射",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 65,
+      "question": "电荷的单位是什么？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "安培 (Ampere)",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "库仑 (Coulomb)",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "伏特 (Volt)",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "法拉 (Farad)",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 66,
+      "question": "哪位科学家改进了望远镜，并用它进行了许多重要的天文观测，如月球的环形山和木星的卫星？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "尼古拉·哥白尼",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "伽利略·伽利雷",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "约翰内斯·开普勒",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "艾萨克·牛顿",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 67,
+      "question": "热力学第一定律主要表述了什么守恒？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "动量守恒",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "能量守恒",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "质量守恒",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "电荷守恒",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 68,
+      "question": "当两个或多个波在空间中相遇时，它们会相互叠加，这种现象称为？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "衍射",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "干涉",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "折射",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "反射",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 69,
+      "question": "相对论认为，当物体速度接近光速时，其质量会如何变化？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "减小",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "增大",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "不变",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "变为零",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 70,
+      "question": "磁铁的两个磁极通常被称为什么？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "正极和负极",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "北极 (N) 和南极 (S)",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "上极和下极",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "吸引极和排斥极",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 71,
+      "question": "“原子论”的早期提出者之一，认为万物由不可分割的原子构成的是古希腊哲学家？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "苏格拉底",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "德谟克利特",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "柏拉图",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "亚里士多德",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 72,
+      "question": "以下哪种仪器用于测量电流？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "电压表",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "电流表 (安培表)",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "欧姆表",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "温度计",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 73,
+      "question": "声音的音调主要取决于声波的什么特性？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "振幅",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "频率",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "波速",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "波形",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 74,
+      "question": "哪位科学家发现了天然放射性现象？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "玛丽·居里",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "亨利·贝克勒尔",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "威廉·康拉德·伦琴",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "欧内斯特·卢瑟福",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 75,
+      "question": "在没有外力作用的情况下，运动的物体将保持其运动状态，静止的物体将保持静止。这是牛顿第几定律？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "第一定律 (惯性定律)",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text": "第二定律 (F=ma)",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "第三定律 (作用力与反作用力)",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "万有引力定律",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": 76,
+      "question": "“量子跃迁”指的是什么？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "粒子速度的连续变化",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "电子在原子中从一个能级到另一个能级的不连续跳跃",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "原子核的裂变",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "光速的改变",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 77,
+      "question": "以下哪种颜色光的波长最短？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "红色",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "紫色",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "绿色",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "黄色",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 78,
+      "question": "哪位科学家被认为是“实验物理学之父”，并对电磁感应、电解等有开创性研究？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "艾萨克·牛顿",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "迈克尔·法拉第",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "詹姆斯·焦耳",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "安德烈·玛丽·安培",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 79,
+      "question": "核聚变是哪种天体的主要能量来源？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "行星",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "恒星 (如太阳)",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "彗星",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "小行星",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 80,
+      "question": "“熵”是热力学中的一个重要概念，它通常被理解为什么的量度？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "系统的能量",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "系统的无序程度或混乱程度",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "系统的温度",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "系统的压强",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 81,
+      "question": "以下哪种现象证明了地球是圆的？（古代的观察方法）",
+      "options": [
+        {
+          "letter": "A",
+          "text": "白天和黑夜的交替",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "远去的帆船船身先消失，桅杆后消失",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "四季的变化",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "月亮的盈亏",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 82,
+      "question": "电压的单位是什么？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "安培 (Ampere)",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "伏特 (Volt)",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "欧姆 (Ohm)",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "瓦特 (Watt)",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 83,
+      "question": "哪位科学家提出了泡利不相容原理，指出两个全同费米子不能处于相同的量子态？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "埃尔温·薛定谔",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "沃尔夫冈·泡利",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "维尔纳·海森堡",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "保罗·狄拉克",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 84,
+      "question": "为什么在冬天我们呼出的气会变成“白雾”？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "因为呼出的二氧化碳变成了固体",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "因为呼出的水蒸气遇冷凝结成小水珠或小冰晶",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "因为空气中的灰尘被呼出",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "因为唾液在低温下变白",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 85,
+      "question": "“狭义相对论”的两个基本假设是什么？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "能量守恒和动量守恒",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "相对性原理和光速不变原理",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "不确定性原理和波粒二象性",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "万有引力定律和牛顿运动定律",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 86,
+      "question": "以下哪种力是自然界四种基本相互作用中最弱的？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "强相互作用力",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "引力",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "弱相互作用力",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "电磁力",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 87,
+      "question": "哪位科学家首次实验验证了电磁波的存在？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "詹姆斯·克拉克·麦克斯韦",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "海因里希·赫兹",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "迈克尔·法拉第",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "尼古拉·特斯拉",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 88,
+      "question": "为什么用吸管可以喝到饮料？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "因为嘴巴有吸力",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "因为大气压强将饮料压入吸管和嘴里",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "因为饮料有浮力",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "因为毛细现象",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 89,
+      "question": "“夸克”模型是由谁提出的，用以解释强子的内部结构？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "理查德·费曼",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "默里·盖尔曼 和 乔治·茨威格 (独立提出)",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "史蒂文·温伯格",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "阿卜杜勒·萨拉姆",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 90,
+      "question": "以下哪种现象是由于月球和太阳对地球的引力造成的？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "地震",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "潮汐现象",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "火山爆发",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "极光",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 91,
+      "question": "“光纤通信”利用了光的什么原理来传输信号？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "衍射",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "全内反射",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "色散",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "偏振",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 92,
+      "question": "哪位科学家被誉为“交流电之父”？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "托马斯·爱迪生",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "尼古拉·特斯拉",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "亚历山德罗·伏打",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "乔治·威斯汀豪斯",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 93,
+      "question": "密度是指物体单位体积的什么？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "重量",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "质量",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "力",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "能量",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 94,
+      "question": "“暗物质”和“暗能量”被认为是构成宇宙的主要部分，它们的主要特点是什么？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "它们发光且易于探测",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "它们不发光（或很少发光）且难以直接探测，但有引力效应",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "它们只存在于黑洞中",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "它们是反物质",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 95,
+      "question": "以下哪种现象不直接涉及牛顿运动定律？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "汽车加速",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "放射性衰变",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "火箭发射",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "行星公转 (近似描述)",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 96,
+      "question": "“布朗运动”指的是什么？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "行星的规则运动",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "悬浮在流体中的微小颗粒做出的无规则运动",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "电子在导体中的定向移动",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "光线的直线传播",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 97,
+      "question": "哪位科学家因解释光电效应而获得诺贝尔物理学奖，而不是因为相对论？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "马克斯·普朗克",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "阿尔伯特·爱因斯坦",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "尼尔斯·玻尔",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "维尔纳·海森堡",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 98,
+      "question": "为什么天空在日出和日落时常常呈现红色或橙色？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "因为空气温度较低",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "因为太阳光中波长较长的红橙光更容易穿透厚厚的大气层到达我们的眼睛",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "因为大气中充满了红色尘埃",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "因为地球自转速度变慢",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 99,
+      "question": "“量子纠缠”是一种奇特的量子现象，它描述了什么？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "粒子总是成对出现",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "两个或多个量子粒子之间存在一种特殊的关联，即使相隔很远，测量一个粒子的状态会瞬时影响其他粒子的状态",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "粒子会自发地分裂成更小的粒子",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "所有粒子都具有相同的电荷",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 100,
+      "question": "以下哪位科学家不属于经典物理学范畴的主要贡献者？（即其主要贡献在量子或相对论领域）",
+      "options": [
+        {
+          "letter": "A",
+          "text": "艾萨克·牛顿",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "埃尔温·薛定谔",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "伽利略·伽利雷",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "詹姆斯·克拉克·麦克斯韦",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    }
+  ]
+}

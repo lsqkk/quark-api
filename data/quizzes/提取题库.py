@@ -147,15 +147,15 @@ def extract_questions_from_html(html_content):
     
     return questions
 
-def save_to_json(questions, output_file='microsoft.json'):
+def save_to_json(questions, output_file='physics.json'):
     """将题目保存为JSON文件"""
     if not questions:
         print("没有提取到任何题目")
         return None
     
     quiz_data = {
-        'quiz_title': '微软公司知识问答',
-        'description': '微软公司知识问答：通过我们包含比尔·盖茨、产品历史、Windows、Office、Xbox等问题的微软问答集，测试您对这家软件巨头的了解！',
+        'quiz_title': '物理学知识问答',
+        'description': '物理学知识问答：通过我们包含关于著名物理学家、突破性发现、迷人现象等问题的物理学系列问答，来测试您对宇宙基本法则的了解程度！',
         'total_questions': len(questions),
         'questions_per_quiz': 20,
         'questions': questions
