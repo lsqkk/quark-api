@@ -1,42 +1,108 @@
 {
   "index_info": {
-    "created_at": "2026-01-21T12:03:39.008473",
-    "last_updated": "2026-01-21T12:03:39.008473",
-    "total_quizzes": 3
+    "created_at": "2026-01-21T22:45:28.042599",
+    "last_updated": "2026-01-21T22:45:28.042599",
+    "total_quizzes": 9
   },
   "quizzes": [
     {
-      "source_file": "ibm-trivia.json",
-      "last_modified": "2026-01-21T11:59:54.089297",
-      "file_size": 41800,
-      "quiz_title": "IBM公司知识问答",
-      "description": "IBM公司知识问答：通过我们包含关于IBM创始人、计算机历史、大型机、个人电脑等问题的IBM公司系列问答，来测试您对这家百年科技巨头的了解程度！",
+      "source_file": "ibm.json",
+      "last_modified": "2026-01-21T22:45:00.974436",
+      "file_size": 41680,
+      "quiz_title": "IBM公司",
+      "description": "关于IBM创始人、计算机历史、大型机、个人电脑等问题的IBM公司问题",
       "total_questions": 60,
       "questions_per_quiz": 20,
       "actual_questions": 60,
-      "added_at": "2026-01-21T12:03:39.056800"
+      "added_at": "2026-01-21T22:45:28.179063"
     },
     {
-      "source_file": "apple_company.json",
-      "last_modified": "2026-01-21T12:00:00.699425",
-      "file_size": 39350,
-      "quiz_title": "苹果公司知识问答",
-      "description": "苹果公司知识问答：通过我们收集的关于史蒂夫·乔布斯、产品历史、Mac、iPhone、iPad等的苹果问答，测试您对这家全球市值最高公司的了解！",
-      "total_questions": 60,
-      "questions_per_quiz": 20,
-      "actual_questions": 60,
-      "added_at": "2026-01-21T12:03:39.023730"
-    },
-    {
-      "source_file": "computer_history.json",
-      "last_modified": "2026-01-21T11:59:57.631994",
-      "file_size": 65978,
-      "quiz_title": "计算机历史冷知识测验",
-      "description": "包含50+个关于先驱人物、创新技术、里程碑事件和技术发展历程的问题！",
+      "source_file": "chemistry.json",
+      "last_modified": "2026-01-21T22:44:21.853374",
+      "file_size": 65088,
+      "quiz_title": "化学",
+      "description": "著名化学家、突破性发现、迷人反应等问题的化学问题",
       "total_questions": 100,
       "questions_per_quiz": 20,
       "actual_questions": 100,
-      "added_at": "2026-01-21T12:03:39.039285"
+      "added_at": "2026-01-21T22:45:28.139532"
+    },
+    {
+      "source_file": "astronomy.json",
+      "last_modified": "2026-01-21T22:43:49.958440",
+      "file_size": 65324,
+      "quiz_title": "天文学",
+      "description": "关于著名天文学家、突破性发现、天体现象等问题的天文学知识",
+      "total_questions": 100,
+      "questions_per_quiz": 20,
+      "actual_questions": 100,
+      "added_at": "2026-01-21T22:45:28.081120"
+    },
+    {
+      "source_file": "microsoft.json",
+      "last_modified": "2026-01-21T22:45:17.972563",
+      "file_size": 38629,
+      "quiz_title": "微软公司",
+      "description": "比尔·盖茨、产品历史、Windows、Office、Xbox等问题的微软问答",
+      "total_questions": 60,
+      "questions_per_quiz": 20,
+      "actual_questions": 60,
+      "added_at": "2026-01-21T22:45:28.197578"
+    },
+    {
+      "source_file": "physics.json",
+      "last_modified": "2026-01-21T22:32:52.323467",
+      "file_size": 65875,
+      "quiz_title": "物理学知识问答",
+      "description": "物理学知识问答：通过我们包含关于著名物理学家、突破性发现、迷人现象等问题的物理学系列问答，来测试您对宇宙基本法则的了解程度！",
+      "total_questions": 100,
+      "questions_per_quiz": 20,
+      "actual_questions": 100,
+      "added_at": "2026-01-21T22:45:28.219593"
+    },
+    {
+      "source_file": "biology.json",
+      "last_modified": "2026-01-21T22:44:03.473447",
+      "file_size": 64585,
+      "quiz_title": "生物学",
+      "description": "著名生物学家、突破性发现、迷人生命过程等问题的生物学问题",
+      "total_questions": 100,
+      "questions_per_quiz": 20,
+      "actual_questions": 100,
+      "added_at": "2026-01-21T22:45:28.101118"
+    },
+    {
+      "source_file": "apple.json",
+      "last_modified": "2026-01-21T22:43:34.672168",
+      "file_size": 39233,
+      "quiz_title": "苹果公司",
+      "description": "关于史蒂夫·乔布斯、产品历史、Mac、iPhone、iPad等的苹果问答",
+      "total_questions": 60,
+      "questions_per_quiz": 20,
+      "actual_questions": 60,
+      "added_at": "2026-01-21T22:45:28.063123"
+    },
+    {
+      "source_file": "computer.json",
+      "last_modified": "2026-01-21T22:44:40.709771",
+      "file_size": 65939,
+      "quiz_title": "计算机",
+      "description": "关于先驱人物、创新技术、里程碑事件和技术发展历程问题",
+      "total_questions": 100,
+      "questions_per_quiz": 20,
+      "actual_questions": 100,
+      "added_at": "2026-01-21T22:45:28.159065"
+    },
+    {
+      "source_file": "capital.json",
+      "last_modified": "2026-01-21T22:39:33.482733",
+      "file_size": 35880,
+      "quiz_title": "首都",
+      "description": "包含各大洲国家及其首都城市问题的地理问题",
+      "total_questions": 60,
+      "questions_per_quiz": 20,
+      "actual_questions": 60,
+      "added_at": "2026-01-21T22:45:28.120397"
     }
   ]
 }

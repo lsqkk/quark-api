@@ -1,6 +1,6 @@
 {
-  "quiz_title": "IBM公司知识问答",
-  "description": "IBM公司知识问答：通过我们包含关于IBM创始人、计算机历史、大型机、个人电脑等问题的IBM公司系列问答，来测试您对这家百年科技巨头的了解程度！",
+  "quiz_title": "IBM公司",
+  "description": "关于IBM创始人、计算机历史、大型机、个人电脑等问题的IBM公司问题",
   "total_questions": 60,
   "questions_per_quiz": 20,
   "questions": [

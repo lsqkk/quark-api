@@ -1,6 +1,6 @@
 {
-  "quiz_title": "微软公司知识问答",
-  "description": "微软公司知识问答：通过我们包含比尔·盖茨、产品历史、Windows、Office、Xbox等问题的微软问答集，测试您对这家软件巨头的了解！",
+  "quiz_title": "微软公司",
+  "description": "比尔·盖茨、产品历史、Windows、Office、Xbox等问题的微软问答",
   "total_questions": 60,
   "questions_per_quiz": 20,
   "questions": [

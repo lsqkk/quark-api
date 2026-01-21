@@ -33,7 +33,7 @@
     },
     {
       "id": 2,
-      "question": "谁提出了著名的质能方程\n                                    E=mc²？",
+      "question": "谁提出了著名的质能方程 E=mc²？",
       "options": [
         {
           "letter": "A",
@@ -951,7 +951,7 @@
     },
     {
       "id": 36,
-      "question": "激光\n                                    (LASER) 是“受激辐射光放大”的缩写，它产生的光具有什么特点？",
+      "question": "激光 (LASER) 是“受激辐射光放大”的缩写，它产生的光具有什么特点？",
       "options": [
         {
           "letter": "A",
@@ -1545,7 +1545,7 @@
     },
     {
       "id": 58,
-      "question": "压力（压强）的单位帕斯卡\n                                    (Pa) 等于什么？",
+      "question": "压力（压强）的单位帕斯卡 (Pa) 等于什么？",
       "options": [
         {
           "letter": "A",
@@ -1581,7 +1581,7 @@
         },
         {
           "letter": "B",
-          "text": "以太 (Luminiferous\n                                                        aether)",
+          "text": "以太 (Luminiferous aether)",
           "is_correct": true
         },
         {
@@ -1626,7 +1626,7 @@
     },
     {
       "id": 61,
-      "question": "哪位物理学家对量子电动力学\n                                    (QED) 做出了重要贡献，并以其费曼图闻名？",
+      "question": "哪位物理学家对量子电动力学 (QED) 做出了重要贡献，并以其费曼图闻名？",
       "options": [
         {
           "letter": "A",

@@ -1,31 +1,31 @@
 {
-  "quiz_title": "计算机",
-  "description": "关于先驱人物、创新技术、里程碑事件和技术发展历程问题",
+  "quiz_title": "化学",
+  "description": "著名化学家、突破性发现、迷人反应等问题的化学问题",
   "total_questions": 100,
   "questions_per_quiz": 20,
   "questions": [
     {
       "id": 1,
-      "question": "第一台电子计算机ENIAC诞生于哪一年？",
+      "question": "水分子的化学式是什么？",
       "options": [
         {
           "letter": "A",
-          "text": "1936年",
+          "text": "CO₂",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "1946年",
+          "text": "H₂O",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "1956年",
+          "text": "O₂",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "1966年",
+          "text": "NaCl",
           "is_correct": false
         }
       ],
@@ -33,134 +33,134 @@
     },
     {
       "id": 2,
-      "question": "ENIAC（第一台电子计算机）主要用于什么目的？",
+      "question": "元素周期表是谁首次提出的？",
       "options": [
         {
           "letter": "A",
-          "text": "天气预报",
+          "text": "安托万·拉瓦锡",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "商业数据处理",
+          "text": "德米特里·门捷列夫",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "约翰·道尔顿",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "玛丽·居里",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 3,
+      "question": "食盐的主要化学成分是什么？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "氯化钾 (KCl)",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "碳酸氢钠 (NaHCO₃)",
           "is_correct": false
         },
         {
           "letter": "C",
-          "text": "弹道计算",
+          "text": "氯化钠 (NaCl)",
           "is_correct": true
         },
         {
           "letter": "D",
-          "text": "文字处理",
+          "text": "蔗糖 (C₁₂H₂₂O₁₁)",
           "is_correct": false
         }
       ],
       "correct_answer": "C"
     },
     {
-      "id": 3,
-      "question": "“计算机之父”通常指的是谁？",
-      "options": [
-        {
-          "letter": "A",
-          "text": "比尔·盖茨",
-          "is_correct": false
-        },
-        {
-          "letter": "B",
-          "text": "史蒂夫·乔布斯",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "艾伦·图灵",
-          "is_correct": false
-        },
-        {
-          "letter": "D",
-          "text": "约翰·冯·诺依曼",
-          "is_correct": true
-        }
-      ],
-      "correct_answer": "D"
-    },
-    {
       "id": 4,
-      "question": "世界上第一个计算机程序员普遍被认为是？",
+      "question": "以下哪位科学家因其在放射性元素（镭和钋）方面的研究而闻名？",
       "options": [
         {
           "letter": "A",
-          "text": "格蕾丝·霍珀",
+          "text": "莱纳斯·鲍林",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "阿达·洛芙莱斯",
-          "is_correct": true
+          "text": "迈克尔·法拉第",
+          "is_correct": false
         },
         {
           "letter": "C",
-          "text": "玛格丽特·汉密尔顿",
-          "is_correct": false
+          "text": "玛丽·居里",
+          "is_correct": true
         },
         {
           "letter": "D",
-          "text": "简·詹宁斯·巴蒂克",
+          "text": "弗里茨·哈伯",
           "is_correct": false
         }
       ],
-      "correct_answer": "B"
+      "correct_answer": "C"
     },
     {
       "id": 5,
-      "question": "计算机鼠标是谁发明的？",
+      "question": "原子中带负电荷的粒子是什么？",
       "options": [
         {
           "letter": "A",
-          "text": "史蒂夫·沃兹尼亚克",
+          "text": "质子",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "道格拉斯·恩格尔巴特",
-          "is_correct": true
-        },
-        {
-          "letter": "C",
-          "text": "蒂姆·伯纳斯-李",
+          "text": "中子",
           "is_correct": false
         },
         {
+          "letter": "C",
+          "text": "电子",
+          "is_correct": true
+        },
+        {
           "letter": "D",
-          "text": "罗伯特·梅特卡夫",
+          "text": "光子",
           "is_correct": false
         }
       ],
-      "correct_answer": "B"
+      "correct_answer": "C"
     },
     {
       "id": 6,
-      "question": "最早的计算机鼠标是用什么材料制作外壳的？",
+      "question": "铁生锈主要是由于铁与空气中的什么物质发生反应？",
       "options": [
         {
           "letter": "A",
-          "text": "塑料",
+          "text": "氮气和水",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "金属",
+          "text": "二氧化碳和水",
           "is_correct": false
         },
         {
           "letter": "C",
-          "text": "木头",
+          "text": "氧气和水",
           "is_correct": true
         },
         {
           "letter": "D",
-          "text": "橡胶",
+          "text": "氢气和氧气",
           "is_correct": false
         }
       ],
@@ -168,53 +168,53 @@
     },
     {
       "id": 7,
-      "question": "第一台被广泛认为是个人计算机的是？",
+      "question": "pH值小于7的溶液是什么性质的？",
       "options": [
         {
           "letter": "A",
-          "text": "IBM PC",
-          "is_correct": false
+          "text": "酸性",
+          "is_correct": true
         },
         {
           "letter": "B",
-          "text": "Apple II",
+          "text": "碱性",
           "is_correct": false
         },
         {
           "letter": "C",
-          "text": "Altair 8800",
-          "is_correct": true
+          "text": "中性",
+          "is_correct": false
         },
         {
           "letter": "D",
-          "text": "Commodore PET",
+          "text": "盐性",
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "A"
     },
     {
       "id": 8,
-      "question": "“摩尔定律”预测了什么的发展趋势？",
+      "question": "“现代化学之父”通常指的是哪位科学家，他提出了质量守恒定律？",
       "options": [
         {
           "letter": "A",
-          "text": "硬盘容量",
+          "text": "罗伯特·波义耳",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "集成电路上晶体管的数量",
+          "text": "安托万·拉瓦锡",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "互联网速度",
+          "text": "约翰·道尔顿",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "显示器分辨率",
+          "text": "阿伏伽德罗",
           "is_correct": false
         }
       ],
@@ -222,53 +222,53 @@
     },
     {
       "id": 9,
-      "question": "晶体管的发明对计算机发展有何重大意义？",
+      "question": "构成金刚石和石墨的元素是什么？",
       "options": [
         {
           "letter": "A",
-          "text": "使计算机运行速度变慢",
+          "text": "硅 (Si)",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "使计算机体积更大、更昂贵",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "替代了真空管，使计算机更小、更快、更可靠",
+          "text": "碳 (C)",
           "is_correct": true
         },
         {
+          "letter": "C",
+          "text": "硫 (S)",
+          "is_correct": false
+        },
+        {
           "letter": "D",
-          "text": "增加了计算机的功耗",
+          "text": "磷 (P)",
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "B"
     },
     {
       "id": 10,
-      "question": "互联网的前身是什么网络？",
+      "question": "植物进行光合作用主要吸收什么气体？",
       "options": [
         {
           "letter": "A",
-          "text": "NSFNET",
+          "text": "氧气 (O₂)",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "ARPANET",
+          "text": "二氧化碳 (CO₂)",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "Ethernet",
+          "text": "氮气 (N₂)",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "World Wide Web",
+          "text": "氢气 (H₂)",
           "is_correct": false
         }
       ],
@@ -276,107 +276,107 @@
     },
     {
       "id": 11,
-      "question": "万维网（WWW）是谁发明的？",
+      "question": "化学反应中，催化剂的作用是什么？",
       "options": [
         {
           "letter": "A",
-          "text": "马克·安德森",
+          "text": "增加产物的量",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "蒂姆·伯纳斯-李",
-          "is_correct": true
-        },
-        {
-          "letter": "C",
-          "text": "文顿·瑟夫",
-          "is_correct": false
-        },
-        {
-          "letter": "D",
-          "text": "罗伯特·卡恩",
-          "is_correct": false
-        }
-      ],
-      "correct_answer": "B"
-    },
-    {
-      "id": 12,
-      "question": "第一款成功的图形用户界面（GUI）操作系统是哪个公司的产品？",
-      "options": [
-        {
-          "letter": "A",
-          "text": "微软（Microsoft）",
-          "is_correct": false
-        },
-        {
-          "letter": "B",
-          "text": "IBM",
+          "text": "改变反应方向",
           "is_correct": false
         },
         {
           "letter": "C",
-          "text": "苹果（Apple）",
+          "text": "改变反应速率（通常是加快）",
           "is_correct": true
         },
         {
           "letter": "D",
-          "text": "施乐（Xerox）",
+          "text": "提供反应能量",
           "is_correct": false
         }
       ],
       "correct_answer": "C"
     },
     {
-      "id": 13,
-      "question": "“Bug”这个术语在计算机领域指代程序错误，它的起源与什么有关？",
+      "id": 12,
+      "question": "哪位科学家提出了原子学说，认为物质由不可分割的原子组成？",
       "options": [
         {
           "letter": "A",
-          "text": "一只真正的飞蛾导致计算机故障",
-          "is_correct": true
-        },
-        {
-          "letter": "B",
-          "text": "程序员的笔误",
+          "text": "阿伏伽德罗",
           "is_correct": false
         },
         {
+          "letter": "B",
+          "text": "约翰·道尔顿",
+          "is_correct": true
+        },
+        {
           "letter": "C",
-          "text": "病毒入侵",
+          "text": "约瑟夫·普利斯特里",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "科幻小说中的描述",
+          "text": "亨利·卡文迪许",
           "is_correct": false
         }
       ],
-      "correct_answer": "A"
+      "correct_answer": "B"
     },
     {
-      "id": 14,
-      "question": "世界上第一款商用便携式计算机（笔记本电脑）大约有多重？",
+      "id": 13,
+      "question": "干冰是哪种物质的固态形式？",
       "options": [
         {
           "letter": "A",
-          "text": "约1公斤",
+          "text": "水 (H₂O)",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "约5公斤",
+          "text": "氮气 (N₂)",
           "is_correct": false
         },
         {
           "letter": "C",
-          "text": "约11公斤",
+          "text": "二氧化碳 (CO₂)",
           "is_correct": true
         },
         {
           "letter": "D",
-          "text": "约20公斤",
+          "text": "氧气 (O₂)",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 14,
+      "question": "最轻的化学元素是什么？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "氦 (He)",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "锂 (Li)",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text": "氢 (H)",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "氧 (O)",
           "is_correct": false
         }
       ],
@@ -384,26 +384,26 @@
     },
     {
       "id": 15,
-      "question": "哪家公司在1981年推出了IBM PC，对个人计算机市场产生了巨大影响？",
+      "question": "以下哪种金属在常温下是液态？",
       "options": [
         {
           "letter": "A",
-          "text": "苹果（Apple）",
+          "text": "铁 (Fe)",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "康柏（Compaq）",
+          "text": "铝 (Al)",
           "is_correct": false
         },
         {
           "letter": "C",
-          "text": "IBM",
+          "text": "汞 (Hg)",
           "is_correct": true
         },
         {
           "letter": "D",
-          "text": "惠普（HP）",
+          "text": "铜 (Cu)",
           "is_correct": false
         }
       ],
@@ -411,26 +411,26 @@
     },
     {
       "id": 16,
-      "question": "早期的计算机存储数据使用的是什么技术？",
+      "question": "臭氧层主要吸收太阳辐射中的什么？",
       "options": [
         {
           "letter": "A",
-          "text": "固态硬盘 (SSD)",
+          "text": "红外线",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "光盘 (CD/DVD)",
+          "text": "可见光",
           "is_correct": false
         },
         {
           "letter": "C",
-          "text": "磁芯存储器或打孔卡",
+          "text": "紫外线",
           "is_correct": true
         },
         {
           "letter": "D",
-          "text": "U盘",
+          "text": "微波",
           "is_correct": false
         }
       ],
@@ -438,53 +438,53 @@
     },
     {
       "id": 17,
-      "question": "世界上第一个计算机病毒的名称是什么？",
+      "question": "诺贝尔化学奖的创始人阿尔弗雷德·诺贝尔发明了什么？",
       "options": [
         {
           "letter": "A",
-          "text": "Melissa",
+          "text": "青霉素",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "ILOVEYOU",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "Creeper",
+          "text": "黄色炸药 (Dynamite)",
           "is_correct": true
         },
         {
+          "letter": "C",
+          "text": "电话",
+          "is_correct": false
+        },
+        {
           "letter": "D",
-          "text": "Brain",
+          "text": "X射线",
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "B"
     },
     {
       "id": 18,
-      "question": "Linux操作系统的创始人是谁？",
+      "question": "分子是由什么通过化学键结合而成的？",
       "options": [
         {
           "letter": "A",
-          "text": "理查德·斯托曼",
+          "text": "细胞",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "林纳斯·托瓦兹",
+          "text": "原子",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "比尔·盖茨",
+          "text": "夸克",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "安迪·鲁宾",
+          "text": "离子",
           "is_correct": false
         }
       ],
@@ -492,26 +492,26 @@
     },
     {
       "id": 19,
-      "question": "第一封电子邮件是什么时候发送的？",
+      "question": "醋的主要酸性成分是什么？",
       "options": [
         {
           "letter": "A",
-          "text": "1961年",
+          "text": "盐酸 (HCl)",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "1971年",
+          "text": "乙酸 (CH₃COOH)",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "1981年",
+          "text": "硫酸 (H₂SO₄)",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "1991年",
+          "text": "柠檬酸",
           "is_correct": false
         }
       ],
@@ -519,53 +519,53 @@
     },
     {
       "id": 20,
-      "question": "“所见即所得”（WYSIWYG）这个概念最早主要应用于什么类型的软件？",
+      "question": "哪位科学家发现了氧气？（尽管有争议，通常归功于他之一）",
       "options": [
         {
           "letter": "A",
-          "text": "数据库软件",
+          "text": "安托万·拉瓦锡",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "编程工具",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "文字处理和桌面排版软件",
+          "text": "约瑟夫·普利斯特里",
           "is_correct": true
         },
         {
+          "letter": "C",
+          "text": "卡尔·威廉·舍勒",
+          "is_correct": false
+        },
+        {
           "letter": "D",
-          "text": "网络浏览器",
+          "text": "亨利·卡文迪许",
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "B"
     },
     {
       "id": 21,
-      "question": "个人计算机通常被缩写为什么？",
+      "question": "合金是由什么组成的？",
       "options": [
         {
           "letter": "A",
-          "text": "MAC",
+          "text": "一种金属和一种非金属",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "PC",
+          "text": "两种或多种金属，或金属与非金属的混合物",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "AI",
+          "text": "两种或多种非金属",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "CPU",
+          "text": "纯净的金属元素",
           "is_correct": false
         }
       ],
@@ -573,53 +573,53 @@
     },
     {
       "id": 22,
-      "question": "苹果公司的第一台计算机叫什么名字？",
+      "question": "天然气的主要成分是什么？",
       "options": [
         {
           "letter": "A",
-          "text": "Macintosh",
+          "text": "乙烷 (C₂H₆)",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "Apple Lisa",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "Apple I",
+          "text": "甲烷 (CH₄)",
           "is_correct": true
         },
         {
+          "letter": "C",
+          "text": "丙烷 (C₃H₈)",
+          "is_correct": false
+        },
+        {
           "letter": "D",
-          "text": "iMac",
+          "text": "氢气 (H₂)",
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "B"
     },
     {
       "id": 23,
-      "question": "微软公司的主要创始人是谁？",
+      "question": "“燃烧”通常是指物质与什么发生的剧烈氧化反应？",
       "options": [
         {
           "letter": "A",
-          "text": "史蒂夫·乔布斯和史蒂夫·沃兹尼亚克",
+          "text": "氮气",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "比尔·盖茨和保罗·艾伦",
+          "text": "氧气",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "拉里·佩奇和谢尔盖·布林",
+          "text": "氢气",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "马克·扎克伯格",
+          "text": "二氧化碳",
           "is_correct": false
         }
       ],
@@ -627,134 +627,134 @@
     },
     {
       "id": 24,
-      "question": "计算机的“大脑”通常指的是哪个部件？",
+      "question": "哈伯-博施法是工业上用来合成什么重要化学品的？",
       "options": [
         {
           "letter": "A",
-          "text": "硬盘",
+          "text": "硫酸 (H₂SO₄)",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "内存",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "中央处理器 (CPU)",
-          "is_correct": true
-        },
-        {
-          "letter": "D",
-          "text": "显示器",
-          "is_correct": false
-        }
-      ],
-      "correct_answer": "C"
-    },
-    {
-      "id": 25,
-      "question": "QWERTY键盘布局最初是为了解决什么问题而设计的？",
-      "options": [
-        {
-          "letter": "A",
-          "text": "提高打字速度",
-          "is_correct": false
-        },
-        {
-          "letter": "B",
-          "text": "防止打字机卡键",
+          "text": "氨 (NH₃)",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "减少手指移动",
+          "text": "硝酸 (HNO₃)",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "适应特定语言",
+          "text": "塑料",
           "is_correct": false
         }
       ],
       "correct_answer": "B"
     },
     {
-      "id": 26,
-      "question": "第一款获得广泛商业成功的街机电子游戏是什么？",
+      "id": 25,
+      "question": "以下哪种是惰性气体（或稀有气体）？",
       "options": [
         {
           "letter": "A",
-          "text": "Pong (乓)",
-          "is_correct": true
+          "text": "氧 (O)",
+          "is_correct": false
         },
         {
           "letter": "B",
-          "text": "Pac-Man (吃豆人)",
+          "text": "氮 (N)",
           "is_correct": false
         },
         {
           "letter": "C",
-          "text": "Space Invaders (太空侵略者)",
+          "text": "氦 (He)",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text": "氯 (Cl)",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 26,
+      "question": "哪位科学家提出了阿伏伽德罗定律，指出同温同压下，相同体积的任何气体都含有相同数目的分子？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "盖-吕萨克",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "阿梅代奥·阿伏伽德罗",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "罗伯特·波义耳",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "Donkey Kong (大金刚)",
+          "text": "雅克·查理",
           "is_correct": false
         }
       ],
-      "correct_answer": "A"
+      "correct_answer": "B"
     },
     {
       "id": 27,
-      "question": "早期的软盘（Floppy Disk）容量大约是多少？",
+      "question": "糖溶解在水中形成糖水，这是一种什么过程？",
       "options": [
         {
           "letter": "A",
-          "text": "几百KB (几百千字节)",
-          "is_correct": true
-        },
-        {
-          "letter": "B",
-          "text": "几MB (几兆字节)",
+          "text": "化学变化",
           "is_correct": false
         },
         {
+          "letter": "B",
+          "text": "物理变化 (溶解)",
+          "is_correct": true
+        },
+        {
           "letter": "C",
-          "text": "几GB (几吉字节)",
+          "text": "核反应",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "几TB (几太字节)",
+          "text": "沉淀反应",
           "is_correct": false
         }
       ],
-      "correct_answer": "A"
+      "correct_answer": "B"
     },
     {
       "id": 28,
-      "question": "“Google”这个名字来源于哪个数学术语？",
+      "question": "DNA（脱氧核糖核酸）的双螺旋结构是由谁和谁共同发现的？",
       "options": [
         {
           "letter": "A",
-          "text": "Algorithm (算法)",
+          "text": "莱纳斯·鲍林和罗莎琳·富兰克林",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "Googol (古戈尔)",
+          "text": "詹姆斯·沃森和弗朗西斯·克里克",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "Binary (二进制)",
+          "text": "格雷戈尔·孟德尔和查尔斯·达尔文",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "Matrix (矩阵)",
+          "text": "玛丽·居里和皮埃尔·居里",
           "is_correct": false
         }
       ],
@@ -762,26 +762,26 @@
     },
     {
       "id": 29,
-      "question": "第一个流行的图形界面网页浏览器是什么？",
+      "question": "空气中含量最多的气体是什么？",
       "options": [
         {
           "letter": "A",
-          "text": "Internet Explorer",
+          "text": "氧气 (O₂)",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "Mosaic",
+          "text": "氮气 (N₂)",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "Netscape Navigator",
+          "text": "二氧化碳 (CO₂)",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "Opera",
+          "text": "氩气 (Ar)",
           "is_correct": false
         }
       ],
@@ -789,80 +789,80 @@
     },
     {
       "id": 30,
-      "question": "“Wi-Fi”这个名称代表什么？",
+      "question": "以下哪种物质通常用作漂白剂和消毒剂？",
       "options": [
         {
           "letter": "A",
-          "text": "Wireless Fidelity (无线保真)",
+          "text": "食盐 (NaCl)",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "Wireless Fiber (无线光纤)",
-          "is_correct": false
+          "text": "次氯酸钠 (NaClO)",
+          "is_correct": true
         },
         {
           "letter": "C",
-          "text": "World Internet Fiber Optic (世界互联网光纤)",
+          "text": "小苏打 (NaHCO₃)",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "它本身不是缩写，是一个品牌名",
-          "is_correct": true
+          "text": "蔗糖 (C₁₂H₂₂O₁₁)",
+          "is_correct": false
         }
       ],
-      "correct_answer": "D"
+      "correct_answer": "B"
     },
     {
       "id": 31,
-      "question": "早期的电子计算机（如ENIAC）体积有多大？",
+      "question": "青霉素的发现者是谁，这一发现开启了抗生素时代？",
       "options": [
         {
           "letter": "A",
-          "text": "一个手提箱大小",
+          "text": "路易·巴斯德",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "一个冰箱大小",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "占据整个房间",
+          "text": "亚历山大·弗莱明",
           "is_correct": true
         },
         {
+          "letter": "C",
+          "text": "罗伯特·科赫",
+          "is_correct": false
+        },
+        {
           "letter": "D",
-          "text": "一张桌子大小",
+          "text": "格哈德·多马克",
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "B"
     },
     {
       "id": 32,
-      "question": "计算机内部处理信息的基础是什么数字系统？",
+      "question": "物质从液态变为气态的过程叫什么？",
       "options": [
         {
           "letter": "A",
-          "text": "十进制",
+          "text": "凝固",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "二进制",
+          "text": "汽化 (蒸发或沸腾)",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "十六进制",
+          "text": "熔化",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "八进制",
+          "text": "凝华",
           "is_correct": false
         }
       ],
@@ -870,26 +870,26 @@
     },
     {
       "id": 33,
-      "question": "哪台计算机是第一台捆绑销售鼠标的商用计算机？",
+      "question": "原子的质量主要集中在哪里？",
       "options": [
         {
           "letter": "A",
-          "text": "Apple Macintosh",
+          "text": "电子云",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "Xerox Star",
+          "text": "原子核",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "IBM PC",
+          "text": "电子轨道",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "Commodore Amiga",
+          "text": "均匀分布在整个原子中",
           "is_correct": false
         }
       ],
@@ -897,26 +897,26 @@
     },
     {
       "id": 34,
-      "question": "垃圾邮件为什么被称为“Spam”？",
+      "question": "波义耳定律描述了在恒定温度下，一定量气体的什么关系？",
       "options": [
         {
           "letter": "A",
-          "text": "发明者姓Spam",
+          "text": "体积与温度成正比",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "源自一种罐头肉的名称和喜剧小品",
+          "text": "压强与体积成反比",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "一种早期病毒的代号",
+          "text": "压强与温度成正比",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "“Stupid Pointless Annoying Mail”的缩写",
+          "text": "体积与物质的量成正比",
           "is_correct": false
         }
       ],
@@ -924,80 +924,80 @@
     },
     {
       "id": 35,
-      "question": "USB接口的“USB”代表什么？",
+      "question": "肥皂能够去污主要是因为它具有什么特性？",
       "options": [
         {
           "letter": "A",
-          "text": "Universal Serial Bus (通用串行总线)",
-          "is_correct": true
-        },
-        {
-          "letter": "B",
-          "text": "United System Block (联合系统模块)",
+          "text": "强酸性",
           "is_correct": false
         },
         {
+          "letter": "B",
+          "text": "乳化作用 (分子一端亲水一端亲油)",
+          "is_correct": true
+        },
+        {
           "letter": "C",
-          "text": "User Service Bay (用户服务端口)",
+          "text": "强氧化性",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "Ultra Speed Buffer (超高速缓冲器)",
+          "text": "高密度",
           "is_correct": false
         }
       ],
-      "correct_answer": "A"
+      "correct_answer": "B"
     },
     {
       "id": 36,
-      "question": "互联网历史上第一个注册的域名是什么？",
+      "question": "塑料是一类重要的人工合成材料，其主要成分是什么？",
       "options": [
         {
           "letter": "A",
-          "text": "google.com",
+          "text": "金属",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "apple.com",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "symbolics.com",
+          "text": "聚合物",
           "is_correct": true
         },
         {
+          "letter": "C",
+          "text": "陶瓷",
+          "is_correct": false
+        },
+        {
           "letter": "D",
-          "text": "microsoft.com",
+          "text": "玻璃",
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "B"
     },
     {
       "id": 37,
-      "question": "著名的街机游戏“吃豆人”(Pac-Man) 在日本最初叫什么名字？",
+      "question": "原子中带正电荷的粒子是什么？",
       "options": [
         {
           "letter": "A",
-          "text": "Paku-Paku",
+          "text": "电子",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "Puck-Man",
+          "text": "质子",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "Ghost-Man",
+          "text": "中子",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "Dot-Man",
+          "text": "正电子",
           "is_correct": false
         }
       ],
@@ -1005,53 +1005,53 @@
     },
     {
       "id": 38,
-      "question": "世界上第一个硬盘驱动器（IBM 350 RAMAC）的存储容量大约是多少？",
+      "question": "哪位科学家对化学键的本质和结构化学做出了巨大贡献，并获得了诺贝尔化学奖和诺贝尔和平奖？",
       "options": [
         {
           "letter": "A",
-          "text": "约5兆字节 (5 Megabytes)",
-          "is_correct": true
-        },
-        {
-          "letter": "B",
-          "text": "约5千字节 (5 Kilobytes)",
+          "text": "吉尔伯特·路易斯",
           "is_correct": false
         },
         {
+          "letter": "B",
+          "text": "莱纳斯·鲍林",
+          "is_correct": true
+        },
+        {
           "letter": "C",
-          "text": "约5吉字节 (5 Gigabytes)",
+          "text": "弗里茨·哈伯",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "约5太字节 (5 Terabytes)",
+          "text": "奥托·哈恩",
           "is_correct": false
         }
       ],
-      "correct_answer": "A"
+      "correct_answer": "B"
     },
     {
       "id": 39,
-      "question": "早期的调制解调器（Modem）主要功能是什么？",
+      "question": "焰色反应是利用某些金属或其化合物在火焰中燃烧时发出特定颜色的光来进行什么？",
       "options": [
         {
           "letter": "A",
-          "text": "提高电脑运行速度",
+          "text": "测量温度",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "通过电话线连接互联网",
+          "text": "元素鉴定",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "存储文件",
+          "text": "产生能量",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "玩游戏",
+          "text": "合成新物质",
           "is_correct": false
         }
       ],
@@ -1059,53 +1059,53 @@
     },
     {
       "id": 40,
-      "question": "图像显示中的“像素”(Pixel) 一词是什么的缩写？",
+      "question": "酸雨主要是由于空气中哪些气体含量过高造成的？",
       "options": [
         {
           "letter": "A",
-          "text": "Picture Element (图像元素)",
-          "is_correct": true
-        },
-        {
-          "letter": "B",
-          "text": "Photo Extension Link (照片扩展链接)",
+          "text": "二氧化碳和甲烷",
           "is_correct": false
         },
         {
+          "letter": "B",
+          "text": "二氧化硫和氮氧化物",
+          "is_correct": true
+        },
+        {
           "letter": "C",
-          "text": "Primary Illumination Emitter (主照明发射器)",
+          "text": "氧气和臭氧",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "Point of Xylography (木刻点)",
+          "text": "氢气和氦气",
           "is_correct": false
         }
       ],
-      "correct_answer": "A"
+      "correct_answer": "B"
     },
     {
       "id": 41,
-      "question": "哪家公司在1971年推出了世界上第一款商用微处理器Intel 4004？",
+      "question": "元素周期表中，同一族的元素通常具有相似的什么？",
       "options": [
         {
           "letter": "A",
-          "text": "AMD",
+          "text": "原子质量",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "Intel",
+          "text": "化学性质 (最外层电子数相似)",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "Motorola",
+          "text": "熔点",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "Texas Instruments",
+          "text": "颜色",
           "is_correct": false
         }
       ],
@@ -1113,26 +1113,26 @@
     },
     {
       "id": 42,
-      "question": "电脑键盘上的“Shift”键最初在打字机上有什么作用？",
+      "question": "“巴斯德消毒法”是由谁发明的，用于杀死液体（如牛奶、葡萄酒）中的微生物？",
       "options": [
         {
           "letter": "A",
-          "text": "删除字符",
+          "text": "罗伯特·科赫",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "切换大小写字母",
+          "text": "路易·巴斯德",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "产生一个空格",
+          "text": "约瑟夫·李斯特",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "换行",
+          "text": "亚历山大·弗莱明",
           "is_correct": false
         }
       ],
@@ -1140,134 +1140,134 @@
     },
     {
       "id": 43,
-      "question": "Altair 8800（早期个人计算机）最初是如何进行编程的？",
+      "question": "pH值为7的溶液是什么性质的？",
       "options": [
         {
           "letter": "A",
-          "text": "使用鼠标和图形界面",
+          "text": "强酸性",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "通过键盘输入高级语言",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "通过拨动开关输入机器码",
+          "text": "中性",
           "is_correct": true
         },
         {
+          "letter": "C",
+          "text": "强碱性",
+          "is_correct": false
+        },
+        {
           "letter": "D",
-          "text": "使用语音命令",
+          "text": "弱酸性",
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "B"
     },
     {
       "id": 44,
-      "question": "哪家公司在1999年推出了第一款广泛接入互联网（通过WAP）的手机？",
+      "question": "以下哪种不是碳的同素异形体？",
       "options": [
         {
           "letter": "A",
-          "text": "Apple",
+          "text": "金刚石",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "Samsung",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "Nokia",
+          "text": "石英",
           "is_correct": true
         },
         {
+          "letter": "C",
+          "text": "石墨",
+          "is_correct": false
+        },
+        {
           "letter": "D",
-          "text": "Motorola",
+          "text": "富勒烯 (C₆₀)",
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "B"
     },
     {
       "id": 45,
-      "question": "网址中的“.com”最初代表什么类型的组织？",
+      "question": "电解水实验可以证明水是由哪两种元素组成的？",
       "options": [
         {
           "letter": "A",
-          "text": "Communication (通讯)",
+          "text": "碳和氧",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "Community (社区)",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "Commercial (商业)",
+          "text": "氢和氧",
           "is_correct": true
         },
         {
+          "letter": "C",
+          "text": "氮和氧",
+          "is_correct": false
+        },
+        {
           "letter": "D",
-          "text": "Computer (计算机)",
+          "text": "氢和碳",
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "B"
     },
     {
       "id": 46,
-      "question": "笔记本电脑的彩色显示屏主要基于哪种技术？",
+      "question": "以下哪种是常见的食品防腐剂？",
       "options": [
         {
           "letter": "A",
-          "text": "阴极射线管 (CRT)",
+          "text": "味精 (谷氨酸钠)",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "发光二极管 (LED)",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "液晶显示 (LCD)",
+          "text": "苯甲酸钠",
           "is_correct": true
         },
         {
+          "letter": "C",
+          "text": "食用色素",
+          "is_correct": false
+        },
+        {
           "letter": "D",
-          "text": "等离子 (Plasma)",
+          "text": "小苏打 (碳酸氢钠)",
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "B"
     },
     {
       "id": 47,
-      "question": "“开源软件” (Open Source Software) 的核心理念是什么？",
+      "question": "原子核裂变是指重原子核分裂成较轻原子核并释放巨大能量的过程，这是什么装置的原理？",
       "options": [
         {
           "letter": "A",
-          "text": "软件必须免费",
+          "text": "太阳能电池板",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "软件的源代码可以被公开访问、修改和共享",
+          "text": "原子弹和核反应堆",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "只能由大公司开发",
+          "text": "激光器",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "用户不能修改软件",
+          "text": "氢弹",
           "is_correct": false
         }
       ],
@@ -1275,26 +1275,26 @@
     },
     {
       "id": 48,
-      "question": "早年通过拨号连接互联网时，用户通常会听到什么声音？",
+      "question": "“摩尔”是化学中用来表示什么的单位？",
       "options": [
         {
           "letter": "A",
-          "text": "安静的嗡嗡声",
+          "text": "质量",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "一系列尖锐的哔哔声和噪音",
+          "text": "物质的量 (粒子数量)",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "优美的音乐",
+          "text": "体积",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "没有特别的声音",
+          "text": "浓度",
           "is_correct": false
         }
       ],
@@ -1302,80 +1302,80 @@
     },
     {
       "id": 49,
-      "question": "第一个被广泛使用的电脑表情符号 :-) 是由谁提议的？",
+      "question": "氧化还原反应中，失去电子的物质发生什么反应？",
       "options": [
         {
           "letter": "A",
-          "text": "蒂姆·伯纳斯-李",
+          "text": "还原反应",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "雷·汤姆林森",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "斯科特·法尔曼",
+          "text": "氧化反应",
           "is_correct": true
         },
         {
+          "letter": "C",
+          "text": "中和反应",
+          "is_correct": false
+        },
+        {
           "letter": "D",
-          "text": "拉里·泰斯勒",
+          "text": "水解反应",
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "B"
     },
     {
       "id": 50,
-      "question": "计算机中的RAM (随机存取存储器) 主要作用是什么？",
+      "question": "以下哪种现象不属于化学变化？",
       "options": [
         {
           "letter": "A",
-          "text": "永久存储操作系统和文件",
+          "text": "木材燃烧",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "在计算机关机后保存数据",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "临时存储正在运行的程序和数据",
+          "text": "水结冰",
           "is_correct": true
         },
         {
+          "letter": "C",
+          "text": "铁生锈",
+          "is_correct": false
+        },
+        {
           "letter": "D",
-          "text": "提高网络连接速度",
+          "text": "食物腐烂",
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "B"
     },
     {
       "id": 51,
-      "question": "谁被认为是设计了“分析机”，一种早期机械通用计算机概念的人？",
+      "question": "重水 (D₂O) 与普通水 (H₂O) 的区别在于其氢原子是什么？",
       "options": [
         {
           "letter": "A",
-          "text": "艾伦·图灵",
+          "text": "氢离子 (H⁺)",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "查尔斯·巴贝奇",
+          "text": "氢的同位素氘 (D)",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "约翰·阿塔纳索夫",
+          "text": "氢的同位素氚 (T)",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "康拉德·楚泽",
+          "text": "氢气分子 (H₂)",
           "is_correct": false
         }
       ],
@@ -1383,26 +1383,26 @@
     },
     {
       "id": 52,
-      "question": "哪款软件是早期个人计算机上非常流行的文字处理软件之一？",
+      "question": "有机化学主要研究含有什么元素的化合物？",
       "options": [
         {
           "letter": "A",
-          "text": "Microsoft Word",
+          "text": "硅 (Si)",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "WordStar",
+          "text": "碳 (C)",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "Google Docs",
+          "text": "氧 (O)",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "Notepad",
+          "text": "氮 (N)",
           "is_correct": false
         }
       ],
@@ -1410,26 +1410,26 @@
     },
     {
       "id": 53,
-      "question": "在计算机科学中，“算法”指的是什么？",
+      "question": "“酸碱中和反应”的产物通常是什么？",
       "options": [
         {
           "letter": "A",
-          "text": "一种计算机硬件",
+          "text": "酸和碱",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "解决问题或完成任务的一系列步骤",
+          "text": "盐和水",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "一种编程语言",
+          "text": "氧化物和氢气",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "计算机病毒",
+          "text": "单质和化合物",
           "is_correct": false
         }
       ],
@@ -1437,161 +1437,161 @@
     },
     {
       "id": 54,
-      "question": "世界上第一台家用视频游戏机是什么？",
+      "question": "以下哪种气体有刺激性气味，常用于制作化肥和清洁剂？",
       "options": [
         {
           "letter": "A",
-          "text": "Atari 2600",
+          "text": "氧气 (O₂)",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "Nintendo Entertainment System (NES)",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "Magnavox Odyssey",
+          "text": "氨气 (NH₃)",
           "is_correct": true
         },
         {
+          "letter": "C",
+          "text": "氢气 (H₂)",
+          "is_correct": false
+        },
+        {
           "letter": "D",
-          "text": "ColecoVision",
+          "text": "氮气 (N₂)",
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "B"
     },
     {
       "id": 55,
-      "question": "苹果公司著名的广告语“Think Different”(不同凡想) 是在哪个时期推出的？",
+      "question": "“同位素”是指具有相同质子数但什么数目不同的原子？",
       "options": [
         {
           "letter": "A",
-          "text": "1970年代末",
+          "text": "电子数",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "1980年代中期",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "1990年代末",
+          "text": "中子数",
           "is_correct": true
         },
         {
+          "letter": "C",
+          "text": "轨道数",
+          "is_correct": false
+        },
+        {
           "letter": "D",
-          "text": "2000年代初",
+          "text": "化合价",
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "B"
     },
     {
       "id": 56,
-      "question": "光盘 (CD) 技术最初是为存储什么而开发的？",
+      "question": "用于制作铅笔芯的石墨，其主要物理特性之一是什么？",
       "options": [
         {
           "letter": "A",
-          "text": "计算机软件",
+          "text": "非常坚硬",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "视频电影",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "数字音频",
+          "text": "质软，能在纸上留下痕迹",
           "is_correct": true
         },
         {
+          "letter": "C",
+          "text": "透明",
+          "is_correct": false
+        },
+        {
           "letter": "D",
-          "text": "大型数据库",
+          "text": "绝缘体",
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "B"
     },
     {
       "id": 57,
-      "question": "年问题 (Y2K Bug) 主要与计算机系统的哪个方面有关？",
+      "question": "“电负性”是衡量原子在化学键中吸引什么能力的物理量？",
       "options": [
         {
           "letter": "A",
-          "text": "网络安全漏洞",
+          "text": "质子",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "处理器速度不够",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "日期和时间的表示方式",
+          "text": "电子",
           "is_correct": true
         },
         {
+          "letter": "C",
+          "text": "中子",
+          "is_correct": false
+        },
+        {
           "letter": "D",
-          "text": "存储容量不足",
+          "text": "光子",
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "B"
     },
     {
       "id": 58,
-      "question": "最早的社交媒体网站之一，允许用户创建个人资料和连接朋友的是哪个？",
+      "question": "以下哪种是制作玻璃的主要原料之一？",
       "options": [
         {
           "letter": "A",
-          "text": "Facebook",
+          "text": "石灰石 (CaCO₃)",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "MySpace",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "SixDegrees.com",
+          "text": "沙子 (主要成分 SiO₂)",
           "is_correct": true
         },
         {
+          "letter": "C",
+          "text": "食盐 (NaCl)",
+          "is_correct": false
+        },
+        {
           "letter": "D",
-          "text": "Twitter",
+          "text": "黏土",
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "B"
     },
     {
       "id": 59,
-      "question": "触摸屏技术在普及到智能手机之前，较早应用于哪些设备？",
+      "question": "“升华”是指物质从什么态直接变为气态的过程？",
       "options": [
         {
           "letter": "A",
-          "text": "家用电视遥控器",
+          "text": "液态",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "个人数字助理 (PDAs) 和信息亭",
+          "text": "固态",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "汽车收音机",
+          "text": "等离子态",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "游戏手柄",
+          "text": "超临界流体态",
           "is_correct": false
         }
       ],
@@ -1599,26 +1599,26 @@
     },
     {
       "id": 60,
-      "question": "“云计算” (Cloud Computing) 的核心思想是什么？",
+      "question": "用于灭火的二氧化碳灭火器，其灭火原理主要是？",
       "options": [
         {
           "letter": "A",
-          "text": "将所有计算都在本地计算机完成",
+          "text": "降低可燃物温度",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "通过互联网按需使用计算资源和服务",
+          "text": "隔绝空气 (氧气) 和降温",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "一种新的天气预报技术",
+          "text": "与可燃物发生化学反应",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "保护计算机免受雷击",
+          "text": "增加空气湿度",
           "is_correct": false
         }
       ],
@@ -1626,53 +1626,53 @@
     },
     {
       "id": 61,
-      "question": "第一款图形界面的网络浏览器Mosaic是哪个大学开发的？",
+      "question": "以下哪种元素是地壳中含量最丰富的金属元素？",
       "options": [
         {
           "letter": "A",
-          "text": "斯坦福大学",
+          "text": "铁 (Fe)",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "麻省理工学院",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "伊利诺伊大学厄巴纳-香槟分校",
+          "text": "铝 (Al)",
           "is_correct": true
         },
         {
+          "letter": "C",
+          "text": "钙 (Ca)",
+          "is_correct": false
+        },
+        {
           "letter": "D",
-          "text": "加州大学伯克利分校",
+          "text": "钠 (Na)",
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "B"
     },
     {
       "id": 62,
-      "question": "“博客”(Blog) 这个词是由哪个词缩写而来的？",
+      "question": "“电泳”是一种分离技术，它利用带电粒子在什么中的迁移速度不同来进行分离？",
       "options": [
         {
           "letter": "A",
-          "text": "Biography Log (传记日志)",
+          "text": "磁场",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "Weblog (网络日志)",
+          "text": "电场",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "Broadcasting Log (广播日志)",
+          "text": "重力场",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "Book Log (书籍日志)",
+          "text": "离心力场",
           "is_correct": false
         }
       ],
@@ -1680,80 +1680,80 @@
     },
     {
       "id": 63,
-      "question": "世界上第一条发送的短信内容是什么？",
+      "question": "“高分子化合物”（或聚合物）的特点是什么？",
       "options": [
         {
           "letter": "A",
-          "text": "Hello",
+          "text": "分子量很小",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "LOL",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "Merry Christmas",
+          "text": "由许多重复的结构单元（单体）组成，分子量很大",
           "is_correct": true
         },
         {
+          "letter": "C",
+          "text": "只存在于自然界",
+          "is_correct": false
+        },
+        {
           "letter": "D",
-          "text": "OK",
+          "text": "都是无机物",
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "B"
     },
     {
       "id": 64,
-      "question": "哪家公司开发了PowerPoint演示软件？",
+      "question": "以下哪种是常见的酸碱指示剂，在酸性溶液中呈红色，碱性溶液中呈蓝色？",
       "options": [
         {
           "letter": "A",
-          "text": "苹果 (Apple)",
+          "text": "酚酞",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "谷歌 (Google)",
-          "is_correct": false
+          "text": "石蕊试液",
+          "is_correct": true
         },
         {
           "letter": "C",
-          "text": "IBM",
+          "text": "甲基橙",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "微软 (Microsoft)",
-          "is_correct": true
+          "text": "淀粉溶液",
+          "is_correct": false
         }
       ],
-      "correct_answer": "D"
+      "correct_answer": "B"
     },
     {
       "id": 65,
-      "question": "早期的电脑游戏通常存储在什么介质上？",
+      "question": "“化学平衡”是指在可逆反应中，什么速率相等的状态？",
       "options": [
         {
           "letter": "A",
-          "text": "光盘 (CD-ROM)",
+          "text": "反应物消耗和产物生成",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "磁带或软盘",
+          "text": "正反应和逆反应",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "U盘 (USB Drive)",
+          "text": "分子运动和分子碰撞",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "云存储",
+          "text": "能量吸收和能量释放",
           "is_correct": false
         }
       ],
@@ -1761,26 +1761,26 @@
     },
     {
       "id": 66,
-      "question": "“人工智能”(AI) 这个术语最早是在哪一年提出的？",
+      "question": "制作温度计常用的液态金属是什么？",
       "options": [
         {
           "letter": "A",
-          "text": "1946年",
+          "text": "镓 (Ga)",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "1956年",
+          "text": "汞 (Hg)",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "1966年",
+          "text": "钠 (Na)",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "1976年",
+          "text": "锂 (Li)",
           "is_correct": false
         }
       ],
@@ -1788,53 +1788,53 @@
     },
     {
       "id": 67,
-      "question": "哪位科学家被认为是“信息论之父”？",
+      "question": "“勒沙特列原理”是用来判断什么因素改变时，化学平衡移动方向的？",
       "options": [
         {
           "letter": "A",
-          "text": "艾伦·图灵",
+          "text": "反应时间",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "约翰·冯·诺依曼",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "克劳德·香农",
+          "text": "浓度、压强或温度",
           "is_correct": true
         },
         {
+          "letter": "C",
+          "text": "催化剂种类",
+          "is_correct": false
+        },
+        {
           "letter": "D",
-          "text": "阿尔伯特·爱因斯坦",
+          "text": "反应容器形状",
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "B"
     },
     {
       "id": 68,
-      "question": "计算机键盘上的“Ctrl”键通常代表什么？",
+      "question": "蛋白质的基本组成单位是什么？",
       "options": [
         {
           "letter": "A",
-          "text": "Copy (复制)",
+          "text": "核苷酸",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "Control (控制)",
+          "text": "氨基酸",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "Continue (继续)",
+          "text": "脂肪酸",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "Center (居中)",
+          "text": "单糖",
           "is_correct": false
         }
       ],
@@ -1842,80 +1842,80 @@
     },
     {
       "id": 69,
-      "question": "世界上第一个鼠标有几个按键？",
+      "question": "以下哪种是常见的还原剂？",
       "options": [
         {
           "letter": "A",
-          "text": "一个",
-          "is_correct": true
-        },
-        {
-          "letter": "B",
-          "text": "两个",
+          "text": "氧气 (O₂)",
           "is_correct": false
         },
         {
+          "letter": "B",
+          "text": "氢气 (H₂)",
+          "is_correct": true
+        },
+        {
           "letter": "C",
-          "text": "三个",
+          "text": "氯气 (Cl₂)",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "没有按键",
+          "text": "浓硫酸 (H₂SO₄)",
           "is_correct": false
         }
       ],
-      "correct_answer": "A"
+      "correct_answer": "B"
     },
     {
       "id": 70,
-      "question": "哪家公司推出了第一款成功的掌上电脑（PDA）——PalmPilot？",
+      "question": "“萃取”是一种利用物质在两种互不相溶（或微溶）溶剂中什么不同来进行分离的方法？",
       "options": [
         {
           "letter": "A",
-          "text": "苹果 (Apple)",
+          "text": "密度",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "微软 (Microsoft)",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "Palm Computing",
+          "text": "溶解度或分配系数",
           "is_correct": true
         },
         {
+          "letter": "C",
+          "text": "熔点",
+          "is_correct": false
+        },
+        {
           "letter": "D",
-          "text": "IBM",
+          "text": "颜色",
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "B"
     },
     {
       "id": 71,
-      "question": "互联网域名系统 (DNS) 的主要作用是什么？",
+      "question": "元素周期表中，横行被称为？",
       "options": [
         {
           "letter": "A",
-          "text": "加密网络数据",
+          "text": "族",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "将域名转换为IP地址",
+          "text": "周期",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "提高下载速度",
+          "text": "系列",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "过滤垃圾邮件",
+          "text": "能级",
           "is_correct": false
         }
       ],
@@ -1923,107 +1923,107 @@
     },
     {
       "id": 72,
-      "question": "“黑客”(Hacker) 这个词最初的含义是什么？",
+      "question": "以下哪种物质在标准状况下是气体，并且是无色无味的？",
       "options": [
         {
           "letter": "A",
-          "text": "网络罪犯",
+          "text": "溴 (Br₂)",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "计算机病毒制造者",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "热衷于解决计算机系统问题的专家",
+          "text": "氮气 (N₂)",
           "is_correct": true
         },
         {
+          "letter": "C",
+          "text": "碘 (I₂)",
+          "is_correct": false
+        },
+        {
           "letter": "D",
-          "text": "密码破解者",
+          "text": "硫 (S)",
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "B"
     },
     {
       "id": 73,
-      "question": "第一款广泛使用的电子表格软件是什么？",
+      "question": "“布朗运动”是指悬浮在液体或气体中的微小颗粒做出的什么运动？",
       "options": [
         {
           "letter": "A",
-          "text": "Microsoft Excel",
+          "text": "匀速直线运动",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "Lotus 1-2-3",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "VisiCalc",
+          "text": "无规则的、永不停息的运动",
           "is_correct": true
         },
         {
+          "letter": "C",
+          "text": "匀速圆周运动",
+          "is_correct": false
+        },
+        {
           "letter": "D",
-          "text": "Google Sheets",
+          "text": "简谐振动",
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "B"
     },
     {
       "id": 74,
-      "question": "计算机显示器早期的主要颜色是什么？",
+      "question": "以下哪种是常见的食品甜味剂，但不是糖？",
       "options": [
         {
           "letter": "A",
-          "text": "全彩色",
+          "text": "葡萄糖",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "黑白",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "绿色或琥珀色单色",
+          "text": "阿斯巴甜",
           "is_correct": true
         },
         {
+          "letter": "C",
+          "text": "果糖",
+          "is_correct": false
+        },
+        {
           "letter": "D",
-          "text": "蓝色单色",
+          "text": "麦芽糖",
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "B"
     },
     {
       "id": 75,
-      "question": "“防火墙”(Firewall) 在网络安全中的主要作用是什么？",
+      "question": "“离子键”通常形成于什么类型的元素之间？",
       "options": [
         {
           "letter": "A",
-          "text": "加速网络连接",
+          "text": "两个非金属元素",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "阻止未经授权的访问",
+          "text": "金属元素和非金属元素",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "备份数据",
+          "text": "两个金属元素",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "清理计算机病毒",
+          "text": "两个惰性气体元素",
           "is_correct": false
         }
       ],
@@ -2031,53 +2031,53 @@
     },
     {
       "id": 76,
-      "question": "哪种编程语言是以一位17世纪的数学家命名的？",
+      "question": "“光解水”是指利用光能将水分解成什么？",
       "options": [
         {
           "letter": "A",
-          "text": "Java",
+          "text": "水蒸气和冰",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "Python",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "Pascal",
+          "text": "氢气和氧气",
           "is_correct": true
         },
         {
+          "letter": "C",
+          "text": "氢离子和氢氧根离子",
+          "is_correct": false
+        },
+        {
           "letter": "D",
-          "text": "C++",
+          "text": "重水和轻水",
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "B"
     },
     {
       "id": 77,
-      "question": "哪项技术使得计算机可以做得更小、更快、更便宜？",
+      "question": "以下哪种物质是人体内主要的能量储存形式之一？",
       "options": [
         {
           "letter": "A",
-          "text": "真空管",
+          "text": "蛋白质",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "集成电路",
+          "text": "脂肪 (甘油三酯)",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "打孔卡",
+          "text": "维生素",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "磁鼓存储器",
+          "text": "核酸",
           "is_correct": false
         }
       ],
@@ -2085,107 +2085,107 @@
     },
     {
       "id": 78,
-      "question": "“Wi-Fi”技术标准主要由哪个组织制定？",
+      "question": "“丁达尔效应”是用来区分什么和什么的现象？",
       "options": [
         {
           "letter": "A",
-          "text": "联合国 (UN)",
+          "text": "酸和碱",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "国际标准化组织 (ISO)",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "电气和电子工程师协会 (IEEE)",
+          "text": "胶体和真溶液",
           "is_correct": true
         },
         {
+          "letter": "C",
+          "text": "纯净物和混合物",
+          "is_correct": false
+        },
+        {
           "letter": "D",
-          "text": "万维网联盟 (W3C)",
+          "text": "导体和绝缘体",
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "B"
     },
     {
       "id": 79,
-      "question": "世界上第一个搜索引擎叫什么名字？",
+      "question": "以下哪种是常见的温室气体，会导致全球变暖？",
       "options": [
         {
           "letter": "A",
-          "text": "Google",
+          "text": "氮气 (N₂)",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "Yahoo",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "Archie",
+          "text": "二氧化碳 (CO₂)",
           "is_correct": true
         },
         {
+          "letter": "C",
+          "text": "氧气 (O₂)",
+          "is_correct": false
+        },
+        {
           "letter": "D",
-          "text": "Bing",
+          "text": "氩气 (Ar)",
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "B"
     },
     {
       "id": 80,
-      "question": "电脑游戏《俄罗斯方块》(Tetris) 是哪个国家的人发明的？",
+      "question": "“皂化反应”是指油脂在什么条件下水解生成高级脂肪酸盐和甘油的过程？",
       "options": [
         {
           "letter": "A",
-          "text": "美国",
+          "text": "酸性",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "日本",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "苏联/俄罗斯",
+          "text": "碱性",
           "is_correct": true
         },
         {
+          "letter": "C",
+          "text": "中性",
+          "is_correct": false
+        },
+        {
           "letter": "D",
-          "text": "中国",
+          "text": "高温高压",
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "B"
     },
     {
       "id": 81,
-      "question": "“调制解调器”(Modem) 这个词是由哪两个词组合而成的？",
+      "question": "以下哪种金属的导电性最好？",
       "options": [
         {
           "letter": "A",
-          "text": "Mode-Demonstration (模式演示)",
+          "text": "铁 (Fe)",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "Modulator-Demodulator (调制器-解调器)",
+          "text": "银 (Ag)",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "Modern-Element (现代元件)",
+          "text": "铝 (Al)",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "Motion-Decoder (运动解码器)",
+          "text": "铜 (Cu)",
           "is_correct": false
         }
       ],
@@ -2193,53 +2193,53 @@
     },
     {
       "id": 82,
-      "question": "哪家公司以其图形处理单元 (GPU) 而闻名，尤其是在游戏和人工智能领域？",
+      "question": "“发酵”过程通常涉及到什么生物的作用？",
       "options": [
         {
           "letter": "A",
-          "text": "Intel",
+          "text": "病毒",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "AMD",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "NVIDIA",
+          "text": "微生物 (如酵母菌、细菌)",
           "is_correct": true
         },
         {
+          "letter": "C",
+          "text": "植物",
+          "is_correct": false
+        },
+        {
           "letter": "D",
-          "text": "Qualcomm",
+          "text": "昆虫",
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "B"
     },
     {
       "id": 83,
-      "question": "“蓝牙”(Bluetooth) 技术名称的灵感来源于什么？",
+      "question": "“卤素”指的是元素周期表中的哪一族元素？",
       "options": [
         {
           "letter": "A",
-          "text": "一种蓝色的花",
+          "text": "第1族 (碱金属)",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "一位古代丹麦国王的名字",
+          "text": "第17族 (VIIA族)",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "发明者的牙齿颜色",
+          "text": "第18族 (惰性气体)",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "一种蓝色的鸟",
+          "text": "第2族 (碱土金属)",
           "is_correct": false
         }
       ],
@@ -2247,188 +2247,188 @@
     },
     {
       "id": 84,
-      "question": "早期非常流行的文字处理软件WordPerfect是由哪家公司最初开发的？",
+      "question": "以下哪种是常见的有机溶剂，常用于油漆稀释剂或干洗剂？",
       "options": [
         {
           "letter": "A",
-          "text": "微软 (Microsoft)",
+          "text": "水 (H₂O)",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "苹果 (Apple)",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "Satellite Software International",
+          "text": "汽油 (主要成分为烃类)",
           "is_correct": true
         },
         {
+          "letter": "C",
+          "text": "盐酸 (HCl)",
+          "is_correct": false
+        },
+        {
           "letter": "D",
-          "text": "IBM",
+          "text": "氢氧化钠溶液 (NaOH)",
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "B"
     },
     {
       "id": 85,
-      "question": "计算机的“剪切、复制和粘贴”功能是由谁发明的？",
+      "question": "“吸热反应”是指反应过程中会发生什么能量变化？",
       "options": [
         {
           "letter": "A",
-          "text": "比尔·盖茨",
+          "text": "释放热量",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "史蒂夫·乔布斯",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "拉里·泰斯勒",
+          "text": "吸收热量",
           "is_correct": true
         },
         {
+          "letter": "C",
+          "text": "不发生热量变化",
+          "is_correct": false
+        },
+        {
           "letter": "D",
-          "text": "蒂姆·伯纳斯-李",
+          "text": "先吸热后放热",
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "B"
     },
     {
       "id": 86,
-      "question": "哪种早期的操作系统以其命令行界面而闻名，并在IBM PC上广泛使用？",
+      "question": "以下哪种宝石的主要化学成分是三氧化二铝 (Al₂O₃)？",
       "options": [
         {
           "letter": "A",
-          "text": "Windows 3.1",
+          "text": "钻石 (C)",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "macOS",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "MS-DOS",
+          "text": "红宝石/蓝宝石",
           "is_correct": true
         },
         {
+          "letter": "C",
+          "text": "珍珠 (CaCO₃)",
+          "is_correct": false
+        },
+        {
           "letter": "D",
-          "text": "Linux",
+          "text": "祖母绿 (铍铝硅酸盐)",
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "B"
     },
     {
       "id": 87,
-      "question": "“虚拟现实”(VR) 这个术语最早是什么时候被创造出来的？",
+      "question": "“半衰期”是放射性元素衰变掉一半所需的时间，它主要用于什么领域？",
       "options": [
         {
           "letter": "A",
-          "text": "1960年代",
+          "text": "测量物质的密度",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "1970年代",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "1980年代",
+          "text": "放射性定年 (如碳-14定年)",
           "is_correct": true
         },
         {
+          "letter": "C",
+          "text": "确定物质的熔点",
+          "is_correct": false
+        },
+        {
           "letter": "D",
-          "text": "1990年代",
+          "text": "分析物质的颜色",
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "B"
     },
     {
       "id": 88,
-      "question": "哪家公司是第一家市值达到一万亿美元的科技公司？",
+      "question": "以下哪种是制作不粘锅涂层的主要材料？",
       "options": [
         {
           "letter": "A",
-          "text": "微软 (Microsoft)",
+          "text": "聚乙烯 (PE)",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "谷歌 (Google/Alphabet)",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "苹果 (Apple)",
+          "text": "聚四氟乙烯 (PTFE, 特氟龙)",
           "is_correct": true
         },
         {
+          "letter": "C",
+          "text": "聚氯乙烯 (PVC)",
+          "is_correct": false
+        },
+        {
           "letter": "D",
-          "text": "亚马逊 (Amazon)",
+          "text": "尼龙",
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "B"
     },
     {
       "id": 89,
-      "question": "世界上第一张通过互联网上传的照片是什么？",
+      "question": "“缓冲溶液”是指能够抵抗少量外来酸或碱的加入而保持什么基本不变的溶液？",
       "options": [
         {
           "letter": "A",
-          "text": "一只猫",
+          "text": "温度",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "月球表面",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "一个女子乐队 Les Horribles Cernettes",
+          "text": "pH值",
           "is_correct": true
         },
         {
+          "letter": "C",
+          "text": "体积",
+          "is_correct": false
+        },
+        {
           "letter": "D",
-          "text": "咖啡壶",
+          "text": "颜色",
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "B"
     },
     {
       "id": 90,
-      "question": "“Podcast”(播客) 这个词的“Pod”指的是什么？",
+      "question": "以下哪种现象是由于水的表面张力造成的？",
       "options": [
         {
           "letter": "A",
-          "text": "豌豆荚 (Pea pod)",
+          "text": "水沸腾",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "iPod",
+          "text": "水黾能在水面上行走",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "讲台 (Podium)",
+          "text": "冰浮在水面",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "便携式设备 (Portable On Demand)",
+          "text": "彩虹的形成",
           "is_correct": false
         }
       ],
@@ -2436,273 +2436,273 @@
     },
     {
       "id": 91,
-      "question": "哪家公司开发了Java编程语言？",
+      "question": "“共价键”通常形成于什么类型的原子之间，通过共享电子对？",
       "options": [
         {
           "letter": "A",
-          "text": "微软 (Microsoft)",
+          "text": "金属原子和非金属原子",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "IBM",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "Sun Microsystems",
+          "text": "非金属原子之间",
           "is_correct": true
         },
         {
+          "letter": "C",
+          "text": "金属原子之间 (形成金属键)",
+          "is_correct": false
+        },
+        {
           "letter": "D",
-          "text": "苹果 (Apple)",
+          "text": "惰性气体原子之间",
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "B"
     },
     {
       "id": 92,
-      "question": "计算机的“桌面”比喻最初是在哪个研究机构提出的？",
+      "question": "以下哪种是常见的食品添加剂，用于增加食物的酸味？",
       "options": [
         {
           "letter": "A",
-          "text": "贝尔实验室 (Bell Labs)",
+          "text": "食盐 (NaCl)",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "麻省理工学院媒体实验室 (MIT Media Lab)",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "施乐帕洛阿尔托研究中心 (Xerox PARC)",
+          "text": "柠檬酸",
           "is_correct": true
         },
         {
+          "letter": "C",
+          "text": "小苏打 (NaHCO₃)",
+          "is_correct": false
+        },
+        {
           "letter": "D",
-          "text": "IBM研究院",
+          "text": "糖精",
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "B"
     },
     {
       "id": 93,
-      "question": "“CAPTCHA”的主要目的是什么？",
+      "question": "“电化学腐蚀”是指金属在什么介质中发生的腐蚀过程，并伴有电流产生？",
       "options": [
         {
           "letter": "A",
-          "text": "加密数据",
+          "text": "真空",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "提高网站加载速度",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "区分计算机和人类用户",
+          "text": "电解质溶液或潮湿空气",
           "is_correct": true
         },
         {
+          "letter": "C",
+          "text": "纯净干燥空气",
+          "is_correct": false
+        },
+        {
           "letter": "D",
-          "text": "扫描病毒",
+          "text": "惰性气体",
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "B"
     },
     {
       "id": 94,
-      "question": "哪种存储设备因为其便携性和容量取代了软盘？",
+      "question": "以下哪种是人体必需的微量元素，缺了会导致甲状腺肿大？",
       "options": [
         {
           "letter": "A",
-          "text": "磁带",
+          "text": "铁 (Fe)",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "CD-ROM",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "U盘/闪存盘",
+          "text": "碘 (I)",
           "is_correct": true
         },
         {
+          "letter": "C",
+          "text": "锌 (Zn)",
+          "is_correct": false
+        },
+        {
           "letter": "D",
-          "text": "Zip驱动器",
+          "text": "钙 (Ca)",
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "B"
     },
     {
       "id": 95,
-      "question": "世界上第一款智能手机被认为是哪一款？",
+      "question": "“色谱法”是一种重要的分离和分析技术，它利用混合物中各组分在固定相和流动相之间什么不同来进行分离？",
       "options": [
         {
           "letter": "A",
-          "text": "iPhone",
+          "text": "颜色",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "BlackBerry 850",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "IBM Simon",
+          "text": "分配或吸附能力",
           "is_correct": true
         },
         {
+          "letter": "C",
+          "text": "分子量大小",
+          "is_correct": false
+        },
+        {
           "letter": "D",
-          "text": "Nokia 9000 Communicator",
+          "text": "熔点高低",
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "B"
     },
     {
       "id": 96,
-      "question": "“超文本标记语言”(HTML) 主要用于创建什么？",
+      "question": "以下哪种气体可以支持燃烧，被称为“助燃气体”？",
       "options": [
         {
           "letter": "A",
-          "text": "操作系统",
+          "text": "氢气 (H₂)",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "数据库",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "网页",
+          "text": "氧气 (O₂)",
           "is_correct": true
         },
         {
+          "letter": "C",
+          "text": "氮气 (N₂)",
+          "is_correct": false
+        },
+        {
           "letter": "D",
-          "text": "电子游戏",
+          "text": "二氧化碳 (CO₂)",
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "B"
     },
     {
       "id": 97,
-      "question": "哪位计算机科学家提出了“图灵测试”来判断机器是否能表现出与人无法区分的智能行为？",
+      "question": "“路易斯酸”是指在化学反应中能够接受什么的物质？",
       "options": [
         {
           "letter": "A",
-          "text": "约翰·冯·诺依曼",
+          "text": "质子 (H⁺)",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "克劳德·香农",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "艾伦·图灵",
+          "text": "电子对",
           "is_correct": true
         },
         {
+          "letter": "C",
+          "text": "中子",
+          "is_correct": false
+        },
+        {
           "letter": "D",
-          "text": "查尔斯·巴贝奇",
+          "text": "氧原子",
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "B"
     },
     {
       "id": 98,
-      "question": "“表情包”(Meme) 这个词最初是由谁创造的？",
+      "question": "以下哪种是常见的合成纤维，常用于制作衣物和地毯？",
       "options": [
         {
           "letter": "A",
-          "text": "蒂姆·伯纳斯-李",
+          "text": "棉花",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "斯科特·法尔曼",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "理查德·道金斯",
+          "text": "尼龙 (Nylon)",
           "is_correct": true
         },
         {
+          "letter": "C",
+          "text": "羊毛",
+          "is_correct": false
+        },
+        {
           "letter": "D",
-          "text": "互联网用户集体创造",
+          "text": "丝绸",
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "B"
     },
     {
       "id": 99,
-      "question": "哪家公司开发了Flash动画技术，曾在互联网上非常流行？",
+      "question": "“电解质”是指在什么状态下能够导电的化合物？",
       "options": [
         {
           "letter": "A",
-          "text": "微软 (Microsoft)",
+          "text": "固态",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "苹果 (Apple)",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "Macromedia",
+          "text": "熔融状态或水溶液中",
           "is_correct": true
         },
         {
+          "letter": "C",
+          "text": "气态",
+          "is_correct": false
+        },
+        {
           "letter": "D",
-          "text": "谷歌 (Google)",
+          "text": "任何状态下都不能导电",
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "B"
     },
     {
       "id": 100,
-      "question": "计算机主板上的BIOS是什么的缩写？",
+      "question": "以下哪位化学家因其在气体定律方面的研究而闻名，并有以他名字命名的气体体积与温度关系的定律？",
       "options": [
         {
           "letter": "A",
-          "text": "Binary Input Output Signal (二进制输入输出信号)",
+          "text": "罗伯特·波义耳",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "Basic Integrated Operating System (基本集成操作系统)",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "Basic Input/Output System (基本输入输出系统)",
+          "text": "雅克·查理 (或盖-吕萨克)",
           "is_correct": true
         },
         {
+          "letter": "C",
+          "text": "阿伏伽德罗",
+          "is_correct": false
+        },
+        {
           "letter": "D",
-          "text": "Boot Interface Operating Software (引导接口操作软件)",
+          "text": "约翰·道尔顿",
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "B"
     }
   ]
 }

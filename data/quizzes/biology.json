@@ -1,31 +1,31 @@
 {
-  "quiz_title": "计算机",
-  "description": "关于先驱人物、创新技术、里程碑事件和技术发展历程问题",
+  "quiz_title": "生物学",
+  "description": "著名生物学家、突破性发现、迷人生命过程等问题的生物学问题",
   "total_questions": 100,
   "questions_per_quiz": 20,
   "questions": [
     {
       "id": 1,
-      "question": "第一台电子计算机ENIAC诞生于哪一年？",
+      "question": "所有生物的基本结构和功能单位是什么？",
       "options": [
         {
           "letter": "A",
-          "text": "1936年",
+          "text": "原子",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "1946年",
+          "text": "细胞",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "1956年",
+          "text": "分子",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "1966年",
+          "text": "器官",
           "is_correct": false
         }
       ],
@@ -33,134 +33,134 @@
     },
     {
       "id": 2,
-      "question": "ENIAC（第一台电子计算机）主要用于什么目的？",
+      "question": "谁被认为是“进化论之父”？",
       "options": [
         {
           "letter": "A",
-          "text": "天气预报",
+          "text": "格雷戈尔·孟德尔",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "商业数据处理",
+          "text": "查尔斯·达尔文",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "路易·巴斯德",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "詹姆斯·沃森",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 3,
+      "question": "植物通过什么过程将光能转化为化学能？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "呼吸作用",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "蒸腾作用",
           "is_correct": false
         },
         {
           "letter": "C",
-          "text": "弹道计算",
+          "text": "光合作用",
           "is_correct": true
         },
         {
           "letter": "D",
-          "text": "文字处理",
+          "text": "发酵作用",
           "is_correct": false
         }
       ],
       "correct_answer": "C"
     },
     {
-      "id": 3,
-      "question": "“计算机之父”通常指的是谁？",
-      "options": [
-        {
-          "letter": "A",
-          "text": "比尔·盖茨",
-          "is_correct": false
-        },
-        {
-          "letter": "B",
-          "text": "史蒂夫·乔布斯",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "艾伦·图灵",
-          "is_correct": false
-        },
-        {
-          "letter": "D",
-          "text": "约翰·冯·诺依曼",
-          "is_correct": true
-        }
-      ],
-      "correct_answer": "D"
-    },
-    {
       "id": 4,
-      "question": "世界上第一个计算机程序员普遍被认为是？",
+      "question": "DNA分子的结构是什么形状？",
       "options": [
         {
           "letter": "A",
-          "text": "格蕾丝·霍珀",
+          "text": "单螺旋",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "阿达·洛芙莱斯",
-          "is_correct": true
+          "text": "球形",
+          "is_correct": false
         },
         {
           "letter": "C",
-          "text": "玛格丽特·汉密尔顿",
-          "is_correct": false
+          "text": "双螺旋",
+          "is_correct": true
         },
         {
           "letter": "D",
-          "text": "简·詹宁斯·巴蒂克",
+          "text": "线性链状",
           "is_correct": false
         }
       ],
-      "correct_answer": "B"
+      "correct_answer": "C"
     },
     {
       "id": 5,
-      "question": "计算机鼠标是谁发明的？",
+      "question": "人体最大的器官是什么？",
       "options": [
         {
           "letter": "A",
-          "text": "史蒂夫·沃兹尼亚克",
+          "text": "肝脏",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "道格拉斯·恩格尔巴特",
-          "is_correct": true
-        },
-        {
-          "letter": "C",
-          "text": "蒂姆·伯纳斯-李",
+          "text": "大脑",
           "is_correct": false
         },
         {
+          "letter": "C",
+          "text": "皮肤",
+          "is_correct": true
+        },
+        {
           "letter": "D",
-          "text": "罗伯特·梅特卡夫",
+          "text": "肺",
           "is_correct": false
         }
       ],
-      "correct_answer": "B"
+      "correct_answer": "C"
     },
     {
       "id": 6,
-      "question": "最早的计算机鼠标是用什么材料制作外壳的？",
+      "question": "“遗传学之父”通常指的是哪位科学家，他通过豌豆实验揭示了遗传规律？",
       "options": [
         {
           "letter": "A",
-          "text": "塑料",
+          "text": "查尔斯·达尔文",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "金属",
+          "text": "托马斯·亨特·摩尔根",
           "is_correct": false
         },
         {
           "letter": "C",
-          "text": "木头",
+          "text": "格雷戈尔·孟德尔",
           "is_correct": true
         },
         {
           "letter": "D",
-          "text": "橡胶",
+          "text": "詹姆斯·沃森",
           "is_correct": false
         }
       ],
@@ -168,53 +168,53 @@
     },
     {
       "id": 7,
-      "question": "第一台被广泛认为是个人计算机的是？",
+      "question": "血液中的红细胞主要功能是什么？",
       "options": [
         {
           "letter": "A",
-          "text": "IBM PC",
-          "is_correct": false
+          "text": "运输氧气",
+          "is_correct": true
         },
         {
           "letter": "B",
-          "text": "Apple II",
+          "text": "抵抗感染",
           "is_correct": false
         },
         {
           "letter": "C",
-          "text": "Altair 8800",
-          "is_correct": true
+          "text": "凝血",
+          "is_correct": false
         },
         {
           "letter": "D",
-          "text": "Commodore PET",
+          "text": "消化食物",
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "A"
     },
     {
       "id": 8,
-      "question": "“摩尔定律”预测了什么的发展趋势？",
+      "question": "哪位科学家发现了青霉素，开启了抗生素时代？",
       "options": [
         {
           "letter": "A",
-          "text": "硬盘容量",
+          "text": "路易·巴斯德",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "集成电路上晶体管的数量",
+          "text": "亚历山大·弗莱明",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "互联网速度",
+          "text": "罗伯特·科赫",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "显示器分辨率",
+          "text": "约瑟夫·李斯特",
           "is_correct": false
         }
       ],
@@ -222,53 +222,53 @@
     },
     {
       "id": 9,
-      "question": "晶体管的发明对计算机发展有何重大意义？",
+      "question": "恐龙大约在多少年前灭绝了？",
       "options": [
         {
           "letter": "A",
-          "text": "使计算机运行速度变慢",
+          "text": "约1万年前",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "使计算机体积更大、更昂贵",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "替代了真空管，使计算机更小、更快、更可靠",
+          "text": "约6500万年前",
           "is_correct": true
         },
         {
+          "letter": "C",
+          "text": "约2亿年前",
+          "is_correct": false
+        },
+        {
           "letter": "D",
-          "text": "增加了计算机的功耗",
+          "text": "约100万年前",
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "B"
     },
     {
       "id": 10,
-      "question": "互联网的前身是什么网络？",
+      "question": "生物体进行呼吸作用的主要目的是什么？",
       "options": [
         {
           "letter": "A",
-          "text": "NSFNET",
+          "text": "产生二氧化碳",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "ARPANET",
+          "text": "释放能量 (ATP)",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "Ethernet",
+          "text": "吸收氧气",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "World Wide Web",
+          "text": "合成蛋白质",
           "is_correct": false
         }
       ],
@@ -276,107 +276,107 @@
     },
     {
       "id": 11,
-      "question": "万维网（WWW）是谁发明的？",
+      "question": "细胞的“能量工厂”是哪个细胞器？",
       "options": [
         {
           "letter": "A",
-          "text": "马克·安德森",
+          "text": "细胞核",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "蒂姆·伯纳斯-李",
-          "is_correct": true
-        },
-        {
-          "letter": "C",
-          "text": "文顿·瑟夫",
-          "is_correct": false
-        },
-        {
-          "letter": "D",
-          "text": "罗伯特·卡恩",
-          "is_correct": false
-        }
-      ],
-      "correct_answer": "B"
-    },
-    {
-      "id": 12,
-      "question": "第一款成功的图形用户界面（GUI）操作系统是哪个公司的产品？",
-      "options": [
-        {
-          "letter": "A",
-          "text": "微软（Microsoft）",
-          "is_correct": false
-        },
-        {
-          "letter": "B",
-          "text": "IBM",
+          "text": "核糖体",
           "is_correct": false
         },
         {
           "letter": "C",
-          "text": "苹果（Apple）",
+          "text": "线粒体",
           "is_correct": true
         },
         {
           "letter": "D",
-          "text": "施乐（Xerox）",
+          "text": "高尔基体",
           "is_correct": false
         }
       ],
       "correct_answer": "C"
     },
     {
-      "id": 13,
-      "question": "“Bug”这个术语在计算机领域指代程序错误，它的起源与什么有关？",
+      "id": 12,
+      "question": "哪位科学家共同提出了DNA双螺旋结构模型？（选择其中一位）",
       "options": [
         {
           "letter": "A",
-          "text": "一只真正的飞蛾导致计算机故障",
-          "is_correct": true
-        },
-        {
-          "letter": "B",
-          "text": "程序员的笔误",
+          "text": "莱纳斯·鲍林",
           "is_correct": false
         },
         {
+          "letter": "B",
+          "text": "弗朗西斯·克里克",
+          "is_correct": true
+        },
+        {
           "letter": "C",
-          "text": "病毒入侵",
+          "text": "欧文·查戈夫",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "科幻小说中的描述",
+          "text": "罗莎琳·富兰克林",
           "is_correct": false
         }
       ],
-      "correct_answer": "A"
+      "correct_answer": "B"
     },
     {
-      "id": 14,
-      "question": "世界上第一款商用便携式计算机（笔记本电脑）大约有多重？",
+      "id": 13,
+      "question": "病毒是由什么主要成分组成的？",
       "options": [
         {
           "letter": "A",
-          "text": "约1公斤",
+          "text": "细胞核和细胞质",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "约5公斤",
+          "text": "蛋白质外壳和遗传物质 (DNA或RNA)",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "细胞膜和线粒体",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "只有RNA",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 14,
+      "question": "地球上生命最早出现在哪里？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "陆地",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "空气中",
           "is_correct": false
         },
         {
           "letter": "C",
-          "text": "约11公斤",
+          "text": "海洋",
           "is_correct": true
         },
         {
           "letter": "D",
-          "text": "约20公斤",
+          "text": "火山",
           "is_correct": false
         }
       ],
@@ -384,26 +384,26 @@
     },
     {
       "id": 15,
-      "question": "哪家公司在1981年推出了IBM PC，对个人计算机市场产生了巨大影响？",
+      "question": "以下哪种是哺乳动物的共同特征？",
       "options": [
         {
           "letter": "A",
-          "text": "苹果（Apple）",
+          "text": "用鳃呼吸",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "康柏（Compaq）",
+          "text": "体表有羽毛",
           "is_correct": false
         },
         {
           "letter": "C",
-          "text": "IBM",
+          "text": "哺乳 (用乳汁喂养幼崽)",
           "is_correct": true
         },
         {
           "letter": "D",
-          "text": "惠普（HP）",
+          "text": "冷血动物",
           "is_correct": false
         }
       ],
@@ -411,53 +411,53 @@
     },
     {
       "id": 16,
-      "question": "早期的计算机存储数据使用的是什么技术？",
+      "question": "“巴斯德消毒法”是由谁发明的，用于杀死液体中的微生物？",
       "options": [
         {
           "letter": "A",
-          "text": "固态硬盘 (SSD)",
+          "text": "罗伯特·科赫",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "光盘 (CD/DVD)",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "磁芯存储器或打孔卡",
+          "text": "路易·巴斯德",
           "is_correct": true
         },
         {
+          "letter": "C",
+          "text": "约瑟夫·李斯特",
+          "is_correct": false
+        },
+        {
           "letter": "D",
-          "text": "U盘",
+          "text": "爱德华·詹纳",
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "B"
     },
     {
       "id": 17,
-      "question": "世界上第一个计算机病毒的名称是什么？",
+      "question": "酶在生物化学反应中起什么作用？",
       "options": [
         {
           "letter": "A",
-          "text": "Melissa",
+          "text": "提供能量",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "ILOVEYOU",
+          "text": "作为反应物被消耗",
           "is_correct": false
         },
         {
           "letter": "C",
-          "text": "Creeper",
+          "text": "催化剂 (加速反应)",
           "is_correct": true
         },
         {
           "letter": "D",
-          "text": "Brain",
+          "text": "抑制反应",
           "is_correct": false
         }
       ],
@@ -465,26 +465,26 @@
     },
     {
       "id": 18,
-      "question": "Linux操作系统的创始人是谁？",
+      "question": "人类有几对染色体？",
       "options": [
         {
           "letter": "A",
-          "text": "理查德·斯托曼",
+          "text": "22对",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "林纳斯·托瓦兹",
+          "text": "23对",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "比尔·盖茨",
+          "text": "24对",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "安迪·鲁宾",
+          "text": "46对",
           "is_correct": false
         }
       ],
@@ -492,26 +492,26 @@
     },
     {
       "id": 19,
-      "question": "第一封电子邮件是什么时候发送的？",
+      "question": "蜜蜂通过跳“8字舞”来传递什么信息？",
       "options": [
         {
           "letter": "A",
-          "text": "1961年",
+          "text": "危险信号",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "1971年",
+          "text": "食物源的方向和距离",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "1981年",
+          "text": "求偶信号",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "1991年",
+          "text": "天气变化",
           "is_correct": false
         }
       ],
@@ -519,53 +519,53 @@
     },
     {
       "id": 20,
-      "question": "“所见即所得”（WYSIWYG）这个概念最早主要应用于什么类型的软件？",
+      "question": "哪位科学家被认为是“微生物学之父”，并改进了显微镜？",
       "options": [
         {
           "letter": "A",
-          "text": "数据库软件",
+          "text": "罗伯特·胡克",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "编程工具",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "文字处理和桌面排版软件",
+          "text": "安东尼·范·列文虎克",
           "is_correct": true
         },
         {
+          "letter": "C",
+          "text": "路易·巴斯德",
+          "is_correct": false
+        },
+        {
           "letter": "D",
-          "text": "网络浏览器",
+          "text": "罗伯特·科赫",
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "B"
     },
     {
       "id": 21,
-      "question": "个人计算机通常被缩写为什么？",
+      "question": "生物多样性指的是什么的多样性？",
       "options": [
         {
           "letter": "A",
-          "text": "MAC",
+          "text": "仅指物种数量",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "PC",
+          "text": "遗传多样性、物种多样性和生态系统多样性",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "AI",
+          "text": "仅指地理环境",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "CPU",
+          "text": "仅指植物种类",
           "is_correct": false
         }
       ],
@@ -573,53 +573,53 @@
     },
     {
       "id": 22,
-      "question": "苹果公司的第一台计算机叫什么名字？",
+      "question": "食物链中，生产者通常是什么类型的生物？",
       "options": [
         {
           "letter": "A",
-          "text": "Macintosh",
+          "text": "食肉动物",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "Apple Lisa",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "Apple I",
+          "text": "植物 (能进行光合作用)",
           "is_correct": true
         },
         {
+          "letter": "C",
+          "text": "食草动物",
+          "is_correct": false
+        },
+        {
           "letter": "D",
-          "text": "iMac",
+          "text": "分解者",
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "B"
     },
     {
       "id": 23,
-      "question": "微软公司的主要创始人是谁？",
+      "question": "“克隆羊多莉”的诞生标志着什么技术的重大突破？",
       "options": [
         {
           "letter": "A",
-          "text": "史蒂夫·乔布斯和史蒂夫·沃兹尼亚克",
+          "text": "基因编辑",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "比尔·盖茨和保罗·艾伦",
+          "text": "动物克隆技术",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "拉里·佩奇和谢尔盖·布林",
+          "text": "转基因技术",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "马克·扎克伯格",
+          "text": "疫苗开发",
           "is_correct": false
         }
       ],
@@ -627,53 +627,53 @@
     },
     {
       "id": 24,
-      "question": "计算机的“大脑”通常指的是哪个部件？",
+      "question": "人体免疫系统的主要功能是什么？",
       "options": [
         {
           "letter": "A",
-          "text": "硬盘",
+          "text": "消化食物",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "内存",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "中央处理器 (CPU)",
+          "text": "抵抗病原体入侵，保护身体",
           "is_correct": true
         },
         {
+          "letter": "C",
+          "text": "运输氧气",
+          "is_correct": false
+        },
+        {
           "letter": "D",
-          "text": "显示器",
+          "text": "调节体温",
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "B"
     },
     {
       "id": 25,
-      "question": "QWERTY键盘布局最初是为了解决什么问题而设计的？",
+      "question": "以下哪种不是由细菌引起的疾病？",
       "options": [
         {
           "letter": "A",
-          "text": "提高打字速度",
+          "text": "肺结核",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "防止打字机卡键",
+          "text": "流感 (流行性感冒)",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "减少手指移动",
+          "text": "霍乱",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "适应特定语言",
+          "text": "破伤风",
           "is_correct": false
         }
       ],
@@ -681,80 +681,80 @@
     },
     {
       "id": 26,
-      "question": "第一款获得广泛商业成功的街机电子游戏是什么？",
+      "question": "卡尔·林奈对生物学的主要贡献是什么？",
       "options": [
         {
           "letter": "A",
-          "text": "Pong (乓)",
-          "is_correct": true
-        },
-        {
-          "letter": "B",
-          "text": "Pac-Man (吃豆人)",
+          "text": "发现细胞",
           "is_correct": false
         },
         {
+          "letter": "B",
+          "text": "创立了现代生物命名系统 (双名法)",
+          "is_correct": true
+        },
+        {
           "letter": "C",
-          "text": "Space Invaders (太空侵略者)",
+          "text": "提出进化论",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "Donkey Kong (大金刚)",
+          "text": "发现DNA结构",
           "is_correct": false
         }
       ],
-      "correct_answer": "A"
+      "correct_answer": "B"
     },
     {
       "id": 27,
-      "question": "早期的软盘（Floppy Disk）容量大约是多少？",
+      "question": "植物的根系主要功能不包括哪项？",
       "options": [
         {
           "letter": "A",
-          "text": "几百KB (几百千字节)",
-          "is_correct": true
-        },
-        {
-          "letter": "B",
-          "text": "几MB (几兆字节)",
+          "text": "吸收水分和无机盐",
           "is_correct": false
         },
         {
+          "letter": "B",
+          "text": "进行光合作用",
+          "is_correct": true
+        },
+        {
           "letter": "C",
-          "text": "几GB (几吉字节)",
+          "text": "固定植株",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "几TB (几太字节)",
+          "text": "储存养分",
           "is_correct": false
         }
       ],
-      "correct_answer": "A"
+      "correct_answer": "B"
     },
     {
       "id": 28,
-      "question": "“Google”这个名字来源于哪个数学术语？",
+      "question": "“人类基因组计划”的主要目标是什么？",
       "options": [
         {
           "letter": "A",
-          "text": "Algorithm (算法)",
+          "text": "治疗所有遗传病",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "Googol (古戈尔)",
+          "text": "测定人类基因组的全部DNA序列",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "Binary (二进制)",
+          "text": "创造新的人类物种",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "Matrix (矩阵)",
+          "text": "克隆人类",
           "is_correct": false
         }
       ],
@@ -762,26 +762,26 @@
     },
     {
       "id": 29,
-      "question": "第一个流行的图形界面网页浏览器是什么？",
+      "question": "珊瑚礁是由什么生物的骨骼形成的？",
       "options": [
         {
           "letter": "A",
-          "text": "Internet Explorer",
+          "text": "鱼类",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "Mosaic",
+          "text": "珊瑚虫 (一种微小的海洋动物)",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "Netscape Navigator",
+          "text": "海藻",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "Opera",
+          "text": "贝壳类动物",
           "is_correct": false
         }
       ],
@@ -789,80 +789,80 @@
     },
     {
       "id": 30,
-      "question": "“Wi-Fi”这个名称代表什么？",
+      "question": "以下哪种动物是冷血动物？",
       "options": [
         {
           "letter": "A",
-          "text": "Wireless Fidelity (无线保真)",
+          "text": "狗",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "Wireless Fiber (无线光纤)",
-          "is_correct": false
+          "text": "蛇",
+          "is_correct": true
         },
         {
           "letter": "C",
-          "text": "World Internet Fiber Optic (世界互联网光纤)",
+          "text": "鸟",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "它本身不是缩写，是一个品牌名",
-          "is_correct": true
+          "text": "鲸鱼",
+          "is_correct": false
         }
       ],
-      "correct_answer": "D"
+      "correct_answer": "B"
     },
     {
       "id": 31,
-      "question": "早期的电子计算机（如ENIAC）体积有多大？",
+      "question": "“疫苗接种”的原理是什么？",
       "options": [
         {
           "letter": "A",
-          "text": "一个手提箱大小",
+          "text": "直接杀死体内的病原体",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "一个冰箱大小",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "占据整个房间",
+          "text": "刺激身体产生对特定病原体的免疫力",
           "is_correct": true
         },
         {
+          "letter": "C",
+          "text": "提供身体所需的营养物质",
+          "is_correct": false
+        },
+        {
           "letter": "D",
-          "text": "一张桌子大小",
+          "text": "修复受损的细胞",
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "B"
     },
     {
       "id": 32,
-      "question": "计算机内部处理信息的基础是什么数字系统？",
+      "question": "地球上最大的动物是什么？",
       "options": [
         {
           "letter": "A",
-          "text": "十进制",
+          "text": "非洲象",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "二进制",
+          "text": "蓝鲸",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "十六进制",
+          "text": "长颈鹿",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "八进制",
+          "text": "大白鲨",
           "is_correct": false
         }
       ],
@@ -870,26 +870,26 @@
     },
     {
       "id": 33,
-      "question": "哪台计算机是第一台捆绑销售鼠标的商用计算机？",
+      "question": "细胞分裂的主要方式有哪些？",
       "options": [
         {
           "letter": "A",
-          "text": "Apple Macintosh",
+          "text": "只有有丝分裂",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "Xerox Star",
+          "text": "有丝分裂和减数分裂",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "IBM PC",
+          "text": "只有减数分裂",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "Commodore Amiga",
+          "text": "无丝分裂和二分裂",
           "is_correct": false
         }
       ],
@@ -897,26 +897,26 @@
     },
     {
       "id": 34,
-      "question": "垃圾邮件为什么被称为“Spam”？",
+      "question": "“生态系统”指的是什么？",
       "options": [
         {
           "letter": "A",
-          "text": "发明者姓Spam",
+          "text": "特定区域的所有植物",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "源自一种罐头肉的名称和喜剧小品",
+          "text": "特定区域的所有生物及其与非生物环境的相互作用",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "一种早期病毒的代号",
+          "text": "特定区域的所有动物",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "“Stupid Pointless Annoying Mail”的缩写",
+          "text": "特定区域的地理特征",
           "is_correct": false
         }
       ],
@@ -924,80 +924,80 @@
     },
     {
       "id": 35,
-      "question": "USB接口的“USB”代表什么？",
+      "question": "维生素C缺乏会导致什么疾病？",
       "options": [
         {
           "letter": "A",
-          "text": "Universal Serial Bus (通用串行总线)",
-          "is_correct": true
-        },
-        {
-          "letter": "B",
-          "text": "United System Block (联合系统模块)",
+          "text": "夜盲症",
           "is_correct": false
         },
         {
+          "letter": "B",
+          "text": "坏血病",
+          "is_correct": true
+        },
+        {
           "letter": "C",
-          "text": "User Service Bay (用户服务端口)",
+          "text": "佝偻病",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "Ultra Speed Buffer (超高速缓冲器)",
+          "text": "脚气病",
           "is_correct": false
         }
       ],
-      "correct_answer": "A"
+      "correct_answer": "B"
     },
     {
       "id": 36,
-      "question": "互联网历史上第一个注册的域名是什么？",
+      "question": "“冬眠”是动物适应什么环境条件的一种行为？",
       "options": [
         {
           "letter": "A",
-          "text": "google.com",
+          "text": "炎热干燥",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "apple.com",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "symbolics.com",
+          "text": "寒冷和食物短缺",
           "is_correct": true
         },
         {
+          "letter": "C",
+          "text": "潮湿多雨",
+          "is_correct": false
+        },
+        {
           "letter": "D",
-          "text": "microsoft.com",
+          "text": "光照强烈",
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "B"
     },
     {
       "id": 37,
-      "question": "著名的街机游戏“吃豆人”(Pac-Man) 在日本最初叫什么名字？",
+      "question": "蛋白质的合成场所是细胞中的哪个结构？",
       "options": [
         {
           "letter": "A",
-          "text": "Paku-Paku",
+          "text": "线粒体",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "Puck-Man",
+          "text": "核糖体",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "Ghost-Man",
+          "text": "细胞核",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "Dot-Man",
+          "text": "溶酶体",
           "is_correct": false
         }
       ],
@@ -1005,53 +1005,53 @@
     },
     {
       "id": 38,
-      "question": "世界上第一个硬盘驱动器（IBM 350 RAMAC）的存储容量大约是多少？",
+      "question": "“基因突变”指的是DNA序列发生的什么变化？",
       "options": [
         {
           "letter": "A",
-          "text": "约5兆字节 (5 Megabytes)",
-          "is_correct": true
-        },
-        {
-          "letter": "B",
-          "text": "约5千字节 (5 Kilobytes)",
+          "text": "有规律的重复",
           "is_correct": false
         },
         {
+          "letter": "B",
+          "text": "永久性的、可遗传的改变",
+          "is_correct": true
+        },
+        {
           "letter": "C",
-          "text": "约5吉字节 (5 Gigabytes)",
+          "text": "临时的、不可遗传的改变",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "约5太字节 (5 Terabytes)",
+          "text": "蛋白质的折叠错误",
           "is_correct": false
         }
       ],
-      "correct_answer": "A"
+      "correct_answer": "B"
     },
     {
       "id": 39,
-      "question": "早期的调制解调器（Modem）主要功能是什么？",
+      "question": "两栖动物的幼体通常用什么呼吸？",
       "options": [
         {
           "letter": "A",
-          "text": "提高电脑运行速度",
+          "text": "肺",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "通过电话线连接互联网",
+          "text": "鳃",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "存储文件",
+          "text": "皮肤",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "玩游戏",
+          "text": "气管",
           "is_correct": false
         }
       ],
@@ -1059,53 +1059,53 @@
     },
     {
       "id": 40,
-      "question": "图像显示中的“像素”(Pixel) 一词是什么的缩写？",
+      "question": "“共生关系”是指两种不同生物生活在一起，并且？",
       "options": [
         {
           "letter": "A",
-          "text": "Picture Element (图像元素)",
-          "is_correct": true
-        },
-        {
-          "letter": "B",
-          "text": "Photo Extension Link (照片扩展链接)",
+          "text": "一方受益，另一方受害",
           "is_correct": false
         },
         {
+          "letter": "B",
+          "text": "双方都受益，或一方受益另一方不受影响，或一方受益另一方受轻微影响",
+          "is_correct": true
+        },
+        {
           "letter": "C",
-          "text": "Primary Illumination Emitter (主照明发射器)",
+          "text": "双方都受害",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "Point of Xylography (木刻点)",
+          "text": "没有任何相互影响",
           "is_correct": false
         }
       ],
-      "correct_answer": "A"
+      "correct_answer": "B"
     },
     {
       "id": 41,
-      "question": "哪家公司在1971年推出了世界上第一款商用微处理器Intel 4004？",
+      "question": "植物的叶片进行蒸腾作用的主要目的是什么？",
       "options": [
         {
           "letter": "A",
-          "text": "AMD",
+          "text": "吸收二氧化碳",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "Intel",
+          "text": "促进水分和无机盐的运输，降低叶面温度",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "Motorola",
+          "text": "释放氧气",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "Texas Instruments",
+          "text": "储存能量",
           "is_correct": false
         }
       ],
@@ -1113,26 +1113,26 @@
     },
     {
       "id": 42,
-      "question": "电脑键盘上的“Shift”键最初在打字机上有什么作用？",
+      "question": "“化石”为研究生物进化提供了什么证据？",
       "options": [
         {
           "letter": "A",
-          "text": "删除字符",
+          "text": "行为学证据",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "切换大小写字母",
+          "text": "直接的、历史的证据",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "产生一个空格",
+          "text": "生理学证据",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "换行",
+          "text": "胚胎学证据",
           "is_correct": false
         }
       ],
@@ -1140,134 +1140,134 @@
     },
     {
       "id": 43,
-      "question": "Altair 8800（早期个人计算机）最初是如何进行编程的？",
+      "question": "人体消化道中最长的器官是哪个？",
       "options": [
         {
           "letter": "A",
-          "text": "使用鼠标和图形界面",
+          "text": "胃",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "通过键盘输入高级语言",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "通过拨动开关输入机器码",
+          "text": "小肠",
           "is_correct": true
         },
         {
+          "letter": "C",
+          "text": "大肠",
+          "is_correct": false
+        },
+        {
           "letter": "D",
-          "text": "使用语音命令",
+          "text": "食道",
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "B"
     },
     {
       "id": 44,
-      "question": "哪家公司在1999年推出了第一款广泛接入互联网（通过WAP）的手机？",
+      "question": "“生物圈”指的是地球上所有什么的总和？",
       "options": [
         {
           "letter": "A",
-          "text": "Apple",
+          "text": "水体",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "Samsung",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "Nokia",
+          "text": "生物及其生存环境",
           "is_correct": true
         },
         {
+          "letter": "C",
+          "text": "陆地",
+          "is_correct": false
+        },
+        {
           "letter": "D",
-          "text": "Motorola",
+          "text": "大气层",
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "B"
     },
     {
       "id": 45,
-      "question": "网址中的“.com”最初代表什么类型的组织？",
+      "question": "以下哪种是鸟类的特有结构，有助于飞行？",
       "options": [
         {
           "letter": "A",
-          "text": "Communication (通讯)",
+          "text": "鳞片",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "Community (社区)",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "Commercial (商业)",
+          "text": "羽毛和中空的骨骼",
           "is_correct": true
         },
         {
+          "letter": "C",
+          "text": "鳃",
+          "is_correct": false
+        },
+        {
           "letter": "D",
-          "text": "Computer (计算机)",
+          "text": "复眼",
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "B"
     },
     {
       "id": 46,
-      "question": "笔记本电脑的彩色显示屏主要基于哪种技术？",
+      "question": "“自然选择”是进化论的核心概念，它指的是什么？",
       "options": [
         {
           "letter": "A",
-          "text": "阴极射线管 (CRT)",
+          "text": "生物有意识地选择进化方向",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "发光二极管 (LED)",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "液晶显示 (LCD)",
+          "text": "适应环境的个体更容易生存和繁殖，其有利性状得以传递",
           "is_correct": true
         },
         {
+          "letter": "C",
+          "text": "所有个体都有相同的生存机会",
+          "is_correct": false
+        },
+        {
           "letter": "D",
-          "text": "等离子 (Plasma)",
+          "text": "环境对生物没有影响",
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "B"
     },
     {
       "id": 47,
-      "question": "“开源软件” (Open Source Software) 的核心理念是什么？",
+      "question": "人体血液循环系统的中心器官是什么？",
       "options": [
         {
           "letter": "A",
-          "text": "软件必须免费",
+          "text": "肺",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "软件的源代码可以被公开访问、修改和共享",
+          "text": "心脏",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "只能由大公司开发",
+          "text": "肝脏",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "用户不能修改软件",
+          "text": "肾脏",
           "is_correct": false
         }
       ],
@@ -1275,26 +1275,26 @@
     },
     {
       "id": 48,
-      "question": "早年通过拨号连接互联网时，用户通常会听到什么声音？",
+      "question": "“生物放大作用”是指某些有毒物质在食物链中如何传递和积累？",
       "options": [
         {
           "letter": "A",
-          "text": "安静的嗡嗡声",
+          "text": "浓度逐级降低",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "一系列尖锐的哔哔声和噪音",
+          "text": "浓度逐级升高",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "优美的音乐",
+          "text": "浓度保持不变",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "没有特别的声音",
+          "text": "被完全分解",
           "is_correct": false
         }
       ],
@@ -1302,80 +1302,80 @@
     },
     {
       "id": 49,
-      "question": "第一个被广泛使用的电脑表情符号 :-) 是由谁提议的？",
+      "question": "植物的种子是如何传播的？（选择一种常见方式）",
       "options": [
         {
           "letter": "A",
-          "text": "蒂姆·伯纳斯-李",
+          "text": "只能通过人工种植",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "雷·汤姆林森",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "斯科特·法尔曼",
+          "text": "通过风、水、动物等方式传播",
           "is_correct": true
         },
         {
+          "letter": "C",
+          "text": "只能在母体附近生长",
+          "is_correct": false
+        },
+        {
           "letter": "D",
-          "text": "拉里·泰斯勒",
+          "text": "通过光合作用传播",
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "B"
     },
     {
       "id": 50,
-      "question": "计算机中的RAM (随机存取存储器) 主要作用是什么？",
+      "question": "以下哪种是真菌的例子？",
       "options": [
         {
           "letter": "A",
-          "text": "永久存储操作系统和文件",
+          "text": "藻类",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "在计算机关机后保存数据",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "临时存储正在运行的程序和数据",
+          "text": "蘑菇",
           "is_correct": true
         },
         {
+          "letter": "C",
+          "text": "蕨类植物",
+          "is_correct": false
+        },
+        {
           "letter": "D",
-          "text": "提高网络连接速度",
+          "text": "细菌",
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "B"
     },
     {
       "id": 51,
-      "question": "谁被认为是设计了“分析机”，一种早期机械通用计算机概念的人？",
+      "question": "“条件反射”的经典实验是谁用狗完成的？",
       "options": [
         {
           "letter": "A",
-          "text": "艾伦·图灵",
+          "text": "B.F. 斯金纳",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "查尔斯·巴贝奇",
+          "text": "伊万·巴甫洛夫",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "约翰·阿塔纳索夫",
+          "text": "康拉德·洛伦兹",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "康拉德·楚泽",
+          "text": "简·古道尔",
           "is_correct": false
         }
       ],
@@ -1383,26 +1383,26 @@
     },
     {
       "id": 52,
-      "question": "哪款软件是早期个人计算机上非常流行的文字处理软件之一？",
+      "question": "地球上已知最大的陆地食肉动物是什么？",
       "options": [
         {
           "letter": "A",
-          "text": "Microsoft Word",
+          "text": "狮子",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "WordStar",
+          "text": "北极熊",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "Google Docs",
+          "text": "老虎",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "Notepad",
+          "text": "灰熊",
           "is_correct": false
         }
       ],
@@ -1410,26 +1410,26 @@
     },
     {
       "id": 53,
-      "question": "在计算机科学中，“算法”指的是什么？",
+      "question": "“基因”是携带遗传信息的什么片段？",
       "options": [
         {
           "letter": "A",
-          "text": "一种计算机硬件",
+          "text": "蛋白质片段",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "解决问题或完成任务的一系列步骤",
+          "text": "DNA或RNA片段",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "一种编程语言",
+          "text": "细胞膜片段",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "计算机病毒",
+          "text": "碳水化合物片段",
           "is_correct": false
         }
       ],
@@ -1437,161 +1437,161 @@
     },
     {
       "id": 54,
-      "question": "世界上第一台家用视频游戏机是什么？",
+      "question": "植物细胞壁的主要成分是什么？",
       "options": [
         {
           "letter": "A",
-          "text": "Atari 2600",
+          "text": "蛋白质",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "Nintendo Entertainment System (NES)",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "Magnavox Odyssey",
+          "text": "纤维素",
           "is_correct": true
         },
         {
+          "letter": "C",
+          "text": "脂肪",
+          "is_correct": false
+        },
+        {
           "letter": "D",
-          "text": "ColecoVision",
+          "text": "几丁质",
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "B"
     },
     {
       "id": 55,
-      "question": "苹果公司著名的广告语“Think Different”(不同凡想) 是在哪个时期推出的？",
+      "question": "以下哪种动物不属于昆虫？",
       "options": [
         {
           "letter": "A",
-          "text": "1970年代末",
+          "text": "蚂蚁",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "1980年代中期",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "1990年代末",
+          "text": "蜘蛛",
           "is_correct": true
         },
         {
+          "letter": "C",
+          "text": "蝴蝶",
+          "is_correct": false
+        },
+        {
           "letter": "D",
-          "text": "2000年代初",
+          "text": "蜜蜂",
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "B"
     },
     {
       "id": 56,
-      "question": "光盘 (CD) 技术最初是为存储什么而开发的？",
+      "question": "“变态发育”是指动物个体发育过程中形态结构和生活习性发生显著变化的现象，以下哪种动物经历变态发育？",
       "options": [
         {
           "letter": "A",
-          "text": "计算机软件",
+          "text": "鸟类",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "视频电影",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "数字音频",
+          "text": "青蛙",
           "is_correct": true
         },
         {
+          "letter": "C",
+          "text": "哺乳动物",
+          "is_correct": false
+        },
+        {
           "letter": "D",
-          "text": "大型数据库",
+          "text": "鱼类",
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "B"
     },
     {
       "id": 57,
-      "question": "年问题 (Y2K Bug) 主要与计算机系统的哪个方面有关？",
+      "question": "人体内含量最多的物质是什么？",
       "options": [
         {
           "letter": "A",
-          "text": "网络安全漏洞",
+          "text": "蛋白质",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "处理器速度不够",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "日期和时间的表示方式",
+          "text": "水",
           "is_correct": true
         },
         {
+          "letter": "C",
+          "text": "脂肪",
+          "is_correct": false
+        },
+        {
           "letter": "D",
-          "text": "存储容量不足",
+          "text": "碳水化合物",
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "B"
     },
     {
       "id": 58,
-      "question": "最早的社交媒体网站之一，允许用户创建个人资料和连接朋友的是哪个？",
+      "question": "“PCR技术”（聚合酶链式反应）主要用于什么目的？",
       "options": [
         {
           "letter": "A",
-          "text": "Facebook",
+          "text": "分离蛋白质",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "MySpace",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "SixDegrees.com",
+          "text": "大量扩增特定的DNA片段",
           "is_correct": true
         },
         {
+          "letter": "C",
+          "text": "观察细胞结构",
+          "is_correct": false
+        },
+        {
           "letter": "D",
-          "text": "Twitter",
+          "text": "测量血糖水平",
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "B"
     },
     {
       "id": 59,
-      "question": "触摸屏技术在普及到智能手机之前，较早应用于哪些设备？",
+      "question": "以下哪种是植物进行气体交换的主要结构？",
       "options": [
         {
           "letter": "A",
-          "text": "家用电视遥控器",
+          "text": "根毛",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "个人数字助理 (PDAs) 和信息亭",
+          "text": "气孔 (通常在叶片上)",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "汽车收音机",
+          "text": "花瓣",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "游戏手柄",
+          "text": "茎的表皮",
           "is_correct": false
         }
       ],
@@ -1599,26 +1599,26 @@
     },
     {
       "id": 60,
-      "question": "“云计算” (Cloud Computing) 的核心思想是什么？",
+      "question": "“趋光性”是生物对什么刺激产生的定向反应？",
       "options": [
         {
           "letter": "A",
-          "text": "将所有计算都在本地计算机完成",
+          "text": "声音",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "通过互联网按需使用计算资源和服务",
+          "text": "光线",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "一种新的天气预报技术",
+          "text": "化学物质",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "保护计算机免受雷击",
+          "text": "温度",
           "is_correct": false
         }
       ],
@@ -1626,53 +1626,53 @@
     },
     {
       "id": 61,
-      "question": "第一款图形界面的网络浏览器Mosaic是哪个大学开发的？",
+      "question": "以下哪种是海洋中最大的鱼类？",
       "options": [
         {
           "letter": "A",
-          "text": "斯坦福大学",
+          "text": "大白鲨",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "麻省理工学院",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "伊利诺伊大学厄巴纳-香槟分校",
+          "text": "鲸鲨",
           "is_correct": true
         },
         {
+          "letter": "C",
+          "text": "虎鲸 (是哺乳动物)",
+          "is_correct": false
+        },
+        {
           "letter": "D",
-          "text": "加州大学伯克利分校",
+          "text": "金枪鱼",
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "B"
     },
     {
       "id": 62,
-      "question": "“博客”(Blog) 这个词是由哪个词缩写而来的？",
+      "question": "“细胞学说”的主要内容不包括？",
       "options": [
         {
           "letter": "A",
-          "text": "Biography Log (传记日志)",
+          "text": "所有生物都由细胞构成",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "Weblog (网络日志)",
+          "text": "所有细胞都含有细胞核",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "Broadcasting Log (广播日志)",
+          "text": "细胞是所有生物的基本结构和功能单位",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "Book Log (书籍日志)",
+          "text": "所有细胞都来自已存在的细胞",
           "is_correct": false
         }
       ],
@@ -1680,80 +1680,80 @@
     },
     {
       "id": 63,
-      "question": "世界上第一条发送的短信内容是什么？",
+      "question": "人体五种基本味觉不包括哪种？",
       "options": [
         {
           "letter": "A",
-          "text": "Hello",
+          "text": "甜",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "LOL",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "Merry Christmas",
+          "text": "辣",
           "is_correct": true
         },
         {
+          "letter": "C",
+          "text": "酸",
+          "is_correct": false
+        },
+        {
           "letter": "D",
-          "text": "OK",
+          "text": "苦",
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "B"
     },
     {
       "id": 64,
-      "question": "哪家公司开发了PowerPoint演示软件？",
+      "question": "“转基因生物”（GMO）是指其遗传物质发生了什么改变的生物？",
       "options": [
         {
           "letter": "A",
-          "text": "苹果 (Apple)",
+          "text": "自然突变",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "谷歌 (Google)",
-          "is_correct": false
+          "text": "通过基因工程技术人为改变",
+          "is_correct": true
         },
         {
           "letter": "C",
-          "text": "IBM",
+          "text": "环境适应性改变",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "微软 (Microsoft)",
-          "is_correct": true
+          "text": "杂交",
+          "is_correct": false
         }
       ],
-      "correct_answer": "D"
+      "correct_answer": "B"
     },
     {
       "id": 65,
-      "question": "早期的电脑游戏通常存储在什么介质上？",
+      "question": "以下哪种是植物的生殖器官？",
       "options": [
         {
           "letter": "A",
-          "text": "光盘 (CD-ROM)",
+          "text": "叶",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "磁带或软盘",
+          "text": "花",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "U盘 (USB Drive)",
+          "text": "根",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "云存储",
+          "text": "茎",
           "is_correct": false
         }
       ],
@@ -1761,26 +1761,26 @@
     },
     {
       "id": 66,
-      "question": "“人工智能”(AI) 这个术语最早是在哪一年提出的？",
+      "question": "“生物钟”是指生物体内控制什么节律的内在机制？",
       "options": [
         {
           "letter": "A",
-          "text": "1946年",
+          "text": "心跳速度",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "1956年",
+          "text": "生理和行为的周期性节律 (如睡眠-觉醒周期)",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "1966年",
+          "text": "消化速度",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "1976年",
+          "text": "细胞分裂速度",
           "is_correct": false
         }
       ],
@@ -1788,53 +1788,53 @@
     },
     {
       "id": 67,
-      "question": "哪位科学家被认为是“信息论之父”？",
+      "question": "以下哪种动物有“活化石”之称，其形态与几亿年前的祖先非常相似？",
       "options": [
         {
           "letter": "A",
-          "text": "艾伦·图灵",
+          "text": "大熊猫",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "约翰·冯·诺依曼",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "克劳德·香农",
+          "text": "腔棘鱼",
           "is_correct": true
         },
         {
+          "letter": "C",
+          "text": "老虎",
+          "is_correct": false
+        },
+        {
           "letter": "D",
-          "text": "阿尔伯特·爱因斯坦",
+          "text": "家鸽",
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "B"
     },
     {
       "id": 68,
-      "question": "计算机键盘上的“Ctrl”键通常代表什么？",
+      "question": "“ATP”（三磷酸腺苷）在细胞中主要作为什么？",
       "options": [
         {
           "letter": "A",
-          "text": "Copy (复制)",
+          "text": "遗传物质",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "Control (控制)",
+          "text": "直接的能量来源 (“能量货币”)",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "Continue (继续)",
+          "text": "结构成分",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "Center (居中)",
+          "text": "信息分子",
           "is_correct": false
         }
       ],
@@ -1842,80 +1842,80 @@
     },
     {
       "id": 69,
-      "question": "世界上第一个鼠标有几个按键？",
+      "question": "以下哪种是世界上最大的花？",
       "options": [
         {
           "letter": "A",
-          "text": "一个",
-          "is_correct": true
-        },
-        {
-          "letter": "B",
-          "text": "两个",
+          "text": "向日葵",
           "is_correct": false
         },
         {
+          "letter": "B",
+          "text": "大王花 (Rafflesia\n                                                        arnoldii)",
+          "is_correct": true
+        },
+        {
           "letter": "C",
-          "text": "三个",
+          "text": "玫瑰",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "没有按键",
+          "text": "兰花",
           "is_correct": false
         }
       ],
-      "correct_answer": "A"
+      "correct_answer": "B"
     },
     {
       "id": 70,
-      "question": "哪家公司推出了第一款成功的掌上电脑（PDA）——PalmPilot？",
+      "question": "“反射弧”是完成反射活动的基本神经结构，它不包括哪个部分？",
       "options": [
         {
           "letter": "A",
-          "text": "苹果 (Apple)",
+          "text": "感受器",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "微软 (Microsoft)",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "Palm Computing",
+          "text": "大脑皮层",
           "is_correct": true
         },
         {
+          "letter": "C",
+          "text": "神经中枢",
+          "is_correct": false
+        },
+        {
           "letter": "D",
-          "text": "IBM",
+          "text": "效应器",
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "B"
     },
     {
       "id": 71,
-      "question": "互联网域名系统 (DNS) 的主要作用是什么？",
+      "question": "以下哪种动物是卵生哺乳动物？",
       "options": [
         {
           "letter": "A",
-          "text": "加密网络数据",
+          "text": "袋鼠",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "将域名转换为IP地址",
+          "text": "鸭嘴兽",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "提高下载速度",
+          "text": "海豚",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "过滤垃圾邮件",
+          "text": "蝙蝠",
           "is_correct": false
         }
       ],
@@ -1923,107 +1923,107 @@
     },
     {
       "id": 72,
-      "question": "“黑客”(Hacker) 这个词最初的含义是什么？",
+      "question": "“发光二极管”（LED）模仿了自然界中哪种生物现象？",
       "options": [
         {
           "letter": "A",
-          "text": "网络罪犯",
+          "text": "光合作用",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "计算机病毒制造者",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "热衷于解决计算机系统问题的专家",
+          "text": "生物发光 (如萤火虫)",
           "is_correct": true
         },
         {
+          "letter": "C",
+          "text": "趋光性",
+          "is_correct": false
+        },
+        {
           "letter": "D",
-          "text": "密码破解者",
+          "text": "保护色",
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "B"
     },
     {
       "id": 73,
-      "question": "第一款广泛使用的电子表格软件是什么？",
+      "question": "人体最坚硬的物质是什么？",
       "options": [
         {
           "letter": "A",
-          "text": "Microsoft Excel",
+          "text": "骨骼",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "Lotus 1-2-3",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "VisiCalc",
+          "text": "牙釉质",
           "is_correct": true
         },
         {
+          "letter": "C",
+          "text": "指甲",
+          "is_correct": false
+        },
+        {
           "letter": "D",
-          "text": "Google Sheets",
+          "text": "肌肉",
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "B"
     },
     {
       "id": 74,
-      "question": "计算机显示器早期的主要颜色是什么？",
+      "question": "“益生菌”是指对宿主健康有益的什么？",
       "options": [
         {
           "letter": "A",
-          "text": "全彩色",
+          "text": "病毒",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "黑白",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "绿色或琥珀色单色",
+          "text": "活性微生物",
           "is_correct": true
         },
         {
+          "letter": "C",
+          "text": "抗生素",
+          "is_correct": false
+        },
+        {
           "letter": "D",
-          "text": "蓝色单色",
+          "text": "维生素",
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "B"
     },
     {
       "id": 75,
-      "question": "“防火墙”(Firewall) 在网络安全中的主要作用是什么？",
+      "question": "以下哪种是植物的向性运动的例子？",
       "options": [
         {
           "letter": "A",
-          "text": "加速网络连接",
+          "text": "含羞草叶片闭合",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "阻止未经授权的访问",
+          "text": "向日葵朝向太阳",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "备份数据",
+          "text": "捕蝇草捕捉昆虫",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "清理计算机病毒",
+          "text": "蒲公英种子飞散",
           "is_correct": false
         }
       ],
@@ -2031,53 +2031,53 @@
     },
     {
       "id": 76,
-      "question": "哪种编程语言是以一位17世纪的数学家命名的？",
+      "question": "“内分泌系统”通过什么来调节身体的生理活动？",
       "options": [
         {
           "letter": "A",
-          "text": "Java",
+          "text": "神经冲动",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "Python",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "Pascal",
+          "text": "激素",
           "is_correct": true
         },
         {
+          "letter": "C",
+          "text": "消化酶",
+          "is_correct": false
+        },
+        {
           "letter": "D",
-          "text": "C++",
+          "text": "抗体",
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "B"
     },
     {
       "id": 77,
-      "question": "哪项技术使得计算机可以做得更小、更快、更便宜？",
+      "question": "以下哪种动物是世界上奔跑速度最快的陆地动物？",
       "options": [
         {
           "letter": "A",
-          "text": "真空管",
+          "text": "狮子",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "集成电路",
+          "text": "猎豹",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "打孔卡",
+          "text": "马",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "磁鼓存储器",
+          "text": "羚羊",
           "is_correct": false
         }
       ],
@@ -2085,107 +2085,107 @@
     },
     {
       "id": 78,
-      "question": "“Wi-Fi”技术标准主要由哪个组织制定？",
+      "question": "“生物防治”是指利用什么来控制害虫或杂草？",
       "options": [
         {
           "letter": "A",
-          "text": "联合国 (UN)",
+          "text": "化学农药",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "国际标准化组织 (ISO)",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "电气和电子工程师协会 (IEEE)",
+          "text": "天敌或其他生物",
           "is_correct": true
         },
         {
+          "letter": "C",
+          "text": "基因改造技术",
+          "is_correct": false
+        },
+        {
           "letter": "D",
-          "text": "万维网联盟 (W3C)",
+          "text": "人工除草",
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "B"
     },
     {
       "id": 79,
-      "question": "世界上第一个搜索引擎叫什么名字？",
+      "question": "以下哪种是植物进行无性繁殖的方式？",
       "options": [
         {
           "letter": "A",
-          "text": "Google",
+          "text": "种子繁殖",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "Yahoo",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "Archie",
+          "text": "扦插、嫁接或组织培养",
           "is_correct": true
         },
         {
+          "letter": "C",
+          "text": "花粉传播",
+          "is_correct": false
+        },
+        {
           "letter": "D",
-          "text": "Bing",
+          "text": "受精作用",
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "B"
     },
     {
       "id": 80,
-      "question": "电脑游戏《俄罗斯方块》(Tetris) 是哪个国家的人发明的？",
+      "question": "“血型”是由红细胞表面的什么物质决定的？",
       "options": [
         {
           "letter": "A",
-          "text": "美国",
+          "text": "血红蛋白",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "日本",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "苏联/俄罗斯",
+          "text": "抗原",
           "is_correct": true
         },
         {
+          "letter": "C",
+          "text": "抗体",
+          "is_correct": false
+        },
+        {
           "letter": "D",
-          "text": "中国",
+          "text": "血小板",
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "B"
     },
     {
       "id": 81,
-      "question": "“调制解调器”(Modem) 这个词是由哪两个词组合而成的？",
+      "question": "以下哪种是生活在极端环境（如高温、高盐）中的微生物？",
       "options": [
         {
           "letter": "A",
-          "text": "Mode-Demonstration (模式演示)",
+          "text": "酵母菌",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "Modulator-Demodulator (调制器-解调器)",
+          "text": "古菌 (Archaea)",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "Modern-Element (现代元件)",
+          "text": "霉菌",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "Motion-Decoder (运动解码器)",
+          "text": "藻类",
           "is_correct": false
         }
       ],
@@ -2193,53 +2193,53 @@
     },
     {
       "id": 82,
-      "question": "哪家公司以其图形处理单元 (GPU) 而闻名，尤其是在游戏和人工智能领域？",
+      "question": "“神经元”（神经细胞）的主要功能是什么？",
       "options": [
         {
           "letter": "A",
-          "text": "Intel",
+          "text": "储存能量",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "AMD",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "NVIDIA",
+          "text": "传递神经冲动 (信息)",
           "is_correct": true
         },
         {
+          "letter": "C",
+          "text": "产生抗体",
+          "is_correct": false
+        },
+        {
           "letter": "D",
-          "text": "Qualcomm",
+          "text": "消化食物",
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "B"
     },
     {
       "id": 83,
-      "question": "“蓝牙”(Bluetooth) 技术名称的灵感来源于什么？",
+      "question": "以下哪种是世界上最大的陆地哺乳动物？",
       "options": [
         {
           "letter": "A",
-          "text": "一种蓝色的花",
+          "text": "犀牛",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "一位古代丹麦国王的名字",
+          "text": "非洲象",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "发明者的牙齿颜色",
+          "text": "河马",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "一种蓝色的鸟",
+          "text": "长颈鹿",
           "is_correct": false
         }
       ],
@@ -2247,188 +2247,188 @@
     },
     {
       "id": 84,
-      "question": "早期非常流行的文字处理软件WordPerfect是由哪家公司最初开发的？",
+      "question": "“碳循环”是指碳元素在地球的什么之间循环的过程？",
       "options": [
         {
           "letter": "A",
-          "text": "微软 (Microsoft)",
+          "text": "仅在生物体内部",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "苹果 (Apple)",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "Satellite Software International",
+          "text": "生物圈、大气圈、水圈和岩石圈",
           "is_correct": true
         },
         {
+          "letter": "C",
+          "text": "仅在植物和动物之间",
+          "is_correct": false
+        },
+        {
           "letter": "D",
-          "text": "IBM",
+          "text": "仅在大气中",
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "B"
     },
     {
       "id": 85,
-      "question": "计算机的“剪切、复制和粘贴”功能是由谁发明的？",
+      "question": "以下哪种是鱼类适应水生生活的主要呼吸器官？",
       "options": [
         {
           "letter": "A",
-          "text": "比尔·盖茨",
+          "text": "肺",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "史蒂夫·乔布斯",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "拉里·泰斯勒",
+          "text": "鳃",
           "is_correct": true
         },
         {
+          "letter": "C",
+          "text": "皮肤",
+          "is_correct": false
+        },
+        {
           "letter": "D",
-          "text": "蒂姆·伯纳斯-李",
+          "text": "气囊",
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "B"
     },
     {
       "id": 86,
-      "question": "哪种早期的操作系统以其命令行界面而闻名，并在IBM PC上广泛使用？",
+      "question": "“拟态”是生物进化出与环境或其他生物相似的外表，以达到什么目的？",
       "options": [
         {
           "letter": "A",
-          "text": "Windows 3.1",
+          "text": "吸引异性",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "macOS",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "MS-DOS",
+          "text": "迷惑捕食者或猎物，提高生存机会",
           "is_correct": true
         },
         {
+          "letter": "C",
+          "text": "调节体温",
+          "is_correct": false
+        },
+        {
           "letter": "D",
-          "text": "Linux",
+          "text": "储存能量",
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "B"
     },
     {
       "id": 87,
-      "question": "“虚拟现实”(VR) 这个术语最早是什么时候被创造出来的？",
+      "question": "以下哪种是人体最大的内分泌腺？",
       "options": [
         {
           "letter": "A",
-          "text": "1960年代",
+          "text": "垂体",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "1970年代",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "1980年代",
+          "text": "甲状腺",
           "is_correct": true
         },
         {
+          "letter": "C",
+          "text": "胰腺 (兼具内外分泌功能)",
+          "is_correct": false
+        },
+        {
           "letter": "D",
-          "text": "1990年代",
+          "text": "肾上腺",
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "B"
     },
     {
       "id": 88,
-      "question": "哪家公司是第一家市值达到一万亿美元的科技公司？",
+      "question": "“生物降解”是指有机物被什么分解的过程？",
       "options": [
         {
           "letter": "A",
-          "text": "微软 (Microsoft)",
+          "text": "阳光",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "谷歌 (Google/Alphabet)",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "苹果 (Apple)",
+          "text": "微生物 (如细菌、真菌)",
           "is_correct": true
         },
         {
+          "letter": "C",
+          "text": "化学催化剂",
+          "is_correct": false
+        },
+        {
           "letter": "D",
-          "text": "亚马逊 (Amazon)",
+          "text": "高温",
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "B"
     },
     {
       "id": 89,
-      "question": "世界上第一张通过互联网上传的照片是什么？",
+      "question": "以下哪种是爬行动物的共同特征？",
       "options": [
         {
           "letter": "A",
-          "text": "一只猫",
+          "text": "体表覆盖羽毛",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "月球表面",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "一个女子乐队 Les Horribles Cernettes",
+          "text": "体表覆盖鳞片或甲，用肺呼吸，卵生 (多数)",
           "is_correct": true
         },
         {
+          "letter": "C",
+          "text": "恒温动物",
+          "is_correct": false
+        },
+        {
           "letter": "D",
-          "text": "咖啡壶",
+          "text": "用鳃呼吸",
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "B"
     },
     {
       "id": 90,
-      "question": "“Podcast”(播客) 这个词的“Pod”指的是什么？",
+      "question": "“抗体”是由人体免疫系统产生的，用于识别和中和什么的蛋白质？",
       "options": [
         {
           "letter": "A",
-          "text": "豌豆荚 (Pea pod)",
+          "text": "营养物质",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "iPod",
+          "text": "外来入侵物 (如细菌、病毒的抗原)",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "讲台 (Podium)",
+          "text": "自身细胞",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "便携式设备 (Portable On Demand)",
+          "text": "激素",
           "is_correct": false
         }
       ],
@@ -2436,273 +2436,273 @@
     },
     {
       "id": 91,
-      "question": "哪家公司开发了Java编程语言？",
+      "question": "以下哪种是陆地上最高的树木种类？",
       "options": [
         {
           "letter": "A",
-          "text": "微软 (Microsoft)",
+          "text": "橡树",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "IBM",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "Sun Microsystems",
+          "text": "海岸红杉 (Coast Redwood)",
           "is_correct": true
         },
         {
+          "letter": "C",
+          "text": "松树",
+          "is_correct": false
+        },
+        {
           "letter": "D",
-          "text": "苹果 (Apple)",
+          "text": "榕树",
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "B"
     },
     {
       "id": 92,
-      "question": "计算机的“桌面”比喻最初是在哪个研究机构提出的？",
+      "question": "“生态位”描述了一个物种在生态系统中的什么？",
       "options": [
         {
           "letter": "A",
-          "text": "贝尔实验室 (Bell Labs)",
+          "text": "地理分布范围",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "麻省理工学院媒体实验室 (MIT Media Lab)",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "施乐帕洛阿尔托研究中心 (Xerox PARC)",
+          "text": "角色、地位和所利用的资源 (功能和栖息地)",
           "is_correct": true
         },
         {
+          "letter": "C",
+          "text": "种群数量",
+          "is_correct": false
+        },
+        {
           "letter": "D",
-          "text": "IBM研究院",
+          "text": "进化历史",
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "B"
     },
     {
       "id": 93,
-      "question": "“CAPTCHA”的主要目的是什么？",
+      "question": "以下哪种是人体必需的常量元素，构成骨骼和牙齿的主要成分？",
       "options": [
         {
           "letter": "A",
-          "text": "加密数据",
+          "text": "铁 (Fe)",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "提高网站加载速度",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "区分计算机和人类用户",
+          "text": "钙 (Ca)",
           "is_correct": true
         },
         {
+          "letter": "C",
+          "text": "碘 (I)",
+          "is_correct": false
+        },
+        {
           "letter": "D",
-          "text": "扫描病毒",
+          "text": "钠 (Na)",
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "B"
     },
     {
       "id": 94,
-      "question": "哪种存储设备因为其便携性和容量取代了软盘？",
+      "question": "“生物入侵”是指外来物种进入新的生态系统后，可能造成什么影响？",
       "options": [
         {
           "letter": "A",
-          "text": "磁带",
+          "text": "总是增加生物多样性",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "CD-ROM",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "U盘/闪存盘",
+          "text": "可能对本地物种和生态系统造成负面影响",
           "is_correct": true
         },
         {
+          "letter": "C",
+          "text": "总是与本地物种和平共处",
+          "is_correct": false
+        },
+        {
           "letter": "D",
-          "text": "Zip驱动器",
+          "text": "总是能改善生态环境",
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "B"
     },
     {
       "id": 95,
-      "question": "世界上第一款智能手机被认为是哪一款？",
+      "question": "以下哪种是植物进行有性生殖产生的结构，可以发育成新的植株？",
       "options": [
         {
           "letter": "A",
-          "text": "iPhone",
+          "text": "孢子 (某些植物)",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "BlackBerry 850",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "IBM Simon",
+          "text": "种子",
           "is_correct": true
         },
         {
+          "letter": "C",
+          "text": "块茎",
+          "is_correct": false
+        },
+        {
           "letter": "D",
-          "text": "Nokia 9000 Communicator",
+          "text": "叶片",
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "B"
     },
     {
       "id": 96,
-      "question": "“超文本标记语言”(HTML) 主要用于创建什么？",
+      "question": "“荷尔蒙”（激素）在生物体内主要起什么作用？",
       "options": [
         {
           "letter": "A",
-          "text": "操作系统",
+          "text": "提供能量",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "数据库",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "网页",
+          "text": "调节生长、发育、代谢等生理过程",
           "is_correct": true
         },
         {
+          "letter": "C",
+          "text": "运输氧气",
+          "is_correct": false
+        },
+        {
           "letter": "D",
-          "text": "电子游戏",
+          "text": "构成细胞结构",
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "B"
     },
     {
       "id": 97,
-      "question": "哪位计算机科学家提出了“图灵测试”来判断机器是否能表现出与人无法区分的智能行为？",
+      "question": "以下哪种动物是唯一能进行真正飞行的哺乳动物？",
       "options": [
         {
           "letter": "A",
-          "text": "约翰·冯·诺依曼",
+          "text": "飞鼠",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "克劳德·香农",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "艾伦·图灵",
+          "text": "蝙蝠",
           "is_correct": true
         },
         {
+          "letter": "C",
+          "text": "企鹅",
+          "is_correct": false
+        },
+        {
           "letter": "D",
-          "text": "查尔斯·巴贝奇",
+          "text": "鸵鸟",
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "B"
     },
     {
       "id": 98,
-      "question": "“表情包”(Meme) 这个词最初是由谁创造的？",
+      "question": "“细胞凋亡”是指细胞发生的一种什么过程？",
       "options": [
         {
           "letter": "A",
-          "text": "蒂姆·伯纳斯-李",
+          "text": "不受控制的增殖",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "斯科特·法尔曼",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "理查德·道金斯",
+          "text": "程序性的、主动的死亡过程",
           "is_correct": true
         },
         {
+          "letter": "C",
+          "text": "转化为其他类型的细胞",
+          "is_correct": false
+        },
+        {
           "letter": "D",
-          "text": "互联网用户集体创造",
+          "text": "能量产生的过程",
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "B"
     },
     {
       "id": 99,
-      "question": "哪家公司开发了Flash动画技术，曾在互联网上非常流行？",
+      "question": "以下哪种是地球上最古老的生物之一，能进行光合作用并释放氧气？",
       "options": [
         {
           "letter": "A",
-          "text": "微软 (Microsoft)",
+          "text": "蕨类植物",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "苹果 (Apple)",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "Macromedia",
+          "text": "蓝细菌 (Cyanobacteria)",
           "is_correct": true
         },
         {
+          "letter": "C",
+          "text": "真菌",
+          "is_correct": false
+        },
+        {
           "letter": "D",
-          "text": "谷歌 (Google)",
+          "text": "恐龙",
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "B"
     },
     {
       "id": 100,
-      "question": "计算机主板上的BIOS是什么的缩写？",
+      "question": "“生物伦理学”主要探讨与什么相关的伦理问题？",
       "options": [
         {
           "letter": "A",
-          "text": "Binary Input Output Signal (二进制输入输出信号)",
+          "text": "环境保护",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "Basic Integrated Operating System (基本集成操作系统)",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "Basic Input/Output System (基本输入输出系统)",
+          "text": "生物学和医学研究及应用",
           "is_correct": true
         },
         {
+          "letter": "C",
+          "text": "动物行为",
+          "is_correct": false
+        },
+        {
           "letter": "D",
-          "text": "Boot Interface Operating Software (引导接口操作软件)",
+          "text": "化石研究",
           "is_correct": false
         }
       ],
-      "correct_answer": "C"
+      "correct_answer": "B"
     }
   ]
 }

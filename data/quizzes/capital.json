@@ -1,31 +1,31 @@
 {
-  "quiz_title": "苹果公司",
-  "description": "关于史蒂夫·乔布斯、产品历史、Mac、iPhone、iPad等的苹果问答",
+  "quiz_title": "首都",
+  "description": "包含各大洲国家及其首都城市问题的地理问题",
   "total_questions": 60,
   "questions_per_quiz": 20,
   "questions": [
     {
       "id": 1,
-      "question": "苹果公司成立于哪一年？",
+      "question": "中国的首都是哪里？",
       "options": [
         {
           "letter": "A",
-          "text": "1972年",
+          "text": "上海",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "1976年",
+          "text": "北京",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "1980年",
+          "text": "广州",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "1984年",
+          "text": "深圳",
           "is_correct": false
         }
       ],
@@ -33,502 +33,16 @@
     },
     {
       "id": 2,
-      "question": "苹果公司的三位创始人是谁？",
+      "question": "美国的首都是哪里？",
       "options": [
         {
           "letter": "A",
-          "text": "史蒂夫·乔布斯、比尔·盖茨、保罗·艾伦",
+          "text": "纽约",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "史蒂夫·乔布斯、史蒂夫·沃兹尼亚克、罗纳德·韦恩",
-          "is_correct": true
-        },
-        {
-          "letter": "C",
-          "text": "史蒂夫·乔布斯、蒂姆·库克、乔尼·艾维",
-          "is_correct": false
-        },
-        {
-          "letter": "D",
-          "text": "史蒂夫·沃兹尼亚克、比尔·盖茨、拉里·埃里森",
-          "is_correct": false
-        }
-      ],
-      "correct_answer": "B"
-    },
-    {
-      "id": 3,
-      "question": "苹果公司的第一款个人电脑产品是什么？",
-      "options": [
-        {
-          "letter": "A",
-          "text": "Macintosh",
-          "is_correct": false
-        },
-        {
-          "letter": "B",
-          "text": "Apple Lisa",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "Apple I",
-          "is_correct": true
-        },
-        {
-          "letter": "D",
-          "text": "Apple II",
-          "is_correct": false
-        }
-      ],
-      "correct_answer": "C"
-    },
-    {
-      "id": 4,
-      "question": "史蒂夫·乔布斯曾在哪个大学短暂学习过？",
-      "options": [
-        {
-          "letter": "A",
-          "text": "斯坦福大学",
-          "is_correct": false
-        },
-        {
-          "letter": "B",
-          "text": "里德学院",
-          "is_correct": true
-        },
-        {
-          "letter": "C",
-          "text": "加州大学伯克利分校",
-          "is_correct": false
-        },
-        {
-          "letter": "D",
-          "text": "哈佛大学",
-          "is_correct": false
-        }
-      ],
-      "correct_answer": "B"
-    },
-    {
-      "id": 5,
-      "question": "苹果公司著名的“1984”广告是在哪个体育赛事的直播中播出的？",
-      "options": [
-        {
-          "letter": "A",
-          "text": "奥运会",
-          "is_correct": false
-        },
-        {
-          "letter": "B",
-          "text": "FIFA世界杯",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "超级碗",
-          "is_correct": true
-        },
-        {
-          "letter": "D",
-          "text": "NBA总决赛",
-          "is_correct": false
-        }
-      ],
-      "correct_answer": "C"
-    },
-    {
-      "id": 6,
-      "question": "史蒂夫·乔布斯被苹果公司解雇后创立了哪家公司？",
-      "options": [
-        {
-          "letter": "A",
-          "text": "皮克斯 (Pixar)",
-          "is_correct": false
-        },
-        {
-          "letter": "B",
-          "text": "NeXT Computer",
-          "is_correct": true
-        },
-        {
-          "letter": "C",
-          "text": "戴尔 (Dell)",
-          "is_correct": false
-        },
-        {
-          "letter": "D",
-          "text": "奥多比 (Adobe)",
-          "is_correct": false
-        }
-      ],
-      "correct_answer": "B"
-    },
-    {
-      "id": 7,
-      "question": "史蒂夫·乔布斯最初投资并发展了哪个动画工作室？",
-      "options": [
-        {
-          "letter": "A",
-          "text": "梦工厂动画 (DreamWorks Animation)",
-          "is_correct": false
-        },
-        {
-          "letter": "B",
-          "text": "皮克斯动画工作室 (Pixar Animation Studios)",
-          "is_correct": true
-        },
-        {
-          "letter": "C",
-          "text": "华特迪士尼动画工作室 (Walt Disney Animation Studios)",
-          "is_correct": false
-        },
-        {
-          "letter": "D",
-          "text": "吉卜力工作室 (Studio Ghibli)",
-          "is_correct": false
-        }
-      ],
-      "correct_answer": "B"
-    },
-    {
-      "id": 8,
-      "question": "史蒂夫·乔布斯通过收购哪家公司重返苹果？",
-      "options": [
-        {
-          "letter": "A",
-          "text": "奥多比 (Adobe)",
-          "is_correct": false
-        },
-        {
-          "letter": "B",
-          "text": "微软 (Microsoft)",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "NeXT Computer",
-          "is_correct": true
-        },
-        {
-          "letter": "D",
-          "text": "皮克斯 (Pixar)",
-          "is_correct": false
-        }
-      ],
-      "correct_answer": "C"
-    },
-    {
-      "id": 9,
-      "question": "第一代iPod于哪一年发布？",
-      "options": [
-        {
-          "letter": "A",
-          "text": "1998年",
-          "is_correct": false
-        },
-        {
-          "letter": "B",
-          "text": "2001年",
-          "is_correct": true
-        },
-        {
-          "letter": "C",
-          "text": "2004年",
-          "is_correct": false
-        },
-        {
-          "letter": "D",
-          "text": "2007年",
-          "is_correct": false
-        }
-      ],
-      "correct_answer": "B"
-    },
-    {
-      "id": 10,
-      "question": "第一代iPhone于哪一年发布？",
-      "options": [
-        {
-          "letter": "A",
-          "text": "2003年",
-          "is_correct": false
-        },
-        {
-          "letter": "B",
-          "text": "2005年",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "2007年",
-          "is_correct": true
-        },
-        {
-          "letter": "D",
-          "text": "2009年",
-          "is_correct": false
-        }
-      ],
-      "correct_answer": "C"
-    },
-    {
-      "id": 11,
-      "question": "苹果公司的macOS操作系统以前叫什么名字？",
-      "options": [
-        {
-          "letter": "A",
-          "text": "Windows NT",
-          "is_correct": false
-        },
-        {
-          "letter": "B",
-          "text": "OS X (曾用名 Mac OS X)",
-          "is_correct": true
-        },
-        {
-          "letter": "C",
-          "text": "iOS",
-          "is_correct": false
-        },
-        {
-          "letter": "D",
-          "text": "System V",
-          "is_correct": false
-        }
-      ],
-      "correct_answer": "B"
-    },
-    {
-      "id": 12,
-      "question": "史蒂夫·乔布斯在产品发布会上经常穿的套头高领毛衣是什么颜色的？",
-      "options": [
-        {
-          "letter": "A",
-          "text": "白色",
-          "is_correct": false
-        },
-        {
-          "letter": "B",
-          "text": "灰色",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "黑色",
-          "is_correct": true
-        },
-        {
-          "letter": "D",
-          "text": "蓝色",
-          "is_correct": false
-        }
-      ],
-      "correct_answer": "C"
-    },
-    {
-      "id": 13,
-      "question": "苹果哪个产品系列以其超薄设计而闻名？",
-      "options": [
-        {
-          "letter": "A",
-          "text": "iMac",
-          "is_correct": false
-        },
-        {
-          "letter": "B",
-          "text": "MacBook Air",
-          "is_correct": true
-        },
-        {
-          "letter": "C",
-          "text": "Mac Pro",
-          "is_correct": false
-        },
-        {
-          "letter": "D",
-          "text": "HomePod",
-          "is_correct": false
-        }
-      ],
-      "correct_answer": "B"
-    },
-    {
-      "id": 14,
-      "question": "苹果公司的平板电脑系列叫什么名字？",
-      "options": [
-        {
-          "letter": "A",
-          "text": "iTab",
-          "is_correct": false
-        },
-        {
-          "letter": "B",
-          "text": "iPad",
-          "is_correct": true
-        },
-        {
-          "letter": "C",
-          "text": "iSlate",
-          "is_correct": false
-        },
-        {
-          "letter": "D",
-          "text": "MacPad",
-          "is_correct": false
-        }
-      ],
-      "correct_answer": "B"
-    },
-    {
-      "id": 15,
-      "question": "史蒂夫·乔布斯在哪所大学发表了他著名的“求知若饥，虚心若愚”的毕业典礼演讲？",
-      "options": [
-        {
-          "letter": "A",
-          "text": "哈佛大学",
-          "is_correct": false
-        },
-        {
-          "letter": "B",
-          "text": "斯坦福大学",
-          "is_correct": true
-        },
-        {
-          "letter": "C",
-          "text": "麻省理工学院 (MIT)",
-          "is_correct": false
-        },
-        {
-          "letter": "D",
-          "text": "耶鲁大学",
-          "is_correct": false
-        }
-      ],
-      "correct_answer": "B"
-    },
-    {
-      "id": 16,
-      "question": "苹果公司的智能手表产品叫什么名字？",
-      "options": [
-        {
-          "letter": "A",
-          "text": "iWatch",
-          "is_correct": false
-        },
-        {
-          "letter": "B",
-          "text": "Apple Watch",
-          "is_correct": true
-        },
-        {
-          "letter": "C",
-          "text": "Mac Watch",
-          "is_correct": false
-        },
-        {
-          "letter": "D",
-          "text": "TimeBand",
-          "is_correct": false
-        }
-      ],
-      "correct_answer": "B"
-    },
-    {
-      "id": 17,
-      "question": "苹果公司的数字音乐商店和播放软件是什么？",
-      "options": [
-        {
-          "letter": "A",
-          "text": "Spotify",
-          "is_correct": false
-        },
-        {
-          "letter": "B",
-          "text": "iTunes",
-          "is_correct": true
-        },
-        {
-          "letter": "C",
-          "text": "Napster",
-          "is_correct": false
-        },
-        {
-          "letter": "D",
-          "text": "Winamp",
-          "is_correct": false
-        }
-      ],
-      "correct_answer": "B"
-    },
-    {
-      "id": 18,
-      "question": "截至2023年，苹果公司的现任首席执行官是谁？",
-      "options": [
-        {
-          "letter": "A",
-          "text": "史蒂夫·沃兹尼亚克",
-          "is_correct": false
-        },
-        {
-          "letter": "B",
-          "text": "乔尼·艾维",
-          "is_correct": false
-        },
-        {
-          "letter": "C",
-          "text": "蒂姆·库克",
-          "is_correct": true
-        },
-        {
-          "letter": "D",
-          "text": "比尔·盖茨",
-          "is_correct": false
-        }
-      ],
-      "correct_answer": "C"
-    },
-    {
-      "id": 19,
-      "question": "苹果公司的“Think   Different”广告活动是什么时候推出的？",
-      "options": [
-        {
-          "letter": "A",
-          "text": "20世纪80年代",
-          "is_correct": false
-        },
-        {
-          "letter": "B",
-          "text": "20世纪90年代末",
-          "is_correct": true
-        },
-        {
-          "letter": "C",
-          "text": "21世纪初",
-          "is_correct": false
-        },
-        {
-          "letter": "D",
-          "text": "21世纪10年代",
-          "is_correct": false
-        }
-      ],
-      "correct_answer": "B"
-    },
-    {
-      "id": 20,
-      "question": "苹果公司的总部位于哪个城市？",
-      "options": [
-        {
-          "letter": "A",
-          "text": "旧金山",
-          "is_correct": false
-        },
-        {
-          "letter": "B",
-          "text": "库比蒂诺",
+          "text": "华盛顿哥伦比亚特区",
           "is_correct": true
         },
         {
@@ -538,7 +52,493 @@
         },
         {
           "letter": "D",
-          "text": "西雅图",
+          "text": "芝加哥",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 3,
+      "question": "日本的首都是哪里？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "大阪",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "东京",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "京都",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "横滨",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 4,
+      "question": "英国的首都是哪里？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "曼彻斯特",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "伦敦",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "伯明翰",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "利物浦",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 5,
+      "question": "法国的首都是哪里？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "马赛",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "巴黎",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "里昂",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "图卢兹",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 6,
+      "question": "德国的首都是哪里？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "汉堡",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "柏林",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "慕尼黑",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "法兰克福",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 7,
+      "question": "加拿大的首都是哪里？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "多伦多",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "渥太华",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "温哥华",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "蒙特利尔",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 8,
+      "question": "澳大利亚的首都是哪里？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "悉尼",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "堪培拉",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "墨尔本",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "布里斯班",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 9,
+      "question": "俄罗斯的首都是哪里？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "圣彼得堡",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "莫斯科",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "新西伯利亚",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "叶卡捷琳堡",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 10,
+      "question": "印度的首都是哪里？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "孟买",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "新德里",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "班加罗尔",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "加尔各答",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 11,
+      "question": "巴西的首都是哪里？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "里约热内卢",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "巴西利亚",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "圣保罗",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "萨尔瓦多",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 12,
+      "question": "韩国的首都是哪里？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "釜山",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "首尔",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "仁川",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "大邱",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 13,
+      "question": "意大利的首都是哪里？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "米兰",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "罗马",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "那不勒斯",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "都灵",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 14,
+      "question": "西班牙的首都是哪里？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "巴塞罗那",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "马德里",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "瓦伦西亚",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "塞维利亚",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 15,
+      "question": "埃及的首都是哪里？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "亚历山大",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "开罗",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "吉萨",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "卢克索",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 16,
+      "question": "南非的行政首都是哪里？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "开普敦",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "比勒陀利亚",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "约翰内斯堡",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "德班",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 17,
+      "question": "阿根廷的首都是哪里？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "科尔多瓦",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "布宜诺斯艾利斯",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "罗萨里奥",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "门多萨",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 18,
+      "question": "墨西哥的首都是哪里？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "瓜达拉哈拉",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "墨西哥城",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "蒙特雷",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "普埃布拉",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 19,
+      "question": "印度尼西亚的首都是哪里？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "泗水",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "雅加达",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "万隆",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "棉兰",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 20,
+      "question": "土耳其的首都是哪里？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "伊斯坦布尔",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text": "安卡拉",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text": "伊兹密尔",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text": "布尔萨",
           "is_correct": false
         }
       ],
@@ -546,26 +546,26 @@
     },
     {
       "id": 21,
-      "question": "iPhone使用的移动操作系统是什么？",
+      "question": "沙特阿拉伯的首都是哪里？",
       "options": [
         {
           "letter": "A",
-          "text": "安卓 (Android)",
+          "text": "吉达",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "iOS",
+          "text": "利雅得",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "Windows Mobile",
+          "text": "麦加",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "塞班 (Symbian)",
+          "text": "麦地那",
           "is_correct": false
         }
       ],
@@ -573,26 +573,26 @@
     },
     {
       "id": 22,
-      "question": "苹果公司的应用商店叫什么名字？",
+      "question": "伊朗的首都是哪里？",
       "options": [
         {
           "letter": "A",
-          "text": "Google Play",
+          "text": "伊斯法罕",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "App Store",
+          "text": "德黑兰",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "Microsoft Store",
+          "text": "设拉子",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "iStore",
+          "text": "大不里士",
           "is_correct": false
         }
       ],
@@ -600,26 +600,26 @@
     },
     {
       "id": 23,
-      "question": "史蒂夫·乔布斯对哪种类型的字体特别着迷？",
+      "question": "巴基斯坦的首都是哪里？",
       "options": [
         {
           "letter": "A",
-          "text": "哥特体",
+          "text": "卡拉奇",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "书法",
+          "text": "伊斯兰堡",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "像素字体",
+          "text": "拉合尔",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "手写字体",
+          "text": "费萨拉巴德",
           "is_correct": false
         }
       ],
@@ -627,26 +627,26 @@
     },
     {
       "id": 24,
-      "question": "哪款苹果电脑是第一款配备彩色屏幕的？",
+      "question": "尼日利亚的首都是哪里？",
       "options": [
         {
           "letter": "A",
-          "text": "Apple I",
+          "text": "拉各斯",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "Apple II",
+          "text": "阿布贾",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "Macintosh",
+          "text": "卡诺",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "iMac G3",
+          "text": "伊巴丹",
           "is_correct": false
         }
       ],
@@ -654,26 +654,26 @@
     },
     {
       "id": 25,
-      "question": "哪款苹果产品彻底改变了音乐产业？",
+      "question": "泰国的首都是哪里？",
       "options": [
         {
           "letter": "A",
-          "text": "iPhone",
+          "text": "清迈",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "iPod 和 iTunes",
+          "text": "曼谷",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "MacBook",
+          "text": "芭提雅",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "Apple TV",
+          "text": "普吉",
           "is_correct": false
         }
       ],
@@ -681,26 +681,26 @@
     },
     {
       "id": 26,
-      "question": "谁设计了苹果公司标志性的“被咬过的苹果”标志？",
+      "question": "越南的首都是哪里？",
       "options": [
         {
           "letter": "A",
-          "text": "史蒂夫·乔布斯",
+          "text": "胡志明市",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "罗勃·简诺夫 (Rob Janoff)",
+          "text": "河内",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "史蒂夫·沃兹尼亚克",
+          "text": "岘港",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "乔尼·艾维",
+          "text": "海防",
           "is_correct": false
         }
       ],
@@ -708,26 +708,26 @@
     },
     {
       "id": 27,
-      "question": "哪款苹果电脑因其色彩鲜艳的半透明外壳而备受关注？",
+      "question": "马来西亚的首都是哪里？",
       "options": [
         {
           "letter": "A",
-          "text": "MacBook Pro",
+          "text": "槟城",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "iMac G3",
+          "text": "吉隆坡",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "Mac mini",
+          "text": "新山",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "Power Mac G5",
+          "text": "怡保",
           "is_correct": false
         }
       ],
@@ -735,26 +735,26 @@
     },
     {
       "id": 28,
-      "question": "史蒂夫·乔布斯以哪方面的才能尤为著称？",
+      "question": "菲律宾的首都是哪里？",
       "options": [
         {
           "letter": "A",
-          "text": "硬件工程设计",
+          "text": "宿务",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "产品营销和演讲演示",
+          "text": "马尼拉",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "软件编程",
+          "text": "达沃",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "金融投资",
+          "text": "奎松市",
           "is_correct": false
         }
       ],
@@ -762,26 +762,26 @@
     },
     {
       "id": 29,
-      "question": "苹果公司的云存储服务叫什么名字？",
+      "question": "哥伦比亚的首都是哪里？",
       "options": [
         {
           "letter": "A",
-          "text": "Google Drive",
+          "text": "麦德林",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "iCloud",
+          "text": "波哥大",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "Dropbox",
+          "text": "卡利",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "OneDrive",
+          "text": "巴兰基亚",
           "is_correct": false
         }
       ],
@@ -789,26 +789,26 @@
     },
     {
       "id": 30,
-      "question": "皮克斯动画工作室的第一部完整长度的动画长片是哪一部？",
+      "question": "秘鲁的首都是哪里？",
       "options": [
         {
           "letter": "A",
-          "text": "海底总动员 (Finding Nemo)",
+          "text": "阿雷基帕",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "玩具总动员 (Toy Story)",
+          "text": "利马",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "怪兽电力公司 (Monsters, Inc.)",
+          "text": "库斯科",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "超人总动员 (The Incredibles)",
+          "text": "特鲁希略",
           "is_correct": false
         }
       ],
@@ -816,26 +816,26 @@
     },
     {
       "id": 31,
-      "question": "苹果公司的“Macintosh”电脑的名字来源于什么？",
+      "question": "智利的首都是哪里？",
       "options": [
         {
           "letter": "A",
-          "text": "一位发明家的名字",
+          "text": "瓦尔帕莱索",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "一种苹果的品种",
+          "text": "圣地亚哥",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "一个苏格兰氏族的名称",
+          "text": "康塞普西翁",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "一个虚构的角色",
+          "text": "安托法加斯塔",
           "is_correct": false
         }
       ],
@@ -843,26 +843,26 @@
     },
     {
       "id": 32,
-      "question": "哪款苹果产品开创了“多点触控”技术的广泛应用？",
+      "question": "荷兰的首都是哪里？",
       "options": [
         {
           "letter": "A",
-          "text": "iPod Classic",
+          "text": "鹿特丹",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "iPhone",
+          "text": "阿姆斯特丹",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "MacBook Pro",
+          "text": "海牙",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "Apple Newton",
+          "text": "乌得勒支",
           "is_correct": false
         }
       ],
@@ -870,26 +870,26 @@
     },
     {
       "id": 33,
-      "question": "离开苹果后，史蒂夫·乔布斯的NeXT电脑主要针对哪个市场？",
+      "question": "比利时的首都是哪里？",
       "options": [
         {
           "letter": "A",
-          "text": "家庭娱乐市场",
+          "text": "安特卫普",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "教育和研究市场",
+          "text": "布鲁塞尔",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "大型企业市场",
+          "text": "根特",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "游戏市场",
+          "text": "布鲁日",
           "is_correct": false
         }
       ],
@@ -897,26 +897,26 @@
     },
     {
       "id": 34,
-      "question": "苹果公司的语音助手叫什么名字？",
+      "question": "瑞士的首都是哪里？",
       "options": [
         {
           "letter": "A",
-          "text": "Alexa",
+          "text": "苏黎世",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "Siri",
+          "text": "伯尔尼",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "Cortana",
+          "text": "日内瓦",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "Google Assistant",
+          "text": "巴зе尔",
           "is_correct": false
         }
       ],
@@ -924,26 +924,26 @@
     },
     {
       "id": 35,
-      "question": "苹果公司的无线耳塞产品线叫什么名字？",
+      "question": "瑞典的首都是哪里？",
       "options": [
         {
           "letter": "A",
-          "text": "SoundBuds",
+          "text": "哥德堡",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "AirPods",
+          "text": "斯德哥尔摩",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "iBeats",
+          "text": "马尔默",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "Galaxy Buds",
+          "text": "乌普萨拉",
           "is_correct": false
         }
       ],
@@ -951,26 +951,26 @@
     },
     {
       "id": 36,
-      "question": "史蒂夫·乔布斯通常被认为是一位追求何种理念的产品设计师？",
+      "question": "挪威的首都是哪里？",
       "options": [
         {
           "letter": "A",
-          "text": "功能越多越好",
+          "text": "卑尔根",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "极简主义和用户体验至上",
+          "text": "奥斯陆",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "开源和定制化",
+          "text": "特隆赫姆",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "低成本和高价值",
+          "text": "斯塔万格",
           "is_correct": false
         }
       ],
@@ -978,26 +978,26 @@
     },
     {
       "id": 37,
-      "question": "苹果公司的流媒体音乐服务是什么？",
+      "question": "丹麦的首都是哪里？",
       "options": [
         {
           "letter": "A",
-          "text": "Spotify",
+          "text": "奥胡斯",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "Apple Music",
+          "text": "哥本哈根",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "Tidal",
+          "text": "欧登塞",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "Pandora",
+          "text": "奥尔堡",
           "is_correct": false
         }
       ],
@@ -1005,26 +1005,26 @@
     },
     {
       "id": 38,
-      "question": "史蒂夫·乔布斯重返苹果后领导的第一个非常成功的产品是什么？",
+      "question": "芬兰的首都是哪里？",
       "options": [
         {
           "letter": "A",
-          "text": "iPhone",
+          "text": "坦佩雷",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "iMac G3",
+          "text": "赫尔辛基",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "iPod",
+          "text": "图尔库",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "MacBook",
+          "text": "奥卢",
           "is_correct": false
         }
       ],
@@ -1032,26 +1032,26 @@
     },
     {
       "id": 39,
-      "question": "苹果公司的Apple   Park总部大楼以其什么独特的形状而闻名？",
+      "question": "希腊的首都是哪里？",
       "options": [
         {
           "letter": "A",
-          "text": "金字塔形",
+          "text": "塞萨洛尼基",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "圆形（像宇宙飞船）",
+          "text": "雅典",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "方形",
+          "text": "帕特雷",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "不规则多边形",
+          "text": "伊拉克利翁",
           "is_correct": false
         }
       ],
@@ -1059,26 +1059,26 @@
     },
     {
       "id": 40,
-      "question": "哪位苹果联合创始人主要负责早期产品的技术工程？",
+      "question": "葡萄牙的首都是哪里？",
       "options": [
         {
           "letter": "A",
-          "text": "史蒂夫·乔布斯",
+          "text": "波尔图",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "史蒂夫·沃兹尼亚克",
+          "text": "里斯本",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "罗纳德·韦恩",
+          "text": "加亚新城",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "蒂姆·库克",
+          "text": "布拉加",
           "is_correct": false
         }
       ],
@@ -1086,26 +1086,26 @@
     },
     {
       "id": 41,
-      "question": "第一代iPod使用的是哪种类型的存储介质？",
+      "question": "爱尔兰的首都是哪里？",
       "options": [
         {
           "letter": "A",
-          "text": "闪存",
+          "text": "科克",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "微型硬盘",
+          "text": "都柏林",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "SD卡",
+          "text": "戈尔韦",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "CD-ROM",
+          "text": "利默里克",
           "is_correct": false
         }
       ],
@@ -1113,26 +1113,26 @@
     },
     {
       "id": 42,
-      "question": "macOS中的苹果“访达”(Finder)是什么组件？",
+      "question": "奥地利的首都是哪里？",
       "options": [
         {
           "letter": "A",
-          "text": "网页浏览器",
+          "text": "格拉茨",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "文件管理器",
+          "text": "维也纳",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "电子邮件客户端",
+          "text": "林茨",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "系统设置工具",
+          "text": "萨尔茨堡",
           "is_correct": false
         }
       ],
@@ -1140,26 +1140,26 @@
     },
     {
       "id": 43,
-      "question": "史蒂夫·乔布斯在2005年斯坦福大学毕业典礼演讲中分享了几个故事？",
+      "question": "波兰的首都是哪里？",
       "options": [
         {
           "letter": "A",
-          "text": "一个",
+          "text": "克拉科夫",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "三个",
+          "text": "华沙",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "五个",
+          "text": "罗兹",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "七个",
+          "text": "弗罗茨瓦夫",
           "is_correct": false
         }
       ],
@@ -1167,26 +1167,26 @@
     },
     {
       "id": 44,
-      "question": "第一款配备视网膜显示屏   (Retina Display) 的苹果产品是什么？",
+      "question": "捷克共和国的首都是哪里？",
       "options": [
         {
           "letter": "A",
-          "text": "iPad 3",
+          "text": "布尔诺",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "iPhone 4",
+          "text": "布拉格",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "配备视网膜显示屏的MacBook Pro",
+          "text": "俄斯特拉发",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "配备视网膜5K显示屏的iMac",
+          "text": "比尔森",
           "is_correct": false
         }
       ],
@@ -1194,26 +1194,26 @@
     },
     {
       "id": 45,
-      "question": "哪款苹果软件允许用户编辑视频？",
+      "question": "匈牙利的首都是哪里？",
       "options": [
         {
           "letter": "A",
-          "text": "库乐队 (GarageBand)",
+          "text": "德布勒森",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "iMovie剪辑或Final Cut Pro",
+          "text": "布达佩斯",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "Keynote讲演",
+          "text": "塞格德",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "Pages文稿",
+          "text": "米什科尔茨",
           "is_correct": false
         }
       ],
@@ -1221,26 +1221,26 @@
     },
     {
       "id": 46,
-      "question": "史蒂夫·乔布斯以其“现实扭曲力场”而闻名。这是指什么？",
+      "question": "罗马尼亚的首都是哪里？",
       "options": [
         {
           "letter": "A",
-          "text": "他预测未来技术趋势的能力",
+          "text": "克卢日-纳波卡",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "他强大的说服力和个人魅力，使人们能够相信并完成看似不可能的任务",
+          "text": "布加勒斯特",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "他对物理学的深入了解",
+          "text": "蒂米什瓦拉",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "他用眼神控制他人的能力",
+          "text": "雅西",
           "is_correct": false
         }
       ],
@@ -1248,26 +1248,26 @@
     },
     {
       "id": 47,
-      "question": "苹果公司的智能家居平台叫什么名字？",
+      "question": "乌克兰的首都是哪里？",
       "options": [
         {
           "letter": "A",
-          "text": "Google Home",
+          "text": "哈尔科夫",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "HomeKit",
+          "text": "基辅",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "Amazon Alexa",
+          "text": "敖德萨",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "SmartThings",
+          "text": "第聂伯罗",
           "is_correct": false
         }
       ],
@@ -1275,26 +1275,26 @@
     },
     {
       "id": 48,
-      "question": "苹果公司的第一家零售店   (Apple Store) 是在哪一年开业的？",
+      "question": "以色列的首都是哪里？\n (国际上对此有争议，此处指其宣称的首都)",
       "options": [
         {
           "letter": "A",
-          "text": "1997年",
+          "text": "特拉维夫",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "2001年",
+          "text": "耶路撒冷",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "2005年",
+          "text": "海法",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "2007年",
+          "text": "贝尔谢巴",
           "is_correct": false
         }
       ],
@@ -1302,26 +1302,26 @@
     },
     {
       "id": 49,
-      "question": "哪位著名的工业设计师长期担任苹果公司的首席设计官？",
+      "question": "阿拉伯联合酋长国的首都是哪里？",
       "options": [
         {
           "letter": "A",
-          "text": "迪特·拉姆斯 (Dieter Rams)",
+          "text": "迪拜",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "乔尼·艾维 (Jony Ive)",
+          "text": "阿布扎比",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "马克·纽森 (Marc Newson)",
+          "text": "沙迦",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "菲利普·斯塔克 (Philippe Starck)",
+          "text": "阿治曼",
           "is_correct": false
         }
       ],
@@ -1329,26 +1329,26 @@
     },
     {
       "id": 50,
-      "question": "苹果公司最初的标志设计是什么？",
+      "question": "新加坡的首都是哪里？",
       "options": [
         {
           "letter": "A",
-          "text": "一个彩虹色的苹果",
+          "text": "裕廊",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "艾萨克·牛顿坐在苹果树下",
+          "text": "新加坡市 (新加坡是一个城市国家)",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "一个纯黑色的苹果剪影",
+          "text": "乌节路",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "字母“A”的抽象设计",
+          "text": "圣淘沙",
           "is_correct": false
         }
       ],
@@ -1356,26 +1356,26 @@
     },
     {
       "id": 51,
-      "question": "苹果公司的“Pro”系列产品通常代表什么？",
+      "question": "新西兰的首都是哪里？",
       "options": [
         {
           "letter": "A",
-          "text": "入门级且经济实惠",
+          "text": "奥克兰",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "专业级且高性能",
+          "text": "惠灵顿",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "小巧便携",
+          "text": "基督城",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "色彩鲜艳且时尚",
+          "text": "皇后镇",
           "is_correct": false
         }
       ],
@@ -1383,26 +1383,26 @@
     },
     {
       "id": 52,
-      "question": "史蒂夫·乔布斯生前在苹果产品发布会上通常用哪句话结束他的演讲？",
+      "question": "肯尼亚的首都是哪里？",
       "options": [
         {
           "letter": "A",
-          "text": "伙计们，就这些了！",
+          "text": "蒙巴萨",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "还有一件事……",
+          "text": "内罗毕",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "谢谢，晚安！",
+          "text": "基苏木",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "未来已来！",
+          "text": "纳库鲁",
           "is_correct": false
         }
       ],
@@ -1410,26 +1410,26 @@
     },
     {
       "id": 53,
-      "question": "哪款苹果产品标志着其进入可穿戴技术市场？",
+      "question": "埃塞俄比亚的首都是哪里？",
       "options": [
         {
           "letter": "A",
-          "text": "iPod Shuffle",
+          "text": "贡德尔",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "Apple Watch",
+          "text": "亚的斯亚贝巴",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "AirPods",
+          "text": "迪雷达瓦",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "iPhone",
+          "text": "默克莱",
           "is_correct": false
         }
       ],
@@ -1437,26 +1437,26 @@
     },
     {
       "id": 54,
-      "question": "苹果公司收购Beats   Electronics主要获得了什么？",
+      "question": "摩洛哥的首都是哪里？",
       "options": [
         {
           "letter": "A",
-          "text": "搜索引擎技术",
+          "text": "卡萨布兰卡",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "耳机品牌和流媒体音乐服务",
+          "text": "拉巴特",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "社交媒体平台",
+          "text": "马拉喀什",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "游戏开发工作室",
+          "text": "非斯",
           "is_correct": false
         }
       ],
@@ -1464,26 +1464,26 @@
     },
     {
       "id": 55,
-      "question": "传记电影《史蒂夫·乔布斯》的剧本是谁写的？",
+      "question": "古巴的首都是哪里？",
       "options": [
         {
           "letter": "A",
-          "text": "昆汀·塔伦蒂诺 (Quentin Tarantino)",
+          "text": "圣地亚哥-德古巴",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "艾伦·索金 (Aaron Sorkin)",
+          "text": "哈瓦那",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "克里斯托弗·诺兰 (Christopher Nolan)",
+          "text": "卡马圭",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "查理·考夫曼 (Charlie Kaufman)",
+          "text": "奥尔金",
           "is_correct": false
         }
       ],
@@ -1491,26 +1491,26 @@
     },
     {
       "id": 56,
-      "question": "哪款早期的苹果产品因其高昂的价格和市场定位问题而失败？",
+      "question": "牙买加的首都是哪里？",
       "options": [
         {
           "letter": "A",
-          "text": "Apple II",
+          "text": "蒙特哥贝",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "Apple Lisa",
+          "text": "金斯敦",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "Macintosh Classic",
+          "text": "西班牙镇",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "iMac G3",
+          "text": "奥乔里奥斯",
           "is_correct": false
         }
       ],
@@ -1518,26 +1518,26 @@
     },
     {
       "id": 57,
-      "question": "苹果公司的“AirPlay”隔空播放技术主要用于什么？",
+      "question": "委内瑞拉的首都是哪里？",
       "options": [
         {
           "letter": "A",
-          "text": "文件传输",
+          "text": "马拉开波",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "无线屏幕镜像和音频流",
+          "text": "加拉加斯",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "移动支付",
+          "text": "巴伦西亚",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "互联网连接共享",
+          "text": "巴基西梅托",
           "is_correct": false
         }
       ],
@@ -1545,26 +1545,26 @@
     },
     {
       "id": 58,
-      "question": "史蒂夫·乔布斯和史蒂夫·沃兹尼亚克最初在哪里组装Apple   I电脑？",
+      "question": "厄瓜多尔的首都是哪里？",
       "options": [
         {
           "letter": "A",
-          "text": "大学宿舍",
+          "text": "瓜亚基尔",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "乔布斯家的车库",
+          "text": "基多",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "租用的办公空间",
+          "text": "昆卡",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "沃兹尼亚克的公寓",
+          "text": "马查拉",
           "is_correct": false
         }
       ],
@@ -1572,26 +1572,26 @@
     },
     {
       "id": 59,
-      "question": "苹果公司的移动支付服务叫什么名字？",
+      "question": "玻利维亚的法定首都是哪里？",
       "options": [
         {
           "letter": "A",
-          "text": "Google Pay",
+          "text": "拉巴斯",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "Apple Pay",
+          "text": "苏克雷",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "Samsung Pay",
+          "text": "圣克鲁斯",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "PayPal",
+          "text": "科恰班巴",
           "is_correct": false
         }
       ],
@@ -1599,26 +1599,26 @@
     },
     {
       "id": 60,
-      "question": "哪些产品主要使用苹果公司的“M系列”芯片？",
+      "question": "乌拉圭的首都是哪里？",
       "options": [
         {
           "letter": "A",
-          "text": "iPhone 和 Apple Watch",
+          "text": "萨尔托",
           "is_correct": false
         },
         {
           "letter": "B",
-          "text": "Mac 电脑和部分 iPad 型号",
+          "text": "蒙得维的亚",
           "is_correct": true
         },
         {
           "letter": "C",
-          "text": "仅 Apple TV",
+          "text": "派桑杜",
           "is_correct": false
         },
         {
           "letter": "D",
-          "text": "仅 AirPods",
+          "text": "拉斯彼德拉斯",
           "is_correct": false
         }
       ],
