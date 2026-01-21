@@ -1,10 +1,9 @@
-import quizManager from '../../lib/quiz-manager.js';
+const quizManager = require('../../lib/quiz-manager');
 
-export default async function handler(req, res) {
+module.exports = async function handler(req, res) {
     // 设置CORS头
     res.setHeader('Access-Control-Allow-Origin', '*');
     res.setHeader('Access-Control-Allow-Methods', 'GET, OPTIONS');
-    res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
     res.setHeader('Content-Type', 'application/json; charset=utf-8');
     res.setHeader('Cache-Control', 'public, max-age=3600, s-maxage=7200');
 
@@ -25,6 +24,10 @@ export default async function handler(req, res) {
     try {
         const quizzes = await quizManager.getQuizList();
 
+        // 计算统计信息
+        const totalQuestions = quizzes.reduce((sum, quiz) => sum + quiz.stats.actual, 0);
+        const totalQuestionsPerQuiz = quizzes.reduce((sum, quiz) => sum + quiz.stats.per_quiz, 0);
+
         const response = {
             success: true,
             api: {
@@ -37,12 +40,20 @@ export default async function handler(req, res) {
                 quizzes: quizzes,
                 stats: {
                     total_quizzes: quizzes.length,
-                    total_questions: quizzes.reduce((sum, quiz) => sum + quiz.stats.actual, 0)
+                    total_questions: totalQuestions,
+                    avg_questions_per_quiz: Math.round(totalQuestionsPerQuiz / quizzes.length) || 0
                 }
+            },
+            endpoints: {
+                list: "GET /api/quiz",
+                random: "GET /api/quiz/random",
+                by_id: "GET /api/quiz/[quizId]-[questionId]",
+                range: "GET /api/quiz/range",
+                search: "GET /api/quiz/search"
             },
             meta: {
                 timestamp: new Date().toISOString(),
-                request_id: req.headers['x-request-id'] || Math.random().toString(36).substr(2, 9)
+                request_id: req.headers['x-request-id'] || Math.random().toString(36).substring(2, 11)
             }
         };
 
@@ -62,4 +73,4 @@ export default async function handler(req, res) {
             }
         });
     }
-}
+};

@@ -1,50 +1,116 @@
-import quizManager from '../../lib/quiz-manager.js';
+const quizManager = require('../../lib/quiz-manager');
 
-export default async function handler(req, res) {
-    const { source, count = 1, seed } = req.query;
-
+module.exports = async function handler(req, res) {
+    // 设置响应头
     res.setHeader('Content-Type', 'application/json');
     res.setHeader('Access-Control-Allow-Origin', '*');
+    res.setHeader('Access-Control-Allow-Methods', 'GET, OPTIONS');
+    res.setHeader('Cache-Control', 'no-cache');
+
+    // 处理OPTIONS预检请求
+    if (req.method === 'OPTIONS') {
+        return res.status(200).end();
+    }
+
+    // 只允许GET请求
+    if (req.method !== 'GET') {
+        return res.status(405).json({
+            success: false,
+            error: 'Method Not Allowed'
+        });
+    }
 
     try {
-        let questions = [];
-        const numCount = Math.min(parseInt(count), 10); // 最多10个
+        const { source, count = 1, include_answers = 'false' } = req.query;
+        const countNum = parseInt(count);
+        const includeAnswers = include_answers === 'true';
+
+        // 验证count参数
+        if (countNum < 1 || countNum > 20) {
+            return res.status(400).json({
+                success: false,
+                error: 'Invalid count parameter. Must be between 1 and 20'
+            });
+        }
+
+        let questions;
 
         if (source) {
             // 从特定题库获取随机题目
             const quizData = await quizManager.getQuiz(`${source}.json`);
-            const shuffled = [...quizData.questions].sort(() => Math.random() - 0.5);
-            questions = shuffled.slice(0, numCount).map(q =>
-                quizManager.sanitizeQuestion(q)
-            );
-        } else {
-            // 从所有题库获取随机题目
-            for (let i = 0; i < numCount; i++) {
-                const randomQuestion = await quizManager.getRandomQuestion();
-                questions.push({
-                    ...randomQuestion.question,
-                    source: randomQuestion.quiz.source,
-                    quiz_title: randomQuestion.quiz.title
+
+            if (!quizData || !quizData.questions || quizData.questions.length === 0) {
+                return res.status(404).json({
+                    success: false,
+                    error: 'Quiz not found or has no questions'
                 });
             }
+
+            // 随机选择题目
+            const shuffled = [...quizData.questions].sort(() => Math.random() - 0.5);
+            const selected = shuffled.slice(0, Math.min(countNum, quizData.questions.length));
+
+            questions = selected.map(q => {
+                const sanitized = quizManager.sanitizeQuestion(q, includeAnswers);
+                return {
+                    ...sanitized,
+                    source: source,
+                    quiz_title: quizData.quiz_title
+                };
+            });
+        } else {
+            // 从所有题库获取随机题目
+            const allQuestions = await quizManager.getAllQuestionsIndex();
+
+            if (!allQuestions || allQuestions.length === 0) {
+                return res.status(404).json({
+                    success: false,
+                    error: 'No questions found in any quiz'
+                });
+            }
+
+            // 随机选择题目
+            const shuffled = [...allQuestions].sort(() => Math.random() - 0.5);
+            const selected = shuffled.slice(0, Math.min(countNum, allQuestions.length));
+
+            // 获取完整题目信息
+            questions = await Promise.all(
+                selected.map(async (item) => {
+                    const quizData = await quizManager.getQuiz(`${item.quizId}.json`);
+                    const question = quizData.questions.find(q => q.id === item.questionId);
+                    const sanitized = quizManager.sanitizeQuestion(question, includeAnswers);
+
+                    return {
+                        ...sanitized,
+                        source: item.quizId,
+                        quiz_title: item.quizTitle,
+                        global_id: item.globalId
+                    };
+                })
+            );
         }
 
-        res.status(200).json({
+        const response = {
             success: true,
             data: {
-                questions: numCount === 1 ? questions[0] : questions,
+                questions: countNum === 1 ? questions[0] : questions,
                 count: questions.length,
                 source: source || 'all',
-                seed: seed || null
+                include_answers: includeAnswers
             },
             meta: {
-                timestamp: new Date().toISOString()
+                timestamp: new Date().toISOString(),
+                total_available: source ? (await quizManager.getQuiz(`${source}.json`)).questions.length : (await quizManager.getAllQuestionsIndex()).length
             }
-        });
+        };
+
+        res.status(200).json(response);
     } catch (error) {
+        console.error('Error in random question handler:', error);
+
         res.status(400).json({
             success: false,
             error: error.message
         });
     }
-}
+};

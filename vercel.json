@@ -21,7 +21,7 @@
         },
         {
             "src": "/",
-            "dest": "/api"
+            "dest": "/public/index.html"
         }
     ],
     "headers": [
@@ -39,12 +39,11 @@
                 {
                     "key": "Access-Control-Allow-Headers",
                     "value": "Content-Type"
-                },
-                {
-                    "key": "Cache-Control",
-                    "value": "public, max-age=3600"
                 }
             ]
         }
-    ]
+    ],
+    "env": {
+        "NODE_ENV": "production"
+    }
 }
