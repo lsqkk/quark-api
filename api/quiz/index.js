@@ -1,63 +1,63 @@
-const quizManager = require('../../lib/quiz-manager');
+import quizManager from '../../lib/quiz-manager.js';
 
 export default async function handler(req, res) {
-    // 设置响应头
+    // 设置CORS头
     res.setHeader('Access-Control-Allow-Origin', '*');
-    res.setHeader('Content-Type', 'application/json');
-    res.setHeader('Cache-Control', 'public, max-age=3600');
+    res.setHeader('Access-Control-Allow-Methods', 'GET, OPTIONS');
+    res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
+    res.setHeader('Content-Type', 'application/json; charset=utf-8');
+    res.setHeader('Cache-Control', 'public, max-age=3600, s-maxage=7200');
+
+    // 处理预检请求
+    if (req.method === 'OPTIONS') {
+        return res.status(200).end();
+    }
+
+    // 只允许GET方法
+    if (req.method !== 'GET') {
+        return res.status(405).json({
+            success: false,
+            error: 'Method Not Allowed',
+            message: 'Only GET method is supported'
+        });
+    }
 
     try {
-        const index = await quizManager.getIndex();
+        const quizzes = await quizManager.getQuizList();
 
         const response = {
             success: true,
             api: {
                 name: "Quiz API",
                 version: "1.0.0",
-                base_path: "/api/quiz"
+                base_url: "https://quark-api.lsqkk.space/api/quiz",
+                documentation: "https://quark-api.lsqkk.space/docs"
             },
             data: {
-                meta: {
-                    total_quizzes: index.index_info.total_quizzes,
-                    created_at: index.index_info.created_at,
-                    last_updated: index.index_info.last_updated
-                },
-                quizzes: index.quizzes.map(q => ({
-                    id: q.source_file.replace('.json', ''),
-                    title: q.quiz_title,
-                    description: q.description,
-                    stats: {
-                        total_questions: q.total_questions,
-                        questions_per_quiz: q.questions_per_quiz
-                    },
-                    file_info: {
-                        name: q.source_file,
-                        size: q.file_size,
-                        last_modified: q.last_modified
-                    },
-                    endpoints: {
-                        self: `/api/quiz/${q.source_file.replace('.json', '')}`,
-                        random: `/api/quiz/random?source=${q.source_file.replace('.json', '')}`,
-                        range: `/api/quiz/range?quiz=${q.source_file.replace('.json', '')}`
-                    }
-                }))
+                quizzes: quizzes,
+                stats: {
+                    total_quizzes: quizzes.length,
+                    total_questions: quizzes.reduce((sum, quiz) => sum + quiz.stats.actual, 0)
+                }
             },
-            endpoints: {
-                list: "GET /api/quiz",
-                random: "GET /api/quiz/random",
-                by_id: "GET /api/quiz/:id",
-                range: "GET /api/quiz/range",
-                search: "GET /api/quiz/search (coming soon)"
+            meta: {
+                timestamp: new Date().toISOString(),
+                request_id: req.headers['x-request-id'] || Math.random().toString(36).substr(2, 9)
             }
         };
 
         res.status(200).json(response);
     } catch (error) {
+        console.error('Error in quiz index handler:', error);
+
         res.status(500).json({
             success: false,
             error: {
                 code: "INTERNAL_SERVER_ERROR",
-                message: error.message,
+                message: "Failed to load quiz list",
+                detail: process.env.NODE_ENV === 'development' ? error.message : undefined
+            },
+            meta: {
                 timestamp: new Date().toISOString()
             }
         });
