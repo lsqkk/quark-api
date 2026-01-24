@@ -64,17 +64,12 @@ npm start
 quark-api/
 ├── api/                    # API路由处理函数
 │   ├── quiz/              # 题库相关端点
-│   │   ├── index.js       # GET /api/quiz - 题库列表
-│   │   ├── random.js      # GET /api/quiz/random - 随机题目
-│   │   ├── search.js      # GET /api/quiz/search - 搜索题目
-│   │   ├── [id].js        # GET /api/quiz/[id] - 按ID查询
-│   │   └── range.js       # GET /api/quiz/range - 范围查询
+├── ├── animal/            # 动物图片相关端点
 │   ├── index.js           # GET /api - API信息
 │   └── health.js          # GET /api/health - 健康检查
 ├── data/                  # 题库数据存储
 │   ├── quizzes/           # 题库JSON文件
-│   │   ├── ibm-trivia.json
-│   │   ├── computer-history.json
+│   │   ├── computer.json
 │   │   └── ...
 │   └── index/             # 题库索引文件
 │       └── ti_index.json  # 自动生成的索引

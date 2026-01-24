@@ -16,6 +16,10 @@
             "destination": "/api/animal"
         },
         {
+            "source": "/api/quiz/:path*",
+            "destination": "/api/quiz"
+        },
+        {
             "source": "/api/(.*)",
             "destination": "/api/$1"
         }
