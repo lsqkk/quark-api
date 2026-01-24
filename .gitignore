@@ -15,6 +15,7 @@ yarn.lock
 
 .venv
 
+private
 # 运行时数据
 data/cache/*
 !data/cache/.gitkeep
