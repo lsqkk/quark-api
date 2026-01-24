@@ -1,6 +1,6 @@
-## 动物图片 Animal API  - Quark API 文档
+# 动物图片 Animal API  - Quark API 文档
 
-### 概述
+## 概述
 
 Animal Recognition Dataset API 提供对结构化动物图片数据集的程序化访问服务。该数据集包含超过 9,700 张分类清晰的动物图片，涵盖家畜、宠物、家禽和人类等五大类别，共 17 个子类。所有图片可通过 GitHub 原始链接或 CDN 加速服务获取。
 
@@ -8,9 +8,9 @@ Animal Recognition Dataset API 提供对结构化动物图片数据集的程序�
 
 所有响应均使用 JSON 格式，并遵循统一的响应结构。
 
-### 统一响应结构
+## 统一响应结构
 
-#### 成功响应
+### 成功响应
 ```json
 {
   "success": true,
@@ -25,7 +25,7 @@ Animal Recognition Dataset API 提供对结构化动物图片数据集的程序�
 }
 ```
 
-#### 错误响应
+### 错误响应
 ```json
 {
   "success": false,
@@ -40,11 +40,11 @@ Animal Recognition Dataset API 提供对结构化动物图片数据集的程序�
 }
 ```
 
-### 认证与速率限制
+## 认证与速率限制
 
 当前版本为公开 API，无需认证。默认速率限制为每分钟 100 次请求。图片资源本身通过 GitHub 或公共 CDN 提供，不计入此限制。
 
-### 核心概念
+## 核心概念
 
 - **数据集源**: 所有图片托管于 GitHub 仓库 `lsqkk/animal-recognition-dataset`。
 - **分类结构**: 数据按 `类别/子类/` 目录组织，例如 `dog/hashiqi/`。
@@ -52,7 +52,7 @@ Animal Recognition Dataset API 提供对结构化动物图片数据集的程序�
 - **图片ID**: 用于在 API 中唯一标识一张图片，格式为 `{subcategory_id}-{sequence}`，例如 `hashiqi-42`。
 - **URL类型**: 支持 GitHub 原始链接和 jsDelivr CDN 链接（默认），后者提供全球加速和缩略图生成。
 
-### 数据集类别概览
+## 数据集类别概览
 
 | 大类 (Category) | 子类 (Subcategory) | 中文名 | 图片数量 |
 |-----------------|-------------------|--------|----------|
@@ -75,15 +75,15 @@ Animal Recognition Dataset API 提供对结构化动物图片数据集的程序�
 
 **统计摘要**：总计 5 个大类，17 个子类，9,757 张图片。
 
-### 端点索引
+## 端点索引
 
-#### 1. 获取服务信息
+### 1. 获取服务信息
 - `GET /api/animal` - 获取 API 概述与完整分类结构
 
-#### 2. 分类信息
+### 2. 分类信息
 - `GET /api/animal/categories` - 获取所有分类或指定分类详情
 
-#### 3. 图片获取
+### 3. 图片获取
 - `GET /api/animal/random` - 随机获取图片
 - `GET /api/animal/{id}` - 按图片 ID 获取特定图片
 - `GET /api/animal/range` - 获取指定子类的图片范围
@@ -91,9 +91,9 @@ Animal Recognition Dataset API 提供对结构化动物图片数据集的程序�
 
 ---
 
-### 端点详情
+## 端点详情
 
-#### GET /api/animal - 获取服务信息
+### GET /api/animal - 获取服务信息
 
 返回 API 的完整描述，包括所有可用的分类、子类及其统计信息，是探索数据集的起点。
 
@@ -162,7 +162,7 @@ Animal Recognition Dataset API 提供对结构化动物图片数据集的程序�
 
 ---
 
-#### GET /api/animal/random - 随机获取图片
+### GET /api/animal/random - 随机获取图片
 
 从整个数据集或按类别/子类筛选后，随机返回一张或多张图片的详细信息及访问链接。
 
@@ -218,7 +218,7 @@ GET /api/animal/random?category=dog&count=2&use_cdn=false
 
 ---
 
-#### GET /api/animal/{id} - 按 ID 获取图片
+### GET /api/animal/{id} - 按 ID 获取图片
 
 通过全局图片 ID 获取特定图片的详细信息。此端点功能灵活，支持直接重定向到图片或仅获取元信息。
 
@@ -274,7 +274,7 @@ GET /api/animal/samoye-5?redirect=true
 
 ---
 
-#### GET /api/animal/search - 搜索图片
+### GET /api/animal/search - 搜索图片
 
 根据关键词在图片名称、子类名称或大类名称中进行搜索，并支持分页和筛选。
 
@@ -336,7 +336,7 @@ GET /api/animal/search?q=金&category=dog&limit=5&page=1
 
 ---
 
-#### GET /api/animal/range - 获取图片范围
+### GET /api/animal/range - 获取图片范围
 
 获取指定子类中一段连续序号范围内的图片。适用于需要批量获取同一子类图片的场景，如创建相册或滑块组件。
 
@@ -387,7 +387,7 @@ GET /api/animal/range?subcategory=hashiqi&start=20&end=30
 
 ---
 
-#### GET /api/animal/categories - 获取分类详情
+### GET /api/animal/categories - 获取分类详情
 
 获取所有分类的统计摘要或指定分类的详细信息。
 
@@ -435,9 +435,9 @@ GET /api/animal/categories?category=dog
 }
 ```
 
-### 客户端使用示例
+## 客户端使用示例
 
-#### 在网页中直接显示随机图片 (HTML/JS)
+### 在网页中直接显示随机图片 (HTML/JS)
 ```html
 <!-- 方式1: 使用重定向端点直接作为图片源 -->
 <img src="https://quark-api.lsqkk.space/api/animal/samoye-5?redirect=true" alt="萨摩耶">
@@ -457,7 +457,7 @@ loadRandomDogImage();
 </script>
 ```
 
-#### 使用 Python 批量获取图片信息
+### 使用 Python 批量获取图片信息
 ```python
 import requests
 
@@ -487,7 +487,7 @@ hashiqi_images = get_images_by_range('hashiqi', batch_size=10)
 print(f"Fetched {len(hashiqi_images)} Husky images.")
 ```
 
-### 错误代码参考
+## 错误代码参考
 
 | 状态码 | 错误代码 | 描述 |
 |--------|----------|------|
@@ -497,7 +497,7 @@ print(f"Fetched {len(hashiqi_images)} Husky images.")
 | 429 | RATE_LIMIT_EXCEEDED | 请求频率超过限制 |
 | 500 | INTERNAL_SERVER_ERROR | 服务器内部错误 |
 
-### 最佳实践
+## 最佳实践
 
 1.  **链接选择**：对于网页展示，强烈建议使用 **CDN 链接** (`use_cdn=true`)，以获得更快的加载速度和自动的缩略图支持 (`?width=300`)。
 2.  **数据缓存**：分类结构信息 (`/api/animal` 和 `/api/animal/categories`) 会缓存 10 分钟，客户端应适当缓存以减少请求。

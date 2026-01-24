@@ -64,20 +64,18 @@ npm start
 quark-api/
 ├── api/                    # API路由处理函数
 │   ├── quiz/              # 题库相关端点
-├── ├── animal/            # 动物图片相关端点
+│   ├── animal/            # 动物图片相关端点
+│   ├── ...                # 更多 API 端点
 │   ├── index.js           # GET /api - API信息
 │   └── health.js          # GET /api/health - 健康检查
 ├── data/                  # 题库数据存储
-│   ├── quizzes/           # 题库JSON文件
+│   ├── quizzes/           # 题库 JSON 文件
 │   │   ├── computer.json
 │   │   └── ...
 │   └── index/             # 题库索引文件
 │       └── ti_index.json  # 自动生成的索引
 ├── lib/                   # 核心工具库
-│   └── quiz-manager.js    # 题库管理核心逻辑
 ├── public/                # 静态资源
-│   └── docs/              # API文档
-│       └── index.html     # 文档页面
 ├── vercel.json            # Vercel部署配置
 ├── package.json           # 项目依赖配置
 └── README.md              # 项目说明文档
