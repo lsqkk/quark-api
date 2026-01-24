@@ -22,7 +22,6 @@ module.exports = async function handler(req, res) {
     }
 
     const response = {
-        success: true,
         service: "Quark API",
         version: "1.0.0",
         description: "一个包含多种服务的API集合",
@@ -34,8 +33,25 @@ module.exports = async function handler(req, res) {
                     list: "GET /api/quiz",
                     random: "GET /api/quiz/random",
                     by_id: "GET /api/quiz/[quizId]-[questionId]",
-                    range: "GET /api/quiz/range",
+                    range: "GET /api/animal/range",
                     search: "GET /api/quiz/search"
+                }
+            },
+            animal: {
+                base: "/api/animal",
+                description: "动物识别数据集API",
+                endpoints: {
+                    categories: "GET /api/animal/categories - 获取分类结构",
+                    random: "GET /api/animal/random - 随机获取图片",
+                    by_id: "GET /api/animal/[subcategory]-[id] - 按ID获取图片",
+                    search: "GET /api/animal/search - 搜索图片",
+                    range: "GET /api/animal/range - 获取图片范围"
+                },
+                dataset_info: {
+                    source: "https://github.com/lsqkk/animal-recognition-dataset",
+                    total_images: 9757,
+                    total_categories: 5,
+                    total_subcategories: 17
                 }
             },
             health: {
@@ -50,7 +66,8 @@ module.exports = async function handler(req, res) {
         links: {
             github: "https://github.com/lsqkk/quark-api",
             documentation: "https://quark-api.lsqkk.space/docs",
-            status: "https://quark-api.lsqkk.space/api/health"
+            status: "https://quark-api.lsqkk.space/api/health",
+            animal_dataset: "https://github.com/lsqkk/animal-recognition-dataset"
         },
         meta: {
             timestamp: new Date().toISOString(),

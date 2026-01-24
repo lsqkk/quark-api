@@ -1,14 +1,20 @@
 # Quark API - 夸克博客个人 API 服务集合
 
-Quark API 是一个模块化、可扩展的个人 API 服务集合，当前核心功能为提供多主题百科题库服务。项目采用 Node.js 开发，部署于 Vercel 平台，支持通过 RESTful API 访问丰富的问答数据。
+Quark API 是一个模块化、可扩展的个人 API 服务集合，提供多种 API 服务。项目采用 Node.js 开发，部署于 Vercel 平台，支持通过 RESTful API 访问丰富的问答数据。
 
-## API文档
+## API 文档主页
 
-[夸克API Quark API](https://lsqkk.github.io/quarkdoc/QuarkAPI)
+[Quark API - QuarkDoc](https://lsqkk.github.io/quarkdoc/QuarkAPI)
+
+## API 列表
+
+| API 名称 | 简介 | API 文档地址 |
+| :--- | :--- | :--- |
+| **Quiz API** | 提供多主题百科题库服务，支持随机题目、ID查询、范围查询和全文搜索等功能。 | [https://lsqkk.github.io/quarkdoc/QuarkAPI/Quiz%20API/](https://lsqkk.github.io/quarkdoc/QuarkAPI/Quiz%20API/) |
+| **Animal API** | 提供结构化动物图片数据集的访问服务，可按类别、ID获取图片，支持随机、范围查询和搜索，并包含 GitHub 原图与 CDN 加速双链接。 | [https://lsqkk.github.io/quarkdoc/QuarkAPI/Animal%20API/](https://lsqkk.github.io/quarkdoc/QuarkAPI/Animal%20API/) |
 
 ## 功能特性
 
-- **多主题题库**: 提供计算机历史、科技公司 trivia 等多种主题的题库
 - **灵活的查询方式**: 支持随机抽取、ID查询、范围查询和全文搜索
 - **标准化响应**: 统一的JSON响应格式和错误处理机制
 - **高性能设计**: 内置缓存机制，响应快速
