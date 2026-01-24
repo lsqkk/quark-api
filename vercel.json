@@ -10,6 +10,16 @@
             "use": "@vercel/static"
         }
     ],
+    "rewrites": [
+        {
+            "source": "/api/animal/:path*",
+            "destination": "/api/animal"
+        },
+        {
+            "source": "/api/(.*)",
+            "destination": "/api/$1"
+        }
+    ],
     "headers": [
         {
             "source": "/api/(.*)",
