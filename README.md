@@ -10,8 +10,9 @@ Quark API 是一个模块化、可扩展的个人 API 服务集合，提供多�
 
 | API 名称 | 简介 | API 文档地址 |
 | :--- | :--- | :--- |
-| **Quiz API** | 提供多主题百科题库服务，支持随机题目、ID查询、范围查询和全文搜索等功能。 | [https://lsqkk.github.io/quarkdoc/QuarkAPI/Quiz%20API/](https://lsqkk.github.io/quarkdoc/QuarkAPI/Quiz%20API/) |
-| **Animal API** | 提供结构化动物图片数据集的访问服务，可按类别、ID获取图片，支持随机、范围查询和搜索，并包含 GitHub 原图与 CDN 加速双链接。 | [https://lsqkk.github.io/quarkdoc/QuarkAPI/Animal%20API/](https://lsqkk.github.io/quarkdoc/QuarkAPI/Animal%20API/) |
+| **Quiz API** | 提供多主题百科题库服务，支持随机题目、ID查询、范围查询和全文搜索等功能。 | [Quiz API](https://lsqkk.github.io/quarkdoc/QuarkAPI/Quiz%20API/) |
+| **Animal API** | 提供结构化动物图片数据集的访问服务，可按类别、ID获取图片，支持随机、范围查询和搜索，并包含 GitHub 原图与 CDN 加速双链接。 | [Animal API](https://lsqkk.github.io/quarkdoc/QuarkAPI/Animal%20API/) |
+| **Bili Card** | 优雅、现代的B站用户卡片生成工具，传入UID返回精美的SVG卡片，完美嵌入个人网站、GitHub Profile或任何需要展示B站身份的场景。 | [bili-card](https://lsqkk.github.io/quarkdoc/QuarkAPI/bili-card/) |
 
 ## 功能特性
 
