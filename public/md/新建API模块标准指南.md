@@ -203,7 +203,15 @@ const response = {
 ### 步骤6：创建 API 文档 (api/{module}/README.md)
 ```md
 # 模块中文名 {module} API - Quark API 文档
-## 按照标准 API 文档配置撰写
+## 概述
+## 统一响应结构
+## 认证与速率限制  
+## 核心概念
+## 端点索引
+## 端点详情
+## 错误代码参考
+## 客户端使用示例
+## 最佳实践
 ```
 并应当复制到`quarkdoc`项目中`/docs/QuarkAPI/{module-name} API.md`
 
