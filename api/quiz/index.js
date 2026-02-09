@@ -86,8 +86,8 @@ async function handleMain(req, res, params) {
             api: {
                 name: "Quiz API",
                 version: "1.0.0",
-                base_url: "https://quark-api.lsqkk.space/api/quiz",
-                documentation: "https://quark-api.lsqkk.space/docs",
+                base_url: "https://quark-api.130923.xyz/api/quiz",
+                documentation: "https://quark-api.130923.xyz/docs",
                 note: "所有功能整合到单一端点以优化Vercel部署"
             },
             data: {

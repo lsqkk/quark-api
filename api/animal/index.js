@@ -85,7 +85,7 @@ async function handleMain(req, res, params) {
         api: {
             name: "Animal Recognition Dataset API",
             version: "1.0.0",
-            base_url: "https://quark-api.lsqkk.space/api/animal",
+            base_url: "https://quark-api.130923.xyz/api/animal",
             description: "提供动物识别数据集的图片访问服务 (聚合版)",
             source: "https://github.com/lsqkk/animal-recognition-dataset",
             note: "所有功能整合到单一端点以优化Vercel部署"

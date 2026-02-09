@@ -4,7 +4,7 @@
 
 Animal Recognition Dataset API 提供对结构化动物图片数据集的程序化访问服务。该数据集包含超过 9,700 张分类清晰的动物图片，涵盖家畜、宠物、家禽和人类等五大类别，共 17 个子类。所有图片可通过 GitHub 原始链接或 CDN 加速服务获取。
 
-**Base URL:** `https://quark-api.lsqkk.space/api/animal`
+**Base URL:** `https://quark-api.130923.xyz/api/animal`
 
 所有响应均使用 JSON 格式，并遵循统一的响应结构。
 
@@ -106,7 +106,7 @@ Animal Recognition Dataset API 提供对结构化动物图片数据集的程序�
   "api": {
     "name": "Animal Recognition Dataset API",
     "version": "1.0.0",
-    "base_url": "https://quark-api.lsqkk.space/api/animal",
+    "base_url": "https://quark-api.130923.xyz/api/animal",
     "description": "提供动物识别数据集的图片访问服务",
     "source": "https://github.com/lsqkk/animal-recognition-dataset"
   },
@@ -440,12 +440,12 @@ GET /api/animal/categories?category=dog
 ### 在网页中直接显示随机图片 (HTML/JS)
 ```html
 <!-- 方式1: 使用重定向端点直接作为图片源 -->
-<img src="https://quark-api.lsqkk.space/api/animal/samoye-5?redirect=true" alt="萨摩耶">
+<img src="https://quark-api.130923.xyz/api/animal/samoye-5?redirect=true" alt="萨摩耶">
 
 <!-- 方式2: 使用Fetch API获取信息后显示 -->
 <script>
 async function loadRandomDogImage() {
-  const response = await fetch('https://quark-api.lsqkk.space/api/animal/random?category=dog&include_info=false');
+  const response = await fetch('https://quark-api.130923.xyz/api/animal/random?category=dog&include_info=false');
   const data = await response.json();
   if (data.success) {
     const imgElement = document.getElementById('dog-image');
@@ -466,7 +466,7 @@ def get_images_by_range(subcategory, batch_size=10):
     start = 0
     
     while True:
-        url = f"https://quark-api.lsqkk.space/api/animal/range"
+        url = f"https://quark-api.130923.xyz/api/animal/range"
         params = {'subcategory': subcategory, 'start': start, 'end': start+batch_size}
         response = requests.get(url, params=params).json()
         

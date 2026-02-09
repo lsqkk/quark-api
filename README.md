@@ -113,22 +113,22 @@ quark-api/
 
 ### 获取题库列表
 ```bash
-curl https://quark-api.lsqkk.space/api/quiz
+curl https://quark-api.130923.xyz/api/quiz
 ```
 
 ### 获取随机题目
 ```bash
-curl "https://quark-api.lsqkk.space/api/quiz/random?count=3&source=computer-history"
+curl "https://quark-api.130923.xyz/api/quiz/random?count=3&source=computer-history"
 ```
 
 ### 搜索题目
 ```bash
-curl "https://quark-api.lsqkk.space/api/quiz/search?q=IBM&limit=5"
+curl "https://quark-api.130923.xyz/api/quiz/search?q=IBM&limit=5"
 ```
 
 ### 获取特定题目
 ```bash
-curl https://quark-api.lsqkk.space/api/quiz/ibm-trivia-15
+curl https://quark-api.130923.xyz/api/quiz/ibm-trivia-15
 ```
 
 ## 添加新的题库

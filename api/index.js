@@ -65,8 +65,8 @@ module.exports = async function handler(req, res) {
         },
         links: {
             github: "https://github.com/lsqkk/quark-api",
-            documentation: "https://quark-api.lsqkk.space/docs",
-            status: "https://quark-api.lsqkk.space/api/health",
+            documentation: "https://quark-api.130923.xyz/docs",
+            status: "https://quark-api.130923.xyz/api/health",
             animal_dataset: "https://github.com/lsqkk/animal-recognition-dataset"
         },
         meta: {

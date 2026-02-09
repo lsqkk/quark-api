@@ -139,7 +139,7 @@ async function handleMain(req, res, params) {
             api: {
                 name: "{API名称}",
                 version: "1.0.0",
-                base_url: `https://quark-api.lsqkk.space/api/{module-name}`
+                base_url: `https://quark-api.130923.xyz/api/{module-name}`
             },
             data: data,
             endpoints: {
